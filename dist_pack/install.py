@@ -17,7 +17,9 @@ game/script.rpy со своим label start — он переопределяе�
   3. Удаляет шаблонные авто-изображения (bg *.png, eileen *.png), которые
      конфликтуют с нашими явными `image ...` в images.rpy.
   4. Копирует наши .rpy, images/ и tl/ поверх.
-  5. Правит options.rpy (название/версия) и gui.rpy (палитра ГДД, раздел 28).
+  5. Правит options.rpy (название/версия) и gui.rpy (палитра) — ТОЛЬКО если
+     этих файлов не было в комплекте: свои options.rpy/gui.rpy из поставки
+     самодостаточны (gui.rpy включает обязательный gui.init()).
 """
 
 import os
@@ -83,24 +85,30 @@ def main():
             copied += 1
     print(f"[3] скопировано файлов: {copied}")
 
-    # 4. options.rpy: название и версия
+    # 4. options.rpy: название и версия — правим ТОЛЬКО если в комплекте
+    #    не было своего options.rpy (иначе затрём каноничный из поставки).
     opt = os.path.join(game, "options.rpy")
-    if os.path.exists(opt):
+    if os.path.exists(opt) and not os.path.exists(os.path.join(SRC_GAME, "options.rpy")):
         s = open(opt, encoding="utf-8").read()
         s2, n1 = re.subn(r'define config\.name\s*=\s*_\(".*?"\)',
                          'define config.name = _("Лето, которого не было / The Summer That Never Was")', s)
         s2, n2 = re.subn(r'define config\.version\s*=\s*"[^"]*"',
-                         'define config.version = "0.9-demo"', s2)
+                         'define config.version = "1.2.1"', s2)
         if not n1:
             s2 += '\ndefine config.name = _("Лето, которого не было / The Summer That Never Was")\n'
         if not n2:
-            s2 += '\ndefine config.version = "0.9-demo"\n'
+            s2 += '\ndefine config.version = "1.2.1"\n'
         open(opt, "w", encoding="utf-8").write(s2)
         print("[4] options.rpy: название и версия обновлены")
+    else:
+        print("[4] options.rpy: взят из комплекта (название/версия уже заданы)")
 
-    # 5. gui.rpy: палитра
+    # 5. gui.rpy: палитра — только если своего gui.rpy в комплекте не было.
+    #    Наш gui.rpy самодостаточен (включая gui.init() — без него Ren'Py 8
+    #    не показывает главное меню), поэтому перезаписывать его палитру
+    #    значениями из PALETTE нельзя.
     gui = os.path.join(game, "gui.rpy")
-    if os.path.exists(gui):
+    if os.path.exists(gui) and not os.path.exists(os.path.join(SRC_GAME, "gui.rpy")):
         s = open(gui, encoding="utf-8").read()
         hits = 0
         for var, color in PALETTE.items():
@@ -109,6 +117,8 @@ def main():
             hits += n
         open(gui, "w", encoding="utf-8").write(s)
         print(f"[5] gui.rpy: заменено цветовых значений: {hits}")
+    else:
+        print("[5] gui.rpy: взят из комплекта (палитра ГДД уже в нём)")
 
     print()
     print("ГОТОВО. Запустите проект в Ren'Py Launcher -> Launch Project.")

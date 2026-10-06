@@ -27,6 +27,11 @@ if len(sys.argv) > 1:          # можно проверить любую коп
 
 FILES = []
 for dirpath, dirnames, filenames in os.walk(ROOT):
+    # переводы (game/tl/<язык>/*.rpy) — не игровой скрипт: там блоки
+    # old/new, которые проверки диалогов приняли бы за «говорящих»
+    if "tl" in dirpath.split(os.sep):
+        dirnames[:] = []
+        continue
     for fn in sorted(filenames):
         if fn.endswith(".rpy"):
             FILES.append(os.path.join(dirpath, fn))
@@ -194,10 +199,31 @@ SCREEN_WORDS = {
     "eval", "testcase", "testsuite", "teardown", "before", "parameter",
     "screenshot", "hover", "pause",
 }
+def style_block_lines(lines):
+    """Номера строк (1-based) внутри блоков `style ...:` — там нет диалогов,
+    а строки вида `hover_color "#..."` не являются «говорящий + текст»."""
+    inside = set()
+    block_indent = None
+    style_start_re = re.compile(r"^\s*style\s+[\w.]+.*:\s*$")
+    for i, line in enumerate(lines, 1):
+        if not line.strip() or line.strip().startswith("#"):
+            continue
+        indent = len(line) - len(line.lstrip())
+        if block_indent is not None:
+            if indent > block_indent:
+                inside.add(i)
+                continue
+            block_indent = None
+        if style_start_re.match(line):
+            block_indent = indent
+    return inside
+
+
 for path, lines in all_lines.items():
+    in_style = style_block_lines(lines)
     for i, line in enumerate(lines, 1):
         stripped = line.strip()
-        if stripped.startswith("#"):
+        if stripped.startswith("#") or i in in_style:
             continue
         m = speaker_re.match(line)
         if m and m.group("who") not in KNOWN_SPEAKERS and m.group("who") not in SCREEN_WORDS:

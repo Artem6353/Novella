@@ -71,6 +71,12 @@ def parse_block(lines, i, indent):
                 ops.append({"op": "if", "cond": "True", "then": body, "else": []})
                 i = i
                 continue
+            # Собираем цепочку elif/else того же уровня вложенности.
+            # ВАЖНО: elif-ветки накапливаем и собираем else-цепочку с конца,
+            # иначе финальный else перезатирал бы все предыдущие elif
+            # (так терялись меню d4_conflict/d5_prepare для веток Веры и Зои).
+            elifs = []
+            final_else = []
             while i < len(lines):
                 nxt = lines[i].strip()
                 mm = if_re.match(nxt)
@@ -78,11 +84,16 @@ def parse_block(lines, i, indent):
                     k2, c2 = mm.groups()
                     body2, i = parse_block(lines, i + 1, cur + 1)
                     if k2 == "elif":
-                        node["else"] = [{"op": "if", "cond": c2, "then": body2, "else": node["else"]}]
+                        elifs.append((c2, body2))
                     else:
-                        node["else"] = body2
+                        final_else = body2
+                        break
                 else:
                     break
+            else_chain = final_else
+            for c2, body2 in reversed(elifs):
+                else_chain = [{"op": "if", "cond": c2, "then": body2, "else": else_chain}]
+            node["else"] = else_chain
             ops.append(node)
             continue
         m = jump_re.match(line)
@@ -297,39 +308,52 @@ out.append("## на реальном движке: skip по диалогам + 
 out.append("## Запуск: renpy.sh <проект> test   (SDL_VIDEODRIVER=dummy)")
 out.append("## ============================================================")
 out.append("")
+out.append("## teardown: exit живёт в testsuite global (tests.rpy) — он завершает")
+out.append("## процесс после ВСЕХ сюит. Здесь свой teardown не нужен: он обрезал бы")
+out.append("## соседние сюиты при полном прогоне.")
 out.append("testsuite autogen:")
 out.append("")
 out.append("    before testcase:")
 out.append("        $ _test.transition_timeout = 0.05")
 out.append("        $ _test.timeout = 90")
 out.append("")
-out.append("        if not screen \"main_menu\":")
+out.append("        python:")
+out.append("            if _preferences.language is not None:")
+out.append("                renpy.change_language(None)")
+out.append("")
+out.append("        ## Возврат в главное меню только если предыдущий тест упал посреди")
+out.append("        ## игры (см. комментарий в tests.rpy: наивная проверка screen")
+out.append("        ## \"main_menu\" ломает загрузку движка в headless-среде).")
+out.append("        if eval (renpy.exports.get_filename_line() or ('', 0))[0].startswith('game/') or (getattr(renpy.context(), '_menu', False) and not getattr(renpy.context(), '_main_menu', False)):")
 out.append("            run MainMenu(confirm=False)")
+out.append("            advance until screen \"main_menu\"")
 out.append("        python:")
 out.append("            preferences.skip_unseen = True")
 out.append("            preferences.skip_after_choices = True")
-out.append("")
-out.append("    teardown:")
-out.append("        exit")
 out.append("")
 
 for name, (strat, preset) in STRATS.items():
     trace, ending, V = run(strat, preset)
     assert ending == EXPECTED[name], (name, ending, EXPECTED[name])
-    out.append(f"testcase route_{name}:")
+    # ВАЖНО: testcase'ы вложены в testsuite (отступ 4 пробела) — иначе
+    # хуки before testcase не применяются и тесты падают по таймауту 5 с.
+    out.append(f"    testcase route_{name}:")
     out.append("")
     if preset:
-        out.append("    python:")
+        out.append("        python:")
         for k, v in preset.items():
-            out.append(f"        persistent.{k} = {v}")
+            out.append(f"            persistent.{k} = {v}")
         out.append("")
-    out.append('    click "Начать игру"')
-    out.append("    skip")
+    out.append('        click "Начать игру"')
+    out.append("        skip")
     for caption in trace:
-        out.append(f'    click "{caption}"')
-    out.append("    skip")
-    out.append('    advance until screen "main_menu"')
-    out.append(f'    assert eval ending_shown == {V["ending_shown"]!r}')
+        out.append(f'        click "{caption}"')
+    out.append("        skip")
+    # ВАЖНО: assert проверяется ДО возврата в главное меню. Когда игра
+    # возвращается в меню, движок сбрасывает все default-переменные
+    # (execute_default_statement), и ending_shown снова станет "".
+    out.append('        advance until eval ending_shown != ""')
+    out.append(f'        assert eval ending_shown == {V["ending_shown"]!r}')
     out.append("")
     print(f"✓ route_{name}: меню={len(trace)} кликов → {ending}")
 

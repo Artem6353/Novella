@@ -46,29 +46,45 @@ screen say(who, what):
 
             text what id "what" font gui.text_font size gui.text_size line_spacing 4
 
-        use quick_menu
-
 
 ## ------------------------------------------------------------
 ## БЫСТРОЕ МЕНЮ (поверх игрового экрана)
+## ВАЖНО: подключается как overlay-экран (init-блок ниже), а НЕ через
+## `use quick_menu` внутри screen say: на экранах выбора (menu/choice)
+## screen say не показывается, и встроенное туда быстрое меню исчезало
+## ровно тогда, когда оно нужнее всего (и ломало автотесты).
+## Overlay-экраны движок сам скрывает в главном/игровом меню.
 ## ------------------------------------------------------------
 screen quick_menu():
 
     zorder 100
 
-    hbox:
-        xalign 1.0
-        yalign 1.0
-        xoffset -12
-        yoffset -6
-        spacing 14
+    if quick_menu:
 
-        textbutton _("История") action ShowMenu("history") text_size 15 text_color "#f6f1e775" text_hover_color "#ffb703"
-        textbutton _("Сохранить") action ShowMenu("save") text_size 15 text_color "#f6f1e775" text_hover_color "#ffb703"
-        textbutton _("Загрузить") action ShowMenu("load") text_size 15 text_color "#f6f1e775" text_hover_color "#ffb703"
-        textbutton _("Настройки") action ShowMenu("preferences") text_size 15 text_color "#f6f1e775" text_hover_color "#ffb703"
-        textbutton _("Пропуск") action Skip() text_size 15 text_color "#f6f1e775" text_hover_color "#ffb703"
-        textbutton _("Меню") action MainMenu() text_size 15 text_color "#f6f1e775" text_hover_color "#ffb703"
+        hbox:
+            xalign 1.0
+            yalign 1.0
+            xoffset -12
+            yoffset -6
+            spacing 14
+
+            textbutton _("История") action ShowMenu("history") text_size 15 text_color "#f6f1e775" text_hover_color "#ffb703"
+            textbutton _("Сохранить") action ShowMenu("save") text_size 15 text_color "#f6f1e775" text_hover_color "#ffb703"
+            textbutton _("Загрузить") action ShowMenu("load") text_size 15 text_color "#f6f1e775" text_hover_color "#ffb703"
+            textbutton _("Настройки") action ShowMenu("preferences") text_size 15 text_color "#f6f1e775" text_hover_color "#ffb703"
+            textbutton _("Пропуск") action Skip() text_size 15 text_color "#f6f1e775" text_hover_color "#ffb703"
+            textbutton _("Меню") action MainMenu() text_size 15 text_color "#f6f1e775" text_hover_color "#ffb703"
+
+
+## Быстрое меню показывается в игре всегда, когда игрок не в меню
+## (штатный механизм Ren'Py — config.overlay_screens).
+init python:
+    config.overlay_screens.append("quick_menu")
+
+
+## Флаг позволяет сценам временно прятать быстрое меню:
+## $ quick_menu = False
+default quick_menu = True
 
 
 ## ------------------------------------------------------------
@@ -160,24 +176,28 @@ screen main_menu():
         textbutton _("Об игре") action ShowMenu("about") style "mm_button"
         textbutton _("Выход") action Quit() style "mm_button"
 
-    text "v1.1 · RU/EN · HTML5: web_demo/index.html":
+    text "v1.2.1 · RU/EN · HTML5: web_demo/index.html":
         xalign 0.99
         yalign 0.985
         size 17
         color "#ffffff66"
 
 
-style mm_button:
+style mm_button is button:
     background Solid("#0e1219b4")
     hover_background Solid("#1c2432d8")
     xminimum 400
     ypadding 10
     xpadding 26
-    text_font gui.interface_text_font
-    text_size 28
-    text_color "#f2ead8"
-    text_hover_color "#ffb703"
-    text_xalign 0.0
+
+## В Ren'Py 8.5 текст кнопки оформляется отдельным стилем <имя>_text:
+## свойства text_* внутри блока style недопустимы (ошибка разбора).
+style mm_button_text is text:
+    font gui.interface_text_font
+    size 28
+    color "#f2ead8"
+    hover_color "#ffb703"
+    xalign 0.0
 
 
 ## ------------------------------------------------------------

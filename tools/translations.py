@@ -4,7 +4,7 @@ translations.py — английская локализация демо-сре�
 (Пролог + День 0 + День 1 + ночной сбой), ключи = переводческие id из add_ids.py.
 
 Используется:
-  1. tools/gen_tl.py      -> game/tl/english/demo.tl (Ren'Py)
+  1. tools/gen_tl.py      -> game/tl/english/game.rpy (Ren'Py)
   2. tools/export_web.py  -> web-движок (переключатель RU/EN)
 
 Строки вне этого словаря остаются на русском (полная локализация — следующая итерация).

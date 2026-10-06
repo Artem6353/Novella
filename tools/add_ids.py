@@ -9,7 +9,7 @@ add_ids.py — проставляет явные переводческие id �
     "Осмотреть билет внимательно" id p01_room_m1:
 
 Это нужно двум потребителям:
-  1. Ren'Py: game/tl/english/*.tl использует `translate english <id>:`;
+  1. Ren'Py: game/tl/english/*.rpy использует `translate english <id>:`;
   2. web-движок: tools/export_web.py мапит id на английский текст.
 
 Запуск: python3 tools/add_ids.py   (идемпотентно: строки с id не трогает)

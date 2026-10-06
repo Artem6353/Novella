@@ -4,9 +4,14 @@
 #
 #   ./verify.sh                 # статика + логика + web (без SDK)
 #   RENPY_SDK=/путь/к/renpy-8.5.3-sdk ./verify.sh
-#                               # + lint и headless-prepare на реальном движке
-#   RENPY_SDK=... DISPLAY=:0 ./verify.sh
-#                               # + runtime-тесты self-test framework (нужен дисплей)
+#                               # + lint, headless-prepare и runtime-тесты
+#
+# Runtime-тесты работают полностью headless (без DISPLAY и GPU):
+#   SDL_VIDEODRIVER=dummy + программный рендерер.
+#   RENPY_PERFORMANCE_TEST=0 отключает стартовый замер производительности,
+#   HOME=<временный> изолирует persistent (иначе язык/флаги концовок
+#   протекают между запусками и ломают тесты).
+# Полный прогон 13 тесткейсов на sw-рендерере занимает ~10–20 минут.
 # ============================================================
 set -u
 cd "$(dirname "$0")"
@@ -60,25 +65,25 @@ LETO_PREPARE_CHECK=1 SDL_VIDEODRIVER=dummy SDL_AUDIODRIVER=dummy \
     "$SDK/renpy.sh" "$PROJ" lint > /dev/null 2>&1 || true
 cat "$PROJ/game/prepare_result.txt" 2>/dev/null || echo "   результата нет (см. log.txt проекта)"
 
-if [ -n "${DISPLAY:-}" ] || command -v xvfb-run > /dev/null 2>&1; then
-    echo
-    echo "=================================================="
-    echo " 7. RUNTIME-ТЕСТЫ REN'PY (13 testcase'ов)"
-    echo "    ВНИМАНИЕ: в headless-контейнерах без GPU возможен segfault SDL;"
-    echo "    на машине с дисплеем этот шаг проходит штатно."
-    echo "=================================================="
-    if [ -n "${DISPLAY:-}" ]; then
-        SDL_AUDIODRIVER=dummy LIBGL_ALWAYS_SOFTWARE=1 \
-            "$SDK/renpy.sh" "$PROJ" test --report-detailed | tail -30
-    else
-        xvfb-run -a -s "-screen 0 1280x720x24" \
-            env SDL_AUDIODRIVER=dummy LIBGL_ALWAYS_SOFTWARE=1 \
-            "$SDK/renpy.sh" "$PROJ" test --report-detailed | tail -30
-    fi
-else
-    echo
-    echo " 7. RUNTIME-ТЕСТЫ пропущены: нет ни DISPLAY, ни xvfb-run."
-    echo "    Запустите вручную на машине с дисплеем: renpy.sh <проект> test"
+echo
+echo "=================================================="
+echo " 7. RUNTIME-ТЕСТЫ REN'PY (13 testcase'ов, headless)"
+echo "    ВНИМАНИЕ: без GPU используется программный рендерер —"
+echo "    прогон может занять 10–20 минут."
+echo "=================================================="
+# Изолированное окружение: чистые saves/persistent, чтобы результаты
+# прошлых прогонов (язык, persistent.true_seen, слоты) не влияли на тесты.
+TEST_HOME="$(mktemp -d)"
+rm -rf "$PROJ/game/saves" "$PROJ/game/cache"
+HOME="$TEST_HOME" \
+SDL_VIDEODRIVER=dummy SDL_AUDIODRIVER=dummy RENPY_PERFORMANCE_TEST=0 \
+    "$SDK/renpy.sh" "$PROJ" test --report-detailed | tail -30
+TEST_STATUS=${PIPESTATUS[0]}
+rm -rf "$TEST_HOME"
+rm -rf "$PROJ/game/saves" "$PROJ/game/cache"
+if [ "$TEST_STATUS" -ne 0 ]; then
+    echo "RUNTIME-ТЕСТЫ: ПРОВАЛ (код $TEST_STATUS)"
+    exit 1
 fi
 
 echo
