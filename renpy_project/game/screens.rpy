@@ -17,6 +17,74 @@ style default:
 
 
 ## ------------------------------------------------------------
+## ПОЛОСЫ И ПОЛЗУНКИ (bar / vbar / scrollbar / vscrollbar / slider)
+## ------------------------------------------------------------
+## ОБЯЗАТЕЛЬНЫЙ БЛОК. Базовый `style default` движка объявляет
+##     fore_bar Null()
+##     aft_bar  Null()
+##     thumb    Null()
+## то есть ПУСТОТУ. Пока проект не переопределил эти стили сам, любой
+## `bar`/`vbar` рисуется невидимым. В этой игре это означало:
+##   * в «Настройках» пять ползунков (скорость текста, авто-режим,
+##     музыка, звуки, голос) не отображались вообще — игрок не видел
+##     ни текущего значения, ни того, что сюда можно нажать;
+##   * в игровом меню (Сохранение / Загрузка / История / Об игре)
+##     полоса прокрутки `vbar value YScrollValue("gm_viewport")` была
+##     невидимой, поэтому список из 8 слотов нельзя было прокрутить
+##     глазами — только колесом мыши.
+##
+## Имена свойств: left_bar/right_bar — горизонталь (left_bar = заполненная
+## часть), bottom_bar/top_bar — вертикаль, base_bar задаёт сразу обе
+## половины (трек) и используется там, где есть перетаскиваемый thumb.
+## Картинки не нужны — рисуем Solid'ами из палитры gui.rpy.
+style bar:
+    ysize gui.bar_size
+    left_bar Solid(gui.accent_color)
+    right_bar Solid("#f6f1e71f")
+    hover_left_bar Solid("#ffd166")
+    thumb None
+    thumb_shadow None
+
+style vbar:
+    xsize gui.bar_size
+    bottom_bar Solid(gui.accent_color)
+    top_bar Solid("#f6f1e71f")
+    hover_bottom_bar Solid("#ffd166")
+    thumb None
+    thumb_shadow None
+
+style scrollbar:
+    ysize gui.scrollbar_size
+    base_bar Solid("#f6f1e71f")
+    thumb Solid(gui.idle_color)
+    hover_thumb Solid(gui.accent_color)
+    thumb_shadow None
+
+style vscrollbar:
+    xsize gui.scrollbar_size
+    base_bar Solid("#f6f1e71f")
+    thumb Solid(gui.idle_color)
+    hover_thumb Solid(gui.accent_color)
+    thumb_shadow None
+
+style slider:
+    ysize gui.bar_size
+    base_bar Solid("#f6f1e71f")
+    hover_base_bar Solid("#f6f1e733")
+    thumb Solid(gui.accent_color)
+    hover_thumb Solid("#ffd166")
+    thumb_shadow None
+
+style vslider:
+    xsize gui.bar_size
+    base_bar Solid("#f6f1e71f")
+    hover_base_bar Solid("#f6f1e733")
+    thumb Solid(gui.accent_color)
+    hover_thumb Solid("#ffd166")
+    thumb_shadow None
+
+
+## ------------------------------------------------------------
 ## ЭКРАН ДИАЛОГА
 ## ------------------------------------------------------------
 screen say(who, what):
@@ -176,7 +244,10 @@ screen main_menu():
         textbutton _("Об игре") action ShowMenu("about") style "mm_button"
         textbutton _("Выход") action Quit() style "mm_button"
 
-    text "v1.2.1 · RU/EN · HTML5: web_demo/index.html":
+    ## Версия берётся из config.version (options.rpy), а не хардкодится:
+    ## иначе номер в меню и номер сборки разъезжаются (ранее здесь было
+    ## захардкожено v1.1 при config.version = "0.9-demo" и релизе v1.2).
+    text "v[config.version] · RU/EN · HTML5: web_demo/index.html":
         xalign 0.99
         yalign 0.985
         size 17

@@ -37,8 +37,12 @@ from PIL import Image, ImageFilter
 HERE = os.path.dirname(os.path.abspath(__file__))
 PROJ = os.path.abspath(os.path.join(HERE, ".."))
 SRC_GAME = os.path.join(PROJ, "renpy_project", "game")
-MASTERS = "/home/user/work_audio"          # исходные PNG 2048x2048 (до кропа 16:9)
-STAGE = "/home/user/pack_stage"
+## Пути рабочего каталога и «мастеров» можно переопределить переменными
+## окружения. Раньше здесь были зашиты абсолютные пути конкретной машины
+## (/home/user/...), из-за чего сборка релиза на любом другом месте
+## складывала временные файлы в непредсказуемую точку файловой системы.
+MASTERS = os.environ.get("LETO_MASTERS", os.path.join(PROJ, "work_audio"))
+STAGE = os.environ.get("LETO_STAGE", os.path.join(PROJ, "_release_stage"))
 TOOLS = os.path.join(PROJ, "tools")
 
 PRESETS = {
@@ -49,7 +53,19 @@ PRESETS = {
 }
 
 SKIP_DIRS = {"cache", "saves", "__pycache__"}
-SKIP_FILES = {"prepare_result.txt"}
+## В релиз не должны попадать артефакты прогонов движка и резервные копии.
+## Раньше здесь был только prepare_result.txt: если разработчик хотя бы раз
+## запускал проект/линт, в game/ появлялись log.txt, errors.txt и
+## traceback.txt, и copy_tree() добросовестно тащил их в zip.
+SKIP_FILES = {
+    "prepare_result.txt",
+    "log.txt",
+    "errors.txt",
+    "traceback.txt",
+    "dialogue.txt",
+    "profile_screen.txt",
+}
+SKIP_SUFFIXES = (".rpyc", ".rpymc", ".rpyb", ".pyc", ".bak")
 
 
 def log(msg):
@@ -67,7 +83,7 @@ def copy_tree(src, dst):
         out = os.path.join(dst, rel) if rel != "." else dst
         os.makedirs(out, exist_ok=True)
         for fn in filenames:
-            if fn in SKIP_FILES or fn.endswith(".rpyc") or fn.endswith(".pyc"):
+            if fn in SKIP_FILES or fn.endswith(SKIP_SUFFIXES):
                 continue
             shutil.copyfile(os.path.join(root, fn), os.path.join(out, fn))
             n += 1

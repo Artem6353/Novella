@@ -13,7 +13,7 @@
 
 ## Заголовок и версия задаются в options.rpy:
 ##     define config.name = _("Лето, которого не было / The Summer That Never Was")
-##     define config.version = "1.2"
+##     define config.version = "1.2.1"
 
 label start:
 
@@ -32,7 +32,14 @@ label start:
 ## ------------------------------------------------------------
 label day_card(day_title="", day_sub=""):
 
-    show screen chapter_card(day_title, day_sub) with dissolve
+    ## `_()` применён к ПЕРЕМЕННЫМ, а не к литералам: все семь
+    ## `call day_card(...)` в сценах продолжают передавать русский текст,
+    ## а перевод делается сопоставлением точной строки из блока
+    ## `translate english strings:` (источник — tools/ui_strings.py,
+    ## словарь EX["days"], общий с web-плеером).
+    ## renpy.translation.translate_string() работает с динамическими
+    ## строками, поэтому оборачивать литералы в местах вызова не нужно.
+    show screen chapter_card(_(day_title), _(day_sub)) with dissolve
     pause 1.7
     hide screen chapter_card with dissolve
 
@@ -45,9 +52,18 @@ label day_card(day_title="", day_sub=""):
 ## ------------------------------------------------------------
 label end_card:
 
-    $ stats_line = "Фрагментов памяти найдено: [memory_fragments] из 6. Очков правды: [truth_points] из 10."
+    ## Строка статистики содержит подстановки [memory_fragments]/[truth_points].
+    ## Переводится ЦЕЛИКОМ, вместе с квадратными скобками: ключ в
+    ## `translate english strings:` — русская строка со скобками, значение —
+    ## английская со скобками. Интерполяция происходит позже, уже при
+    ## отрисовке `text`, поэтому подставляются правильные числа.
+    $ stats_line = _("Фрагментов памяти найдено: [memory_fragments] из 6. Очков правды: [truth_points] из 10.")
 
-    show screen chapter_card("КОНЕЦ", ending_shown, stats_line) with dissolve
+    ## `ending_shown` хранит каноническое русское название концовки — его
+    ## сравнивают автотесты (tests_autogen.rpy) и по нему же строка
+    ## переводится здесь, на выводе. Не меняйте значения `$ ending_shown = ...`
+    ## в scenes/endings.rpy без одновременной правки tools/ui_strings.py (EX["endings"]).
+    show screen chapter_card(_("КОНЕЦ"), _(ending_shown), stats_line) with dissolve
     pause 3.2
     hide screen chapter_card with dissolve
 

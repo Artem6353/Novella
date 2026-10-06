@@ -9,7 +9,7 @@
 ## Локация: заброшенный корпус → причал
 ## Время: ночь
 ## Музыка: mystery → finale (на причале)
-## Фон: bg abandoned → bg pier
+## Фон: bg abandoned → bg pier → cg_d4_truth_pier (CG подключён)
 ## Персонажи: Артём, Лена (силуэт)
 ## Эффект: truth_points += 2, frag_final_note
 ## ------------------------------------------------------------
@@ -109,9 +109,13 @@ label d4_truth:
     scene bg pier
     with fade
 
-    ## CG (P2): сцена правды
-    # scene cg_d4_truth_pier
-    # with fade
+    ## CG (P2) «Сцена правды». Иллюстрация готова (images/cg_d4_truth_pier.jpg),
+    ## поэтому фон заменён на CG — последовательность взята из
+    ## docs/02_сценарий.md (сцена D4_TRUTH):
+    ##     [ФОН: bg pier] → [FADE] → scene cg_d4_truth_pier / with fade
+    ## После неё по сценарию же появляется спрайт `lena sad at tr_right`.
+    scene cg_d4_truth_pier
+    with fade
 
     play sound river loop
     "Я вышел к причалу." id d4_truth_0038

@@ -66,6 +66,13 @@ image vera sad        = "images/vera_sad.png"
 image zoya calm       = "images/zoya_calm.png"
 image zoya sleepy     = "images/zoya_sleepy.png"
 image zoya focused    = "images/zoya_focused.png"
+## ЕДИНСТВЕННЫЙ оставшийся плейсхолдер в проекте: файла
+## images/zoya_scared.png нет, поэтому эмоция нарисована заглушкой-Solid.
+## В сценах она сейчас не используется (проверено), так что игрок её не видит.
+## Как только арт появится, замените тело на:
+##     image zoya scared = "images/zoya_scared.png"
+## Имя образа менять нельзя — на него завязаны docs/04_ТЗ_графика.md и
+## инструменты (tools/validate_project.py сверяет show/hide с объявленными).
 image zoya scared   = Solid("#5b97b5", xysize=(420, 1000))
 image zoya sad        = "images/zoya_sad.png"
 image zoya smile      = "images/zoya_smile.png"

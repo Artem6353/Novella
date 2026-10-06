@@ -149,13 +149,32 @@ testsuite manual:
         advance until screen "preferences"
         click "English"
         advance until screen "main_menu"
-        click "Начать игру"
+        ## После переключения ВЕСЬ интерфейс переводится блоком
+        ## `translate english strings:` (tools/ui_strings.py), поэтому
+        ## подписи кнопок становятся английскими — кликать нужно по
+        ## переведённым caption. Раньше здесь стояло «Начать игру», и тест
+        ## проходил лишь потому, что интерфейс ошибочно оставался русским.
+        ## Сам факт клика по "New game" / "Settings" и есть регресс-guard:
+        ## вернётся баг непереведённого UI — клики не найдут цели.
+        click "New game"
         advance until "Examine the ticket closely"
+        ## К этому моменту английский точно активен (реплика переведена),
+        ## поэтому проверка строки интерфейса уже детерминирована.
+        ## ВАЖНО: `_()` в Ren'Py НЕ переводит в момент вызова — он лишь
+        ## помечает строку, а перевод подставляет текстовый дисплей при
+        ## отрисовке (renpy/minstore.py::`). Поэтому в assert'ах
+        ## используется явный renpy.translate_string().
+        assert eval renpy.translate_string("Начать игру") == "New game"
+        assert eval renpy.translate_string("КОНЕЦ") == "THE END"
         click "Examine the ticket closely"
         advance until "Look out the window"
         run MainMenu(confirm=False)
         advance until screen "main_menu"
-        click "Настройки"
+        click "Settings"
         advance until screen "preferences"
         click "Русский"
         advance until screen "main_menu"
+        ## Обратное переключение подтверждаем русскими подписями:
+        ## если язык не вернётся, click не найдёт цель и кейс упадёт.
+        click "Начать игру"
+        advance until "Осмотреть билет внимательно"

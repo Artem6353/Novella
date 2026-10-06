@@ -2,8 +2,7 @@ init offset = -1
 
 ## ============================================================
 ## gui.rpy — значения интерфейса (палитра из раздела 28 ГДД)
-## Используются только штатные шрифты дистрибутива Ren'Py (DejaVu),
-## чтобы сборка работала без внешних файлов шрифтов.
+## Шрифты — PT Sans / PT Serif из game/gui/fonts/ (лежат в репозитории).
 ## ============================================================
 
 ## ОБЯЗАТЕЛЬНО: штатная инициализация GUI (как в шаблоне Ren'Py 8).
@@ -15,10 +14,14 @@ init python:
     gui.init(1920, 1080)
 
 ## --- Шрифты ---
-## В поставке Ren'Py гарантированно есть только семейство DejaVuSans.
-## Хотите PT Serif / PT Sans (раздел 28 ГДД) — положите файлы в game/gui/fonts/
-## и поправьте три define ниже, например:
-##     define gui.text_font = "gui/fonts/PTSerif-Regular.ttf"
+## Проект использует PT Sans / PT Serif из game/gui/fonts/ (раздел 28 ГДД).
+## Файлы лежат в репозитории, поэтому пути ниже рабочими являются всегда.
+## Если шрифтов нет (например, сборка урезана tools/make_release_zip.py),
+## Ren'Py упадёт на загрузке стиля — в этом случае верните запасной вариант
+## со штатным семейством дистрибутива:
+##     define gui.text_font = "DejaVuSans.ttf"
+##     define gui.name_font = "DejaVuSans-Bold.ttf"
+##     define gui.interface_text_font = "DejaVuSans.ttf"
 define gui.text_font = "gui/fonts/PTSans-Regular.ttf"
 define gui.name_font = "gui/fonts/PTSans-Bold.ttf"
 define gui.interface_text_font = "gui/fonts/PTSans-Regular.ttf"
@@ -45,6 +48,13 @@ define gui.idle_color = "#c9c2b4"
 define gui.hover_color = "#ffb703"
 define gui.selected_color = "#ffb703"
 define gui.insensitive_color = "#6f6a60"
+
+## --- Полосы и ползунки ---
+## Используются стилями bar/vbar/scrollbar/vscrollbar/slider в screens.rpy.
+## Без них ползунки наследуют Null() из базового `style default` движка
+## и рисуются невидимыми.
+define gui.bar_size = 18
+define gui.scrollbar_size = 14
 
 ## --- Диалоговое окно ---
 define gui.textbox_height = 232

@@ -189,7 +189,11 @@ def run(strategy, preset_p=None):
             return None
 
     def ev(expr):
-        return eval(expr, {"max": max, "min": min},
+        ## `_` — функция перевода Ren'Py. В мини-VM перевода нет, поэтому
+        ## она тождественная: script.rpy передаёт карточкам дней/финала
+        ## `_(day_title)`, `_("КОНЕЦ")` и т.п., и без имени `_` eval падал
+        ## с NameError при генерации tests_autogen.rpy.
+        return eval(expr, {"max": max, "min": min, "_": lambda s: s},
                 dict(V, persistent=Pers(P),
                      day_title="", day_sub=""))
 

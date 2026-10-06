@@ -12,8 +12,12 @@ translations.py — английская локализация демо-сре�
 
 TRANS = {
 # --- служебные ---
-"end_card_0001": "THE END",
-"end_card_0003": "Memory fragments found: [memory_fragments] of 6. Truth points: [truth_points] of 10.",
+# ВНИМАНИЕ: перевод заголовка «КОНЕЦ» и строки статистики финальной карточки
+# здесь больше НЕ живёт. У этих строк нет переводческого id — в script.rpy они
+# передаются в экран `chapter_card` через `_()` и переводятся блоком
+# `translate english strings:`. Источник правды — tools/ui_strings.py
+# (EX["ui"]["the_end"] и EX["stats"], те же строки, что в web-плеере).
+# Ранее здесь лежали ключи end_card_0001 / end_card_0003, которых нет в коде.
 
 # ================= ПРОЛОГ. КОМНАТА =================
 "p01_room_0001": "Eleven p.m. The lamp hums as if it can't sleep either.",
@@ -157,7 +161,7 @@ TRANS = {
 "d00_square_0026": "Is that an answer or an evasion?",
 "d00_square_0027": "What do you think?",
 "d00_square_0028": "I thought that a camp with not a single adult in it is called something else.",
-"d00_square_m2": "Stay silent",
+"d00_square_m2": "Say nothing",  # то же RU-слово, что в d4_conflict_m4/m6: в strings-блоке перевод обязан быть единственным
 "d00_square_0029": "I decided not to ask. For now.",
 "d00_square_0030": "Lena nodded as if silence were also an answer \u2014 and as if she didn't like this one.",
 "d00_square_0031": "Good. Look first.",

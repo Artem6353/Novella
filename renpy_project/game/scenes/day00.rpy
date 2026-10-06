@@ -13,7 +13,7 @@
 ## Локация: ворота лагеря «Сосновый берег»
 ## Время: закат
 ## Музыка: main_theme → lena_theme
-## Фон: bg gate (при готовности: cg_lena_gate)
+## Фон: bg gate → cg_lena_gate (CG подключён)
 ## Персонажи: Артём, Лена
 ## ------------------------------------------------------------
 
@@ -24,9 +24,13 @@ label d00_gate:
     with fade
 
     play sound gate_creak
-    ## CG (P0): при готовности иллюстрации замените фон:
-    # scene cg_lena_gate
-    # with fade
+    ## CG (P0) «Лена у ворот». Иллюстрация готова (images/cg_lena_gate.jpg),
+    ## поэтому фон заменён на CG — ровно так, как предписано в
+    ## docs/02_сценарий.md (сцена D00_GATE) и в шапке этой сцены:
+    ##     [ФОН: bg gate] → [FADE] → scene cg_lena_gate / with fade
+    ## `scene bg gate` выше оставлен намеренно: docs/02 задаёт обе смены фона.
+    scene cg_lena_gate
+    with fade
 
     "Остановка оказалась пустынной." id d00_gate_0001
 

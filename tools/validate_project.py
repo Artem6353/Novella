@@ -151,6 +151,9 @@ WHITELIST = set(declared_vars) | {
     "day_title", "day_sub",  # параметры label day_card
     "OBJ",  # подстановка вместо renpy.* / persistent.* / config.* / _test.*
     "_return", "_args", "_kwargs",
+    ## `_` — встроенная функция перевода Ren'Py (renpy.translation.translate_string),
+    ## а не игровая переменная. Используется в script.rpy для карточек дня/концовки.
+    "_",
 }
 
 assign_re = re.compile(r"^\s*\$\s*(.*)$")
@@ -183,8 +186,17 @@ RENPY_RESERVED = {
     "as", "on", "expression", "id", "in", "and", "or", "not", "early",
 }
 speaker_re = re.compile(r'^\s*(?P<who>[a-z_][a-z_0-9]*)\s+"')
-KNOWN_SPEAKERS = {"mc", "lena", "vera", "zoya", "radio", "child",
-                  "young_voice", "lena_e", "card", "narrator", "e"}
+## Список говорящих НЕ хардкодим, а читаем из самого проекта: единственное
+## место объявления персонажей — characters.rpy (`define X = Character(...)`).
+## Хардкод молча расходился с кодом: нового персонажа валидатор счёл бы
+## опечаткой, а удалённого продолжал бы считать валидным.
+character_define_re = re.compile(r'^\s*define\s+(?P<name>\w+)\s*=\s*Character\(')
+KNOWN_SPEAKERS = {"narrator"}   # встроенный рассказчик Ren'Py
+for _p in all_lines:
+    for _line in all_lines[_p]:
+        _m = character_define_re.match(_line)
+        if _m:
+            KNOWN_SPEAKERS.add(_m.group("name"))
 ## слова языка экранов и стилевые свойства — не говорящие
 SCREEN_WORDS = {
     "text", "textbutton", "button", "add", "vbox", "hbox", "fixed", "frame",

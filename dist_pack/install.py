@@ -75,12 +75,25 @@ def main():
     print(f"[2] удалено шаблонных авто-изображений: {removed}")
 
     # 3. копирование наших файлов
+    ## Артефакты прогонов движка и резервные копии в чужой проект попадать
+    ## не должны: скомпилированные .rpyc от другой версии Ren'Py путают кэш,
+    ## а log.txt/traceback.txt пугают игрока. В релизный dist_pack/game их
+    ## не пускает tools/make_release_zip.py, но install.py иногда запускают
+    ## прямо из рабочей копии, где они появляются после любого прогона.
+    skip_dirs = {"cache", "saves", "__pycache__"}
+    skip_files = {"log.txt", "errors.txt", "traceback.txt",
+                  "prepare_result.txt", "dialogue.txt"}
+    skip_suffixes = (".rpyc", ".rpymc", ".rpyb", ".pyc", ".bak")
+
     copied = 0
-    for root, _, files in os.walk(SRC_GAME):
+    for root, dirnames, files in os.walk(SRC_GAME):
+        dirnames[:] = [d for d in dirnames if d not in skip_dirs]
         rel = os.path.relpath(root, SRC_GAME)
         dst_root = os.path.join(game, rel) if rel != "." else game
         os.makedirs(dst_root, exist_ok=True)
         for fn in files:
+            if fn in skip_files or fn.endswith(skip_suffixes):
+                continue
             shutil.copyfile(os.path.join(root, fn), os.path.join(dst_root, fn))
             copied += 1
     print(f"[3] скопировано файлов: {copied}")
@@ -93,11 +106,11 @@ def main():
         s2, n1 = re.subn(r'define config\.name\s*=\s*_\(".*?"\)',
                          'define config.name = _("Лето, которого не было / The Summer That Never Was")', s)
         s2, n2 = re.subn(r'define config\.version\s*=\s*"[^"]*"',
-                         'define config.version = "1.2.1"', s2)
+                         'define config.version = "1.2.2"', s2)
         if not n1:
             s2 += '\ndefine config.name = _("Лето, которого не было / The Summer That Never Was")\n'
         if not n2:
-            s2 += '\ndefine config.version = "1.2.1"\n'
+            s2 += '\ndefine config.version = "1.2.2"\n'
         open(opt, "w", encoding="utf-8").write(s2)
         print("[4] options.rpy: название и версия обновлены")
     else:
