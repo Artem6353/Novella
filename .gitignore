@@ -1,0 +1,73 @@
+# =============================================================================
+# .gitignore для проекта «Лето, которого не было»
+# Ren'Py 8.5.3 + Python-инструменты + web-демо
+# =============================================================================
+
+# --- Ren'Py: скомпилированное и кэш ------------------------------------------
+*.rpyc
+*.rpyb
+*.rpymc
+*.rpa
+*.bak
+
+# --- Ren'Py: рабочее (в любой подпапке) -------------------------------------
+saves/
+cache/
+log.txt
+errors.txt
+traceback.txt
+prepare_result.txt
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Сборки и дистрибутивы -------------------------------------------------
+release/
+parts_dl/
+_release_stage/
+leto_final.zip
+leto_pack.zip
+leto_game_only.zip
+leto_pack.zip.001
+leto_pack.zip.002
+leto_pack.zip.003
+leto_pack.zip.004
+leto_pack.zip.005
+leto_pack.zip.006
+leto_pack.zip.007
+leto_pack.zip.008
+leto_*.zip
+
+# Дубликат игры для install.py — держим только в renpy_project/game/
+dist_pack/game/
+
+# --- Временное и исходники арта ---------------------------------------------
+art/raw/
+art/sprites/
+art/sprites_half/
+art/bg169/
+work_audio/
+work_audio_*
+/opt_test/
+image-search/
+build_log.txt
+qa_*.png
+qa_*.jpg
+tmp/
+temp/
+.tmp/
+
+# --- IDE и OS --------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Лето, которого не было — HTML5 демо</title>
+<style>
+  :root{
+    --paper:#f6f1e7; --ink:#1f1b16; --amber:#ffb703; --pine:#2d6a4f;
+    --violet:#5e548e; --red:#9d4c4c;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
+  html,body{margin:0;height:100%;background:#0d0f12;overflow:hidden;
+    font-family:"PT Sans","Segoe UI",Tahoma,sans-serif}
+  #wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+  #stage{position:relative;width:min(100vw,177.78vh);height:min(56.25vw,100vh);
+    background:#000;overflow:hidden;user-select:none;cursor:pointer}
+  .layer{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+    transition:opacity .6s ease}
+  .spr{position:absolute;bottom:0;height:96%;width:auto;object-fit:contain;
+    transition:opacity .45s ease;opacity:0}
+  .spr.on{opacity:1}
+  .spr.left{left:5%}.spr.center{left:50%;transform:translateX(-50%)}.spr.right{right:5%}
+  #vig{position:absolute;inset:0;pointer-events:none;
+    background:linear-gradient(to top,rgba(10,10,14,.5),rgba(10,10,14,0) 40%)}
+  #box{position:absolute;left:3%;right:3%;bottom:3%;min-height:22%;
+    background:rgba(20,18,15,.8);border:1px solid rgba(246,241,231,.35);
+    border-radius:8px;padding:14px 22px 18px;backdrop-filter:blur(3px);
+    color:var(--paper);display:none}
+  #box.on{display:block}
+  #who{font-family:"Noto Serif",Georgia,serif;font-size:clamp(15px,2.1vw,26px);
+    font-weight:700;margin-bottom:6px;letter-spacing:.03em}
+  #txt{font-family:"PT Serif",Georgia,serif;font-size:clamp(14px,1.85vw,24px);
+    line-height:1.5;min-height:3em;white-space:pre-wrap}
+  #hint{position:absolute;right:14px;bottom:8px;font-size:12px;opacity:.55}
+  #choices{position:absolute;left:50%;top:32%;transform:translateX(-50%);
+    width:min(70%,760px);display:none;flex-direction:column;gap:12px;z-index:6}
+  #choices.on{display:flex}
+  .ch{background:rgba(246,241,231,.93);color:var(--ink);border:2px solid transparent;
+    border-radius:6px;padding:12px 18px;font-size:clamp(14px,1.7vw,22px);
+    text-align:center;cursor:pointer;transition:.15s}
+  .ch:hover{border-color:var(--amber);transform:translateY(-2px)}
+  #card{position:absolute;inset:0;display:none;align-items:center;justify-content:center;
+    flex-direction:column;gap:14px;background:rgba(8,9,12,.92);z-index:8;color:var(--paper)}
+  #card.on{display:flex}
+  #card .t{font-family:"Noto Serif",Georgia,serif;font-size:clamp(26px,4.6vw,64px);
+    color:var(--amber);letter-spacing:.06em;text-align:center}
+  #card .s{font-size:clamp(15px,2.2vw,30px);opacity:.85;text-align:center;padding:0 6%}
+  #card .st{font-size:clamp(12px,1.5vw,18px);opacity:.6;margin-top:26px;text-align:center}
+  #title{position:absolute;inset:0;z-index:10;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;gap:10px;
+    background:linear-gradient(160deg,#1b2b23,#0d0f12 70%)}
+  #title h1{font-family:"Noto Serif",Georgia,serif;color:var(--paper);
+    font-size:clamp(26px,4.4vw,58px);margin:0 0 4px;text-align:center;letter-spacing:.04em}
+  #title .sub{color:#cbb98a;font-size:clamp(12px,1.6vw,20px);margin-bottom:26px;text-align:center;padding:0 8%}
+  .tb{width:min(320px,60%);background:transparent;color:var(--paper);
+    border:1px solid rgba(246,241,231,.4);border-radius:6px;padding:11px 0;
+    font-size:clamp(14px,1.7vw,21px);cursor:pointer;transition:.15s}
+  .tb:hover{border-color:var(--amber);color:var(--amber)}
+  #title .ver{position:absolute;bottom:10px;right:14px;font-size:12px;opacity:.45;color:var(--paper)}
+  .panel{position:absolute;inset:0;z-index:9;display:none;background:rgba(8,9,12,.95);
+    color:var(--paper);padding:5% 7%;overflow:auto}
+  .panel.on{display:block}
+  .panel h2{font-family:"Noto Serif",Georgia,serif;color:var(--amber);margin:0 0 16px}
+  .panel .row{margin:10px 0;font-size:clamp(13px,1.6vw,19px);line-height:1.45}
+  .panel .row b{color:#ffd166}
+  .closeb{position:absolute;top:12px;right:16px;background:none;border:1px solid rgba(246,241,231,.4);
+    color:var(--paper);border-radius:6px;padding:6px 14px;cursor:pointer}
+  .slot{display:flex;justify-content:space-between;align-items:center;gap:12px;
+    border:1px solid rgba(246,241,231,.25);border-radius:6px;padding:10px 14px;margin:10px 0}
+  .slot button{margin-left:8px;background:none;color:var(--amber);border:1px solid var(--amber);
+    border-radius:5px;padding:5px 12px;cursor:pointer}
+  #top{position:absolute;top:0;left:0;right:0;z-index:7;display:flex;gap:8px;
+    justify-content:flex-end;padding:8px 10px;opacity:.3;transition:opacity .2s}
+  #stage:hover #top{opacity:1}
+  #top button{background:rgba(20,18,15,.6);color:var(--paper);border:1px solid rgba(246,241,231,.3);
+    border-radius:5px;padding:5px 10px;font-size:13px;cursor:pointer}
+  #top button:hover{border-color:var(--amber);color:var(--amber)}
+  input[type=range]{width:220px;vertical-align:middle}
+</style>
+</head>
+<body>
+<div id="wrap">
+ <div id="stage">
+  <img id="bg0" class="layer" alt="">
+  <img id="bg1" class="layer" alt="" style="opacity:0">
+  <img id="s0" class="spr" alt=""><img id="s1" class="spr" alt=""><img id="s2" class="spr" alt="">
+  <div id="vig"></div>
+  <div id="top">
+    <button id="b_hist">—</button><button id="b_save">—</button><button id="b_load">—</button>
+    <button id="b_set">—</button><button id="b_lang">RU/EN</button><button id="b_menu">—</button>
+  </div>
+  <div id="choices"></div>
+  <div id="box"><div id="who"></div><div id="txt"></div><div id="hint">▼</div></div>
+  <div id="card"><div class="t"></div><div class="s"></div><div class="st"></div></div>
+  <div class="panel" id="p_hist"><button class="closeb">×</button><h2></h2><div id="hist"></div></div>
+  <div class="panel" id="p_save"><button class="closeb">×</button><h2></h2><div id="slots_s"></div></div>
+  <div class="panel" id="p_load"><button class="closeb">×</button><h2></h2><div id="slots_l"></div></div>
+  <div class="panel" id="p_set"><button class="closeb">×</button><h2></h2>
+    <div class="row" id="set_speed_row"></div>
+    <div class="row" id="set_vol_row"></div>
+    <div class="row" id="set_fs_row"></div>
+    <div class="row" id="set_about"></div>
+  </div>
+  <div id="title">
+    <h1>Лето, которого не было</h1>
+    <div class="sub"></div>
+    <button class="tb" id="t_new"></button>
+    <button class="tb" id="t_cont"></button>
+    <button class="tb" id="t_lang"></button>
+    <button class="tb" id="t_about"></button>
+    <div class="ver">HTML5 demo · по дизайн-документу 3.0 · v0.9</div>
+  </div>
+ </div>
+</div>
+<script id="gamedata" type="application/json">__GAME_DATA__</script>
+<script id="extra" type="application/json">__EXTRA__</script>
+<script>
+"use strict";
+const DATA = JSON.parse(document.getElementById('gamedata').textContent);
+const EX = JSON.parse(document.getElementById('extra').textContent);
+const $ = id => document.getElementById(id);
+const stage=$('stage'), bg=[$('bg0'),$('bg1')], sprs=[$('s0'),$('s1'),$('s2')];
+const box=$('box'), whoEl=$('who'), txtEl=$('txt'), choicesEl=$('choices'), cardEl=$('card');
+
+let lang = localStorage.getItem('leto_lang') || 'ru';
+let V={}, P={}, CUR=null, hist=[], bgTop=0, typing=null, cps=60, chosen=null;
+const SPR_TAGS=['lena','vera','zoya'];
+
+function defaults(){ const v={}; for(const k in DATA.defaults){ v[k]=DATA.defaults[k]; } return v; }
+function loadP(){ try{ P=JSON.parse(localStorage.getItem('leto_persistent')||'{}'); }catch(e){ P={}; } }
+function saveP(){ localStorage.setItem('leto_persistent', JSON.stringify(P)); }
+
+const condCache={};
+function ev(expr){ let f=condCache[expr]; if(!f){ f=condCache[expr]=new Function('V','P','with(V){return ('+expr+');}'); } return f(V,P); }
+function setv(target, expr){ const val=ev(expr);
+  if(target.indexOf('persistent.')===0){ P[target.split('.')[1]]=val; saveP(); } else { V[target]=val; } }
+function interp(t){ return String(t).replace(/\[(\w+)\]/g,(m,k)=> (k in V)? String(V[k]) : m); }
+function T(op){ return (lang==='en' && op.en) ? op.en : op.ru; }
+function UI(k){ const d=EX.ui[k]; if(!d) return k; return (lang==='en'&&d.en)? d.en : d.ru; }
+function NAME(w){ const d=EX.names[w]; if(!d) return ''; return (lang==='en'&&d.en)? d.en : d.ru; }
+
+/* ---------- звук ---------- */
+let musEl=null, musTrack=null, sfxLoops={};
+let musVol=parseFloat(localStorage.getItem('leto_mus') ?? '0.7');
+let sfxVol=parseFloat(localStorage.getItem('leto_sfx') ?? '0.8');
+function aPath(n){ return 'audio/'+n+'.ogg'; }
+function fadeTo(el, target, sec){
+  const from=el.volume, t0=performance.now();
+  const id=setInterval(()=>{ const k=Math.min(1,(performance.now()-t0)/(sec*1000));
+    el.volume=from+(target-from)*k; if(k>=1) clearInterval(id); },50);
+}
+function playMusic(track, fade){
+  if(musTrack===track && musEl && !musEl.paused) return;
+  if(musEl){ const old=musEl; fadeTo(old,0,0.6); setTimeout(()=>{ old.pause(); },700); }
+  musEl=new Audio(aPath(track)); musEl.loop=true; musEl.volume=0; musTrack=track;
+  musEl.play().then(()=>{ if(musEl===musEl) fadeTo(musEl,musVol,Math.max(0.4,fade)); }).catch(()=>{});
+}
+function stopMusic(){
+  if(musEl){ const old=musEl; musEl=null; musTrack=null;
+    fadeTo(old,0,0.8); setTimeout(()=>old.pause(),900); }
+}
+function sfxPath(n){ return 'audio/sfx/'+n+'.ogg'; }
+function playSfx(name, loop){
+  if(loop){ if(sfxLoops[name]) return;
+    const a=new Audio(sfxPath(name)); a.loop=true; a.volume=sfxVol*0.8;
+    sfxLoops[name]=a; a.play().catch(()=>{}); }
+  else { const a=new Audio(sfxPath(name)); a.volume=sfxVol; a.play().catch(()=>{}); }
+}
+function stopSfx(){
+  for(const k in sfxLoops){ const a=sfxLoops[k]; delete sfxLoops[k];
+    fadeTo(a,0,0.5); setTimeout(()=>a.pause(),600); }
+}
+function applyVols(){
+  if(musEl) musEl.volume=musVol;
+  for(const k in sfxLoops) sfxLoops[k].volume=sfxVol*0.8;
+  localStorage.setItem('leto_mus',String(musVol));
+  localStorage.setItem('leto_sfx',String(sfxVol));
+}
+
+/* ---------- рендер ---------- */
+function showBg(key){
+  const src = DATA.images[key] || null;
+  const top = bg[bgTop], under = bg[1-bgTop];
+  if(src){ top.src=src; top.style.background='none'; }
+  else { top.removeAttribute('src'); top.style.background = DATA.solid[key] || '#20242c'; }
+  top.style.opacity=0;
+  requestAnimationFrame(()=>{ top.style.opacity=1; under.style.opacity=0; });
+  bgTop=1-bgTop;
+}
+function showSpr(img, at){
+  const tag=img.split(' ')[0]; let i=SPR_TAGS.indexOf(tag); if(i<0) i=0;
+  const el=sprs[i]; const src=DATA.images[img];
+  if(src){ el.src=src; el.style.background='none'; el.style.width='auto'; }
+  else { el.removeAttribute('src'); el.style.width='20%'; el.style.height='92%';
+         el.style.background=DATA.solid[img]||'#555'; }
+  el.className='spr '+at+' on';
+}
+function hideSpr(tag){ const i=SPR_TAGS.indexOf(tag); if(i>=0) sprs[i].className='spr'; }
+function hideAllSpr(){ sprs.forEach(e=>e.className='spr'); }
+
+let waitResolve=null, waiting=false, typeRes=null;
+function waitClick(){ return new Promise(res=>{ waiting=true; waitResolve=res; }); }
+function advance(){ if(waiting){ waiting=false; const r=waitResolve; waitResolve=null; r(); } }
+function typeText(text){
+  return new Promise(res=>{
+    txtEl.textContent=''; let i=0; typeRes=res;
+    typing=setInterval(()=>{
+      i+=Math.max(1,Math.round(cps/30)); txtEl.textContent=text.slice(0,i);
+      if(i>=text.length){ clearInterval(typing); typing=null;
+        const r=typeRes; typeRes=null; if(r) r(); }
+    }, 16);
+  });
+}
+/* клик по печатающемуся тексту: показать целиком И разбудить исполнитель */
+function finishType(){
+  if(typing){ clearInterval(typing); typing=null; }
+  if(typeRes){ const r=typeRes; typeRes=null; r(); }
+}
+
+async function say(op){
+  box.classList.add('on');
+  const name = op.who ? NAME(op.who) : '';
+  whoEl.textContent = name;
+  whoEl.style.color = EX.colors[op.who||'narr'] || '#f6f1e7';
+  const text = interp(T(op));
+  box.dataset.text = text;
+  hist.push({w:name,t:text}); if(hist.length>200) hist.shift();
+  await typeText(text);
+  await waitClick();
+}
+
+async function showMenu(items){
+  box.classList.remove('on');
+  choicesEl.innerHTML='';
+  const visible = items.filter(it=> !it.cond || ev(it.cond));
+  chosen=null;
+  for(const it of visible){
+    const b=document.createElement('div'); b.className='ch';
+    b.textContent = (lang==='en'&&it.en)? it.en : it.ru;
+    b.addEventListener('click',(e)=>{ e.stopPropagation();
+      choicesEl.classList.remove('on'); chosen=it; advance(); });
+    choicesEl.appendChild(b);
+  }
+  choicesEl.classList.add('on');
+  await waitClick();
+  return chosen;
+}
+
+function dayCard(a,b){
+  const da=EX.days[a], db=b? EX.days[b]:null;
+  cardEl.querySelector('.t').textContent = da ? (lang==='en'?da.en:da.ru) : a;
+  cardEl.querySelector('.s').textContent = db ? (lang==='en'?db.en:db.ru) : (b||'');
+  cardEl.querySelector('.st').textContent='';
+  cardEl.classList.add('on');
+  autosave();
+}
+function endCard(){
+  const name = V.ending_shown || '';
+  const tr = EX.endings[name];
+  cardEl.querySelector('.t').textContent = UI('the_end');
+  cardEl.querySelector('.s').textContent = tr ? (lang==='en'? tr.en : tr.ru) : name;
+  cardEl.querySelector('.st').textContent = interp(lang==='en'? EX.stats.en : EX.stats.ru);
+  cardEl.classList.add('on');
+}
+function hideCard(){ cardEl.classList.remove('on'); }
+
+/* ---------- сигналы управления ---------- */
+function Jump(to){ this.__jump=to; }
+function Ret(){ this.__ret=1; }
+function End(){ this.__end=1; }
+
+async function exec(ops, from){
+  for(let i=from||0;i<ops.length;i++){
+    CUR={label:CUR_LABEL, idx:i};
+    const op=ops[i];
+    switch(op.op){
+      case 'say': await say(op); break;
+      case 'scene': hideAllSpr(); showBg(op.img); break;
+      case 'show': showSpr(op.img, op.at||'center'); break;
+      case 'hide': hideSpr(op.tag); break;
+      case 'fade': break;
+      case 'pause': await new Promise(r=>setTimeout(r, op.s*1000)); break;
+      case 'set': setv(op.target, op.expr); break;
+      case 'music': playMusic(op.track, op.fade||1); break;
+      case 'sfx': playSfx(op.name, op.loop); break;
+      case 'stopmusic': stopMusic(); break;
+      case 'stopsfx': stopSfx(); break;
+      case 'noop': break;
+      case 'if': { const c=ev(op.cond); await exec(c? op.then : (op.else||[]), 0); break; }
+      case 'elseblock': await exec(op.body,0); break;
+      case 'menu': { const it=await showMenu(op.items); if(it) await exec(it.body,0); break; }
+      case 'daycard': hideCard(); dayCard(op.a,op.b);
+        await new Promise(r=>setTimeout(r,1500)); hideCard(); break;
+      case 'endcard': endCard(); await waitClick(); hideCard(); throw new End();
+      case 'call': await runLabel(op.to); break;
+      case 'jump': throw new Jump(op.to);
+      case 'return': throw new Ret();
+    }
+  }
+}
+let CUR_LABEL=null;
+async function runLabel(name){
+  let cur=name;
+  for(;;){
+    const prev=CUR_LABEL; CUR_LABEL=cur;
+    try{ await exec(DATA.program[cur],0); return; }
+    catch(e){
+      if(e && e.__jump){ cur=e.__jump; continue; }
+      if(e && e.__ret){ return; }
+      if(e && e.__end){ toTitle(); return; }
+      throw e;
+    }
+    finally{ CUR_LABEL=prev; }
+  }
+}
+
+/* ---------- сохранения ---------- */
+function snapshot(){ return JSON.stringify({V,P,CUR:CUR? {label:CUR.label, idx:CUR.idx}:null, lang}); }
+function autosave(){ if(CUR_LABEL) localStorage.setItem('leto_auto', snapshot()); }
+function slots(){ return ['leto_auto','leto_s1','leto_s2','leto_s3']; }
+function slotName(k){ return k==='leto_auto'? UI('auto') : UI('slot')+' '+k.slice(-1); }
+function renderSlots(container, mode){
+  container.innerHTML='';
+  for(const k of slots()){
+    const raw=localStorage.getItem(k);
+    const row=document.createElement('div'); row.className='slot';
+    let info=slotName(k)+' · '+UI('empty');
+    if(raw){ try{ const d=JSON.parse(raw); info=slotName(k)+' · '+(d.CUR? d.CUR.label : '—'); }catch(e){} }
+    const span=document.createElement('span'); span.textContent=info; row.appendChild(span);
+    const wrap=document.createElement('span');
+    if(mode==='save' && k!=='leto_auto'){
+      const b=document.createElement('button'); b.textContent=UI('save');
+      b.addEventListener('click',()=>{ localStorage.setItem(k,snapshot()); renderSlots(container,mode); });
+      wrap.appendChild(b);
+    }
+    if(raw){
+      const b2=document.createElement('button'); b2.textContent=UI('load');
+      b2.addEventListener('click',()=>{ closePanels(); loadFrom(raw); });
+      wrap.appendChild(b2);
+    }
+    row.appendChild(wrap); container.appendChild(row);
+  }
+}
+async function loadFrom(raw){
+  const d=JSON.parse(raw); V=d.V; P=d.P; lang=d.lang||lang; applyTexts();
+  $('title').style.display='none'; hideCard(); hideAllSpr();
+  bg[0].style.opacity=0; bg[1].style.opacity=0; box.classList.remove('on');
+  if(d.CUR){ await runLabelFrom(d.CUR.label, d.CUR.idx); }
+}
+async function runLabelFrom(label, idx){
+  const prev=CUR_LABEL; CUR_LABEL=label;
+  try{ await exec(DATA.program[label], idx); }
+  catch(e){ if(e&&e.__jump){ return runLabel(e.__jump); } if(e&&e.__end){ toTitle(); return; } if(e&&e.__ret){ return; } throw e; }
+  finally{ CUR_LABEL=prev; }
+}
+
+/* ---------- интерфейс ---------- */
+function closePanels(){ document.querySelectorAll('.panel').forEach(p=>p.classList.remove('on')); }
+function toTitle(){
+  box.classList.remove('on'); choicesEl.classList.remove('on'); hideCard(); hideAllSpr();
+  bg[0].style.opacity=0; bg[1].style.opacity=0;
+  $('title').style.display='flex'; applyTexts();
+}
+function applyTexts(){
+  $('b_hist').textContent=UI('history'); $('b_save').textContent=UI('save');
+  $('b_load').textContent=UI('load'); $('b_set').textContent=UI('settings');
+  $('b_menu').textContent=UI('menu');
+  $('p_hist').querySelector('h2').textContent=UI('history');
+  $('p_save').querySelector('h2').textContent=UI('save');
+  $('p_load').querySelector('h2').textContent=UI('load');
+  $('p_set').querySelector('h2').textContent=UI('settings');
+  $('set_speed_row').innerHTML=UI('speed')+': <input type="range" min="10" max="240" value="'+cps+'">';
+  $('set_speed_row').querySelector('input').addEventListener('input',e=>cps=+e.target.value);
+  $('set_vol_row').innerHTML=UI('music_vol')+': <input id="v_mus" type="range" min="0" max="100" value="'+Math.round(musVol*100)+'"> &nbsp; '+
+    UI('sfx_vol')+': <input id="v_sfx" type="range" min="0" max="100" value="'+Math.round(sfxVol*100)+'">';
+  $('v_mus').addEventListener('input',e=>{ musVol=+e.target.value/100; applyVols(); });
+  $('v_sfx').addEventListener('input',e=>{ sfxVol=+e.target.value/100; applyVols(); });
+  $('set_fs_row').innerHTML='<button class="tb" id="fs_btn" style="width:auto;padding:6px 16px"></button>';
+  $('fs_btn').textContent=UI('fullscreen');
+  $('fs_btn').addEventListener('click',()=>{
+    if(document.fullscreenElement){ document.exitFullscreen(); }
+    else if(document.documentElement.requestFullscreen){ document.documentElement.requestFullscreen(); }
+  });
+  $('set_about').textContent=UI('about');
+  document.title = lang==='en'? 'The Summer That Never Was — HTML5 demo' : 'Лето, которого не было — HTML5 демо';
+  $('title').querySelector('h1').textContent = lang==='en'? 'The Summer That Never Was':'Лето, которого не было';
+  $('title').querySelector('.sub').textContent = UI('tagline');
+  $('t_new').textContent=UI('new'); $('t_cont').textContent=UI('continue');
+  $('t_lang').textContent=UI('language')+': '+(lang==='ru'?'RU':'EN');
+  $('t_about').textContent=UI('about_b');
+  $('t_cont').style.display = localStorage.getItem('leto_auto')? 'block':'none';
+  if(DATA.images['menu_bg']){
+    $('title').style.background =
+      'linear-gradient(rgba(9,11,10,.45), rgba(9,11,10,.88)), url('+DATA.images['menu_bg']+') center/cover no-repeat';
+  }
+}
+function toggleLang(){ lang = lang==='ru'?'en':'ru'; localStorage.setItem('leto_lang',lang); applyTexts(); }
+
+stage.addEventListener('click', ()=>{
+  if(choicesEl.classList.contains('on')) return;
+  if(cardEl.classList.contains('on')){ advance(); return; }
+  if(typing){ finishType(); txtEl.textContent=box.dataset.text||''; return; }
+  advance();
+});
+document.addEventListener('keydown', e=>{
+  if(e.key===' '||e.key==='Enter'){ e.preventDefault();
+    if(typing){ finishType(); txtEl.textContent=box.dataset.text||''; } else advance(); }
+  if(e.key==='Escape'){ closePanels(); }
+});
+$('b_hist').addEventListener('click',e=>{ e.stopPropagation();
+  $('hist').innerHTML = hist.slice(-60).map(h=>'<div class="row">'+(h.w?'<b>'+h.w+':</b> ':'')+h.t+'</div>').join('') || '<div class="row">—</div>';
+  $('p_hist').classList.add('on'); });
+$('b_save').addEventListener('click',e=>{ e.stopPropagation(); renderSlots($('slots_s'),'save'); $('p_save').classList.add('on'); });
+$('b_load').addEventListener('click',e=>{ e.stopPropagation(); renderSlots($('slots_l'),'load'); $('p_load').classList.add('on'); });
+$('b_set').addEventListener('click',e=>{ e.stopPropagation(); $('p_set').classList.add('on'); });
+$('b_menu').addEventListener('click',e=>{ e.stopPropagation(); toTitle(); });
+$('b_lang').addEventListener('click',e=>{ e.stopPropagation(); toggleLang(); });
+document.querySelectorAll('.closeb').forEach(b=>b.addEventListener('click',e=>{ e.stopPropagation(); closePanels(); }));
+document.querySelectorAll('.panel').forEach(p=>p.addEventListener('click',e=>e.stopPropagation()));
+choicesEl.addEventListener('click',e=>e.stopPropagation());
+
+$('t_new').addEventListener('click',e=>{ e.stopPropagation(); V=defaults(); loadP(); hist=[];
+  $('title').style.display='none'; runLabel('start'); });
+$('t_cont').addEventListener('click',e=>{ e.stopPropagation(); const raw=localStorage.getItem('leto_auto'); if(raw) loadFrom(raw); });
+$('t_lang').addEventListener('click',e=>{ e.stopPropagation(); toggleLang(); });
+$('t_about').addEventListener('click',e=>{ e.stopPropagation(); $('p_set').classList.add('on'); });
+
+loadP(); V=defaults(); applyTexts(); toTitle();
+</script>
+</body>
+</html>

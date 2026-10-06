@@ -1,0 +1,79 @@
+# =============================================================================
+# .gitattributes для проекта «Лето, которого не было»
+# Единые переводы строк + правильная обработка бинарников
+# =============================================================================
+
+# --- Базовая политика: текст → LF в репо, автоконвертация при checkout ------
+* text=auto eol=lf
+
+# --- Windows-скрипты: остаются CRLF -----------------------------------------
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# --- Shell-скрипты: строго LF ----------------------------------------------
+*.sh  text eol=lf
+
+# --- Исходники (текст) ------------------------------------------------------
+*.rpy   text
+*.rpym  text
+*.tl    text
+*.md    text
+*.txt   text
+*.json  text
+*.py    text
+*.js    text
+*.html  text
+*.css   text
+*.yml   text
+*.yaml  text
+*.toml  text
+*.ini   text
+
+# --- Изображения (бинарные) -------------------------------------------------
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
+*.avif  binary
+*.gif   binary
+*.bmp   binary
+*.tif   binary
+*.tiff  binary
+*.ico   binary
+
+# --- Аудио (бинарные) -------------------------------------------------------
+*.ogg   binary
+*.opus  binary
+*.mp3   binary
+*.wav   binary
+*.flac  binary
+*.m4a   binary
+
+# --- Шрифты (бинарные) ------------------------------------------------------
+*.ttf   binary
+*.otf   binary
+*.woff  binary
+*.woff2 binary
+*.eot   binary
+
+# --- Архивы (бинарные) ------------------------------------------------------
+*.zip   binary
+*.tar   binary
+*.gz    binary
+*.7z    binary
+
+# --- Скомпилированное Ren'Py (бинарное) ------------------------------------
+*.rpa   binary
+*.rpyc  binary
+*.rpymc binary
+*.rpyb  binary
+
+# --- Диффы для нечитаемых файлов: не показывать как «изменение» -------------
+web_demo/index.html   -diff
+web_demo/game_data.json linguist-generated=true
+
+# --- Учёт языков на GitHub --------------------------------------------------
+docs/**/*.md  linguist-documentation
+README.md     linguist-documentation
+*.rpy         linguist-language=Python
+*.tl          linguist-language=Python
