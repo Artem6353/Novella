@@ -3,7 +3,7 @@
 ## ============================================================
 
 define config.name = _("Лето, которого не было / The Summer That Never Was")
-define config.version = "1.2.2"
+define config.version = "1.3.0"
 
 ## Уникальная папка сохранений (не пересекаться с другими проектами)
 define config.save_directory = "leto-kotorogo-ne-bylo-8"

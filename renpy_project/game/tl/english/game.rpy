@@ -2500,8 +2500,8 @@ translate english d1_night_walk_0003:
 # game/scenes/day01.rpy:848
 translate english d1_night_walk_0004:
 
-    # "«Смотря что ты понимаешь под словом „живой“»."
-    "«Depends on what you mean by ‘alive’»."
+    # "«Здесь так не бывает», — сказала она тогда у ворот. Я повторил это вслух, чтобы проверить, как оно звучит снаружи."
+    "'Here it doesn't work that way,' she had said at the gate. I repeated it out loud to check how it sounds from the outside."
 
 # game/scenes/day01.rpy:853
 translate english d1_night_walk_0005:
@@ -2923,805 +2923,805 @@ translate english d2_journal_0030:
     # "Ответов в журнале не было. В журналах вообще редко бывают ответы — там только отметки о том, что вопрос задавали."
     "There were no answers in the logbook. Logbooks rarely have answers — only marks that a question was asked."
 
-# game/scenes/day02.rpy:181
+# game/scenes/day02.rpy:183
 translate english d2_journal_0031:
 
     # "Я закрыл журнал и услышал, как за стеной кто-то включил радио."
     "I closed the logbook and heard someone switch on the radio behind the wall."
 
-# game/scenes/day02.rpy:184
+# game/scenes/day02.rpy:186
 translate english d2_journal_0032:
 
     # "Оно играло ровно четыре секунды и замолчало."
     "It played for exactly four seconds and went silent."
 
-# game/scenes/day02.rpy:205
+# game/scenes/day02.rpy:207
 translate english d2_radio_repair_0001:
 
     # "Вера снова возилась с проводами."
     "Vera was fussing with the wires again."
 
-# game/scenes/day02.rpy:207
+# game/scenes/day02.rpy:209
 translate english d2_radio_repair_0002:
 
     # "Радиоузел гудел, но эфир не выходил."
     "The radio room hummed, but the broadcast wouldn't go out."
 
-# game/scenes/day02.rpy:212
+# game/scenes/day02.rpy:214
 translate english d2_radio_repair_0003:
 
     # vera "Не работает. То есть работает, но не туда. Понимаешь разницу?"
     vera "It doesn't work. I mean it works, but not in the right direction. See the difference?"
 
-# game/scenes/day02.rpy:214
+# game/scenes/day02.rpy:216
 translate english d2_radio_repair_0004:
 
     # mc "Смутно."
     mc "Vaguely."
 
-# game/scenes/day02.rpy:216
+# game/scenes/day02.rpy:218
 translate english d2_radio_repair_0005:
 
     # vera "Отлично, значит, ты готов мне помочь. Держи отвёртку."
     vera "Great, then you're ready to help me. Hold the screwdriver."
 
-# game/scenes/day02.rpy:218
+# game/scenes/day02.rpy:220
 translate english d2_radio_repair_0006:
 
     # "На столе лежала схема, нарисованная от руки, и три кассеты без подписей."
     "On the table lay a hand-drawn schematic and three cassettes with no labels."
 
-# game/scenes/day02.rpy:220
+# game/scenes/day02.rpy:222
 translate english d2_radio_repair_0007:
 
     # vera "Антенна цела, кабель целый, а сигнал уходит внутрь и там остаётся. Как будто ему тут нравится."
     vera "The antenna is fine, the cable is fine, but the signal goes inside and stays there. As if it likes it here."
 
-# game/scenes/day02.rpy:222
+# game/scenes/day02.rpy:224
 translate english d2_radio_repair_0008:
 
     # mc "Вера, а зачем тебе эфир, если тебя никто не слушает?"
     mc "Vera, why do you need a broadcast if nobody listens to you?"
 
-# game/scenes/day02.rpy:227
+# game/scenes/day02.rpy:229
 translate english d2_radio_repair_0009:
 
     # vera "Как это — никто?"
     vera "What do you mean — nobody?"
 
-# game/scenes/day02.rpy:229
+# game/scenes/day02.rpy:231
 translate english d2_radio_repair_0010:
 
     # "Она сказала это так искренне, что я не стал спорить."
     "She said it so sincerely that I didn't argue."
 
-# game/scenes/day02.rpy:240
+# game/scenes/day02.rpy:242
 translate english d2_radio_repair_0011:
 
     # "Полтора часа, два ожога от паяльника и одна очень плохая шутка Веры про «радиолюбителя с руками из плеч»."
     "An hour and a half, two soldering-iron burns, and one very bad joke of Vera's about «a radio amateur with hands from his shoulders»."
 
-# game/scenes/day02.rpy:242
+# game/scenes/day02.rpy:244
 translate english d2_radio_repair_0012:
 
     # "Стрелка на панели дрогнула и встала."
     "The needle on the panel twitched and stood still."
 
-# game/scenes/day02.rpy:247
+# game/scenes/day02.rpy:249
 translate english d2_radio_repair_0013:
 
     # vera "Есть! Есть контакт! Ты гений, я гений, мы оба гении, но я больше!"
     vera "Yes! Contact! You're a genius, I'm a genius, we're both geniuses, but I'm more of one!"
 
-# game/scenes/day02.rpy:250
+# game/scenes/day02.rpy:252
 translate english d2_radio_repair_0014:
 
     # "Кассета щёлкнула, и из динамика вырвался голос."
     "A cassette clicked, and a voice broke out of the speaker."
 
-# game/scenes/day02.rpy:253
+# game/scenes/day02.rpy:255
 translate english d2_radio_repair_0015:
 
     # radio "…говорит радиоузел „Соснового берега“…"
     radio "…this is the radio room of ‘Pine Shore’ speaking…"
 
-# game/scenes/day02.rpy:255
+# game/scenes/day02.rpy:257
 translate english d2_radio_repair_0016:
 
     # radio "…всем отрядам построиться у…"
     radio "…all units line up at…"
 
-# game/scenes/day02.rpy:257
+# game/scenes/day02.rpy:259
 translate english d2_radio_repair_0017:
 
     # "И помехи."
     "And static."
 
-# game/scenes/day02.rpy:259
+# game/scenes/day02.rpy:261
 translate english d2_radio_repair_0018:
 
     # "Потом, сквозь помехи, прорвалось ещё одно слово. Мужской голос, молодой, сорванный:"
     "Then, through the static, one more word broke through. A male voice, young, torn:"
 
-# game/scenes/day02.rpy:261
+# game/scenes/day02.rpy:263
 translate english d2_radio_repair_0019:
 
     # young_voice "…кто-нибудь, ответьте…"
     young_voice "…somebody, answer…"
 
-# game/scenes/day02.rpy:263
+# game/scenes/day02.rpy:265
 translate english d2_radio_repair_0020:
 
     # "Я знал этот голос."
     "I knew that voice."
 
-# game/scenes/day02.rpy:265
+# game/scenes/day02.rpy:267
 translate english d2_radio_repair_0021:
 
     # "Так он звучал на единственной домашней записи, которую мама не выбросила."
     "That was how it sounded on the only home recording Mom hadn't thrown away."
 
-# game/scenes/day02.rpy:267
+# game/scenes/day02.rpy:269
 translate english d2_radio_repair_0022:
 
     # mc "Это кто?"
     mc "Who is that?"
 
-# game/scenes/day02.rpy:272
+# game/scenes/day02.rpy:274
 translate english d2_radio_repair_0023:
 
     # vera "Не знаю. Плёнка старая, я её нашла в шкафу."
     vera "I don't know. The tape is old, I found it in the cabinet."
 
-# game/scenes/day02.rpy:274
+# game/scenes/day02.rpy:282
 translate english d2_radio_repair_0024:
 
     # "Она потянулась выключить — и не выключила."
     "She reached to switch it off — and didn't."
 
-# game/scenes/day02.rpy:276
+# game/scenes/day02.rpy:284
 translate english d2_radio_repair_0025:
 
     # "Вера впервые за весь день замолчала."
     "Vera went silent for the first time all day."
 
-# game/scenes/day02.rpy:278
+# game/scenes/day02.rpy:286
 translate english d2_radio_repair_0026:
 
     # "Я считал секунды. На седьмой она не выдержала."
     "I counted the seconds. On the seventh she couldn't stand it."
 
-# game/scenes/day02.rpy:280
+# game/scenes/day02.rpy:288
 translate english d2_radio_repair_0027:
 
     # vera "Так. Ладно. Завтра — эфир. Настоящий. До конца. Без вот этого."
     vera "Okay. Fine. Tomorrow — a broadcast. A real one. To the end. Without this."
 
-# game/scenes/day02.rpy:282
+# game/scenes/day02.rpy:290
 translate english d2_radio_repair_0028:
 
     # mc "Без чего?"
     mc "Without what?"
 
-# game/scenes/day02.rpy:284
+# game/scenes/day02.rpy:292
 translate english d2_radio_repair_0029:
 
     # vera "Без пауз."
     vera "Without pauses."
 
-# game/scenes/day02.rpy:289
+# game/scenes/day02.rpy:297
 translate english d2_radio_repair_0030:
 
     # mc "У меня завтра автобус. Мне бы связь найти, а не антенну паять."
     mc "I have a bus tomorrow. I need to find a signal, not solder an antenna."
 
-# game/scenes/day02.rpy:294
+# game/scenes/day02.rpy:302
 translate english d2_radio_repair_0031:
 
     # vera "А, ну да. Логично. Очень логично."
     vera "Ah, right. Logical. Very logical."
 
-# game/scenes/day02.rpy:296
+# game/scenes/day02.rpy:304
 translate english d2_radio_repair_0032:
 
     # "Она отвернулась к пульту и заговорила с проводами — вслух, вежливо, как с посторонними."
     "She turned to the console and started talking to the wires — out loud, politely, as if to strangers."
 
-# game/scenes/day02.rpy:298
+# game/scenes/day02.rpy:306
 translate english d2_radio_repair_0033:
 
     # "Радио не починилось. Эфир в этот день не вышел."
     "The radio wasn't fixed. The broadcast didn't go out that day."
 
-# game/scenes/day02.rpy:300
+# game/scenes/day02.rpy:308
 translate english d2_radio_repair_0034:
 
     # mc "Я помогу завтра."
     mc "I'll help tomorrow."
 
-# game/scenes/day02.rpy:302
+# game/scenes/day02.rpy:310
 translate english d2_radio_repair_0035:
 
     # vera "Конечно поможешь. Все помогают завтра."
     vera "Of course you'll help. Everyone helps tomorrow."
 
-# game/scenes/day02.rpy:304
+# game/scenes/day02.rpy:312
 translate english d2_radio_repair_0036:
 
     # "Она улыбнулась. Улыбка была на месте, а глаза — нет."
     "She smiled. The smile was in place; the eyes weren't."
 
-# game/scenes/day02.rpy:329
+# game/scenes/day02.rpy:337
 translate english d2_lena_warning_0001:
 
     # "Я увидел её раньше, чем услышал: белая рубашка на фоне тёмной воды."
     "I saw her before I heard her: a white shirt against dark water."
 
-# game/scenes/day02.rpy:331
+# game/scenes/day02.rpy:339
 translate english d2_lena_warning_0002:
 
     # "Она стояла лицом к тропинке, а не к реке. Так стоят, когда ждут конкретного человека."
     "She stood facing the path, not the river. That's how people stand when they're waiting for a specific person."
 
-# game/scenes/day02.rpy:336
+# game/scenes/day02.rpy:344
 translate english d2_lena_warning_0003:
 
     # lena "Ты чувствуешь, что это место неправильное?"
     lena "Do you feel that this place is wrong?"
 
-# game/scenes/day02.rpy:338
+# game/scenes/day02.rpy:346
 translate english d2_lena_warning_0004:
 
     # mc "Я чувствую, что у меня второй день не заряжается телефон."
     mc "I feel that my phone hasn't charged for two days."
 
-# game/scenes/day02.rpy:340
+# game/scenes/day02.rpy:348
 translate english d2_lena_warning_0005:
 
     # lena "Артём."
     lena "Artyom."
 
-# game/scenes/day02.rpy:342
+# game/scenes/day02.rpy:350
 translate english d2_lena_warning_0006:
 
     # mc "Да?"
     mc "Yes?"
 
-# game/scenes/day02.rpy:344
+# game/scenes/day02.rpy:352
 translate english d2_lena_warning_0007:
 
     # lena "Завтра будет тот же день."
     lena "Tomorrow will be the same day."
 
-# game/scenes/day02.rpy:346
+# game/scenes/day02.rpy:354
 translate english d2_lena_warning_0008:
 
     # "Я ждал продолжения. Продолжения не было."
     "I waited for her to continue. There was no continuation."
 
-# game/scenes/day02.rpy:348
+# game/scenes/day02.rpy:356
 translate english d2_lena_warning_0009:
 
     # mc "В смысле — погода?"
     mc "You mean — the weather?"
 
-# game/scenes/day02.rpy:353
+# game/scenes/day02.rpy:361
 translate english d2_lena_warning_0010:
 
     # lena "В смысле — всё. Подъём в восемь. Плакат в столовой. Мальчик, который крикнет про линейку в семь. Я скажу тебе «не стоит», ты спросишь «почему»."
     lena "I mean — everything. Reveille at eight. The poster in the canteen. The boy who will shout about the line-up at seven. I'll tell you «you shouldn't», you'll ask «why»."
 
-# game/scenes/day02.rpy:355
+# game/scenes/day02.rpy:363
 translate english d2_lena_warning_0011:
 
     # lena "И послезавтра тоже. Я считала."
     lena "And the day after tomorrow too. I counted."
 
-# game/scenes/day02.rpy:357
+# game/scenes/day02.rpy:365
 translate english d2_lena_warning_0012:
 
     # mc "Сколько?"
     mc "How many?"
 
-# game/scenes/day02.rpy:359
+# game/scenes/day02.rpy:367
 translate english d2_lena_warning_0013:
 
     # "Она не ответила сразу."
     "She didn't answer at once."
 
-# game/scenes/day02.rpy:361
+# game/scenes/day02.rpy:369
 translate english d2_lena_warning_0014:
 
     # lena "Достаточно, чтобы перестать считать вслух."
     lena "Enough to stop counting out loud."
 
-# game/scenes/day02.rpy:369
+# game/scenes/day02.rpy:377
 translate english d2_lena_warning_0015:
 
     # mc "Хорошо. Допустим, я тебе верю. Что мне делать?"
     mc "All right. Suppose I believe you. What should I do?"
 
-# game/scenes/day02.rpy:374
+# game/scenes/day02.rpy:382
 translate english d2_lena_warning_0016:
 
     # lena "Смотреть. Слушать. И не уезжать девятнадцатого."
     lena "Look. Listen. And don't leave on the nineteenth."
 
-# game/scenes/day02.rpy:376
+# game/scenes/day02.rpy:384
 translate english d2_lena_warning_0017:
 
     # mc "А что будет девятнадцатого?"
     mc "And what happens on the nineteenth?"
 
-# game/scenes/day02.rpy:378
+# game/scenes/day02.rpy:386
 translate english d2_lena_warning_0018:
 
     # lena "Ничего."
     lena "Nothing."
 
-# game/scenes/day02.rpy:380
+# game/scenes/day02.rpy:388
 translate english d2_lena_warning_0019:
 
     # lena "В этом и проблема."
     lena "That's the problem."
 
-# game/scenes/day02.rpy:382
+# game/scenes/day02.rpy:390
 translate english d2_lena_warning_0020:
 
     # mc "Лена, я вчера нашёл билет двадцатилетней давности. Сегодня — журнал смен, где моя фамилия стоит рядом с твоей."
     mc "Lena, yesterday I found a ticket twenty years old. Today — a shift logbook where my surname stands next to yours."
 
-# game/scenes/day02.rpy:387
+# game/scenes/day02.rpy:395
 translate english d2_lena_warning_0021:
 
     # lena "Ты нашёл журнал?"
     lena "You found the logbook?"
 
-# game/scenes/day02.rpy:389
+# game/scenes/day02.rpy:397
 translate english d2_lena_warning_0022:
 
     # mc "Нашёл."
     mc "I found it."
 
-# game/scenes/day02.rpy:391
+# game/scenes/day02.rpy:399
 translate english d2_lena_warning_0023:
 
     # lena "Значит, лагерь решил, что ты готов."
     lena "Then the camp has decided you're ready."
 
-# game/scenes/day02.rpy:393
+# game/scenes/day02.rpy:401
 translate english d2_lena_warning_0024:
 
     # mc "Готов к чему?"
     mc "Ready for what?"
 
-# game/scenes/day02.rpy:398
+# game/scenes/day02.rpy:406
 translate english d2_lena_warning_0025:
 
     # lena "Не ходи сегодня к реке после заката. И если услышишь колокол — иди на него. Но не один."
     lena "Don't go to the river after sunset today. And if you hear the bell — go to it. But not alone."
 
-# game/scenes/day02.rpy:400
+# game/scenes/day02.rpy:408
 translate english d2_lena_warning_0026:
 
     # mc "Это два противоречащих совета."
     mc "Those are two contradictory pieces of advice."
 
-# game/scenes/day02.rpy:402
+# game/scenes/day02.rpy:410
 translate english d2_lena_warning_0027:
 
     # lena "Да. Выбери тот, который будет важнее."
     lena "Yes. Choose the one that will matter more."
 
-# game/scenes/day02.rpy:407
+# game/scenes/day02.rpy:417
 translate english d2_lena_warning_0028:
 
     # mc "Лена, это называется усталость. Я не спал, приехал, наглотался пыли."
     mc "Lena, it's called fatigue. I haven't slept, I traveled, I swallowed dust."
 
-# game/scenes/day02.rpy:409
+# game/scenes/day02.rpy:419
 translate english d2_lena_warning_0029:
 
     # mc "И ещё: я вчера нашёл в тумбочке журнал двадцатилетней давности. Это не мистика, это свалка."
     mc "And also: yesterday I found a twenty-year-old logbook in a nightstand. That's not mysticism, that's a dump."
 
-# game/scenes/day02.rpy:414
+# game/scenes/day02.rpy:424
 translate english d2_lena_warning_0030:
 
     # lena "Конечно."
     lena "Of course."
 
-# game/scenes/day02.rpy:416
+# game/scenes/day02.rpy:426
 translate english d2_lena_warning_0031:
 
     # "Она кивнула. Слишком быстро."
     "She nodded. Too quickly."
 
-# game/scenes/day02.rpy:418
+# game/scenes/day02.rpy:428
 translate english d2_lena_warning_0032:
 
     # lena "Ты прав. Я просто… не хочу быть единственной, кто это помнит."
     lena "You're right. I just… don't want to be the only one who remembers it."
 
-# game/scenes/day02.rpy:420
+# game/scenes/day02.rpy:430
 translate english d2_lena_warning_0033:
 
     # mc "Кто это — помнит?"
     mc "Remembers what?"
 
-# game/scenes/day02.rpy:422
+# game/scenes/day02.rpy:432
 translate english d2_lena_warning_0034:
 
     # "Но она уже смотрела на воду, и разговор закончился."
     "But she was already looking at the water, and the conversation ended."
 
-# game/scenes/day02.rpy:424
+# game/scenes/day02.rpy:434
 translate english d2_lena_warning_0035:
 
     # "Она не стала спорить. И это было хуже спора."
     "She didn't argue. And that was worse than an argument."
 
-# game/scenes/day02.rpy:448
+# game/scenes/day02.rpy:458
 translate english d2_night_check_0001:
 
     # "Небо над лагерем потемнело."
     "The sky over the camp darkened."
 
-# game/scenes/day02.rpy:450
+# game/scenes/day02.rpy:460
 translate english d2_night_check_0002:
 
     # "Площадь была пуста: ни детей, ни вожатых, ни дежурного света у корпуса."
     "The square was empty: no children, no counselors, no duty light by the barrack."
 
-# game/scenes/day02.rpy:452
+# game/scenes/day02.rpy:462
 translate english d2_night_check_0003:
 
     # "Только где-то далеко, на другой стороне, пробежал мальчик."
     "Only somewhere far away, on the other side, a boy ran past."
 
-# game/scenes/day02.rpy:454
+# game/scenes/day02.rpy:464
 translate english d2_night_check_0004:
 
     # child "Линейка в семь! Не опаздывай!"
     child "Line-up at seven! Don't be late!"
 
-# game/scenes/day02.rpy:456
+# game/scenes/day02.rpy:466
 translate english d2_night_check_0005:
 
     # "Те же слова. Та же интонация. Тот же самый мальчик."
     "The same words. The same intonation. The very same boy."
 
-# game/scenes/day02.rpy:458
+# game/scenes/day02.rpy:468
 translate english d2_night_check_0006:
 
     # "Я посмотрел на часы. Было начало одиннадцатого."
     "I looked at my watch. It was a little past ten."
 
-# game/scenes/day02.rpy:460
+# game/scenes/day02.rpy:470
 translate english d2_night_check_0007:
 
     # mc "Восемнадцатое августа. Опять."
     mc "The eighteenth of August. Again."
 
-# game/scenes/day02.rpy:462
+# game/scenes/day02.rpy:472
 translate english d2_night_check_0008:
 
     # "Я посмотрел на небо. Звёзды были на тех же местах, что и вчера. Не похоже — а именно на тех же."
     "I looked at the sky. The stars were in the same places as yesterday. Not similar — in the very same ones."
 
-# game/scenes/day02.rpy:464
+# game/scenes/day02.rpy:474
 translate english d2_night_check_0009:
 
     # "Где-то за корпусом скрипнули качели. Раз, два, три. Пауза."
     "Somewhere behind the barrack a swing creaked. One, two, three. Pause."
 
-# game/scenes/day02.rpy:466
+# game/scenes/day02.rpy:476
 translate english d2_night_check_0010:
 
     # "Я поймал себя на том, что жду четвёртого скрипа. Его не было."
     "I caught myself waiting for the fourth creak. There wasn't one."
 
-# game/scenes/day02.rpy:468
+# game/scenes/day02.rpy:478
 translate english d2_night_check_0011:
 
     # "Сегодня я узнал достаточно. Или почти достаточно."
     "Today I learned enough. Or almost enough."
 
-# game/scenes/day02.rpy:470
+# game/scenes/day02.rpy:480
 translate english d2_night_check_0012:
 
     # "Из-за деревьев донёсся звук, которого в лагере быть не могло."
     "From behind the trees came a sound that couldn't exist in this camp."
 
-# game/scenes/day02.rpy:473
+# game/scenes/day02.rpy:483
 translate english d2_night_check_0013:
 
     # "Колокол. Один удар. Потом ещё один — тише, будто кто-то пробовал его на звук."
     "A bell. One strike. Then another — quieter, as if someone were testing its sound."
 
-# game/scenes/day02.rpy:475
+# game/scenes/day02.rpy:485
 translate english d2_night_check_0014:
 
     # "Я не хотел идти."
     "I didn't want to go."
 
-# game/scenes/day02.rpy:477
+# game/scenes/day02.rpy:487
 translate english d2_night_check_0015:
 
     # "Я пошёл."
     "I went."
 
-# game/scenes/day02.rpy:481
+# game/scenes/day02.rpy:491
 translate english d2_night_check_0016:
 
     # "Сегодня я не узнал почти ничего."
     "Today I learned almost nothing."
 
-# game/scenes/day02.rpy:483
+# game/scenes/day02.rpy:493
 translate english d2_night_check_0017:
 
     # "Ни звука, ни знака, ни повода остаться."
     "No sound, no sign, no reason to stay."
 
-# game/scenes/day02.rpy:485
+# game/scenes/day02.rpy:495
 translate english d2_night_check_0018:
 
     # "Я лёг спать и сказал себе, что завтра уеду первым же автобусом."
     "I went to bed and told myself that tomorrow I'd leave on the first bus."
 
-# game/scenes/day02.rpy:487
+# game/scenes/day02.rpy:497
 translate english d2_night_check_0019:
 
     # "Мне даже удалось в это поверить. На четыре минуты."
     "I even managed to believe it. For four minutes."
 
-# game/scenes/day02.rpy:510
+# game/scenes/day02.rpy:520
 translate english d2_night_forest_0001:
 
     # "В лесу было темно и тихо."
     "It was dark and quiet in the forest."
 
-# game/scenes/day02.rpy:512
+# game/scenes/day02.rpy:522
 translate english d2_night_forest_0002:
 
     # "Слишком тихо: ни комаров, ни листвы, ни ночных птиц."
     "Too quiet: no mosquitoes, no leaves, no night birds."
 
-# game/scenes/day02.rpy:514
+# game/scenes/day02.rpy:524
 translate english d2_night_forest_0003:
 
     # "Где-то в глубине звенел старый колокол."
     "Somewhere in the depths an old bell rang."
 
-# game/scenes/day02.rpy:517
+# game/scenes/day02.rpy:527
 translate english d2_night_forest_0004:
 
     # "Тропинка шла под уклон, к воде. Воздух стал тяжёлым и пах мокрой корой."
     "The path sloped down toward the water. The air grew heavy and smelled of wet bark."
 
-# game/scenes/day02.rpy:520
+# game/scenes/day02.rpy:530
 translate english d2_night_forest_0005:
 
     # "Я остановился."
     "I stopped."
 
-# game/scenes/day02.rpy:522
+# game/scenes/day02.rpy:532
 translate english d2_night_forest_0006:
 
     # "Впереди, у самого спуска, стоял свет. Не фонарь на столбе — фонарь в руке."
     "Ahead, at the very descent, stood a light. Not a lantern on a pole — a lantern in a hand."
 
-# game/scenes/day02.rpy:524
+# game/scenes/day02.rpy:534
 translate english d2_night_forest_0007:
 
     # "Свет качнулся три раза. Влево, вправо, вниз."
     "The light swayed three times. Left, right, down."
 
-# game/scenes/day02.rpy:526
+# game/scenes/day02.rpy:536
 translate english d2_night_forest_0008:
 
     # "Как сигнал."
     "Like a signal."
 
-# game/scenes/day02.rpy:528
+# game/scenes/day02.rpy:538
 translate english d2_night_forest_0009:
 
     # mc "Эй! Тут кто-нибудь есть?"
     mc "Hey! Is anyone there?"
 
-# game/scenes/day02.rpy:530
+# game/scenes/day02.rpy:540
 translate english d2_night_forest_0010:
 
     # "Никто не ответил. Свет погас."
     "Nobody answered. The light went out."
 
-# game/scenes/day02.rpy:540
+# game/scenes/day02.rpy:550
 translate english d2_night_forest_0011:
 
     # "Я спустился к воде, спотыкаясь о корни."
     "I went down to the water, stumbling over roots."
 
-# game/scenes/day02.rpy:542
+# game/scenes/day02.rpy:552
 translate english d2_night_forest_0012:
 
     # "Там, где тропинка упиралась в старый причал, под корягой, придавленная камнем, лежала фотография."
     "Where the path met the old pier, under a snag, pressed down by a stone, lay a photograph."
 
-# game/scenes/day02.rpy:544
+# game/scenes/day02.rpy:554
 translate english d2_night_forest_0013:
 
     # "Двадцать человек в два ряда. Внизу от руки: «20-я смена. 18.08»."
     "Twenty people in two rows. At the bottom, in handwriting: «20th shift. 18.08»."
 
-# game/scenes/day02.rpy:546
+# game/scenes/day02.rpy:556
 translate english d2_night_forest_0014:
 
     # "Слева стояла Лена. Такая же, как сейчас. Ни на год старше."
     "On the left stood Lena. The same as now. Not a year older."
 
-# game/scenes/day02.rpy:548
+# game/scenes/day02.rpy:558
 translate english d2_night_forest_0015:
 
     # "Рядом с ней — молодой парень в рубашке с чужого плеча."
     "Next to her — a young guy in a shirt off someone else's shoulder."
 
-# game/scenes/day02.rpy:550
+# game/scenes/day02.rpy:560
 translate english d2_night_forest_0016:
 
     # "Я узнал его по часам. Ремешка не было и тогда."
     "I recognized him by the watch. There was no strap back then either."
 
-# game/scenes/day02.rpy:552
+# game/scenes/day02.rpy:562
 translate english d2_night_forest_0017:
 
     # mc "Пап. Какого чёрта."
     mc "Dad. What the hell."
 
-# game/scenes/day02.rpy:554
+# game/scenes/day02.rpy:564
 translate english d2_night_forest_0018:
 
     # "На обороте, тем же почерком, что и на билете:"
     "On the back, in the same handwriting as the ticket:"
 
-# game/scenes/day02.rpy:556
+# game/scenes/day02.rpy:566
 translate english d2_night_forest_0019:
 
     # "«Лена и И. Пусть это лето не кончается»."
     "«Lena and I. May this summer never end»."
 
-# game/scenes/day02.rpy:558
+# game/scenes/day02.rpy:568
 translate english d2_night_forest_0020:
 
     # "Я стоял очень долго."
     "I stood there for a very long time."
 
-# game/scenes/day02.rpy:560
+# game/scenes/day02.rpy:570
 translate english d2_night_forest_0021:
 
     # "Потом колокол ударил ещё раз — и замолчал совсем."
     "Then the bell struck once more — and fell silent completely."
 
-# game/scenes/day02.rpy:562
+# game/scenes/day02.rpy:572
 translate english d2_night_forest_0022:
 
     # "Я сунул фотографию за пазуху, рядом с билетом."
     "I put the photograph inside my jacket, next to the ticket."
 
-# game/scenes/day02.rpy:564
+# game/scenes/day02.rpy:574
 translate english d2_night_forest_0023:
 
     # "Два куска бумаги, которые двадцать лет ждали, пока их кто-нибудь прочитает."
     "Two pieces of paper that had waited twenty years for someone to read them."
 
-# game/scenes/day02.rpy:567
+# game/scenes/day02.rpy:577
 translate english d2_night_forest_0024:
 
     # "Я развернулся и пошёл обратно."
     "I turned around and walked back."
 
-# game/scenes/day02.rpy:569
+# game/scenes/day02.rpy:579
 translate english d2_night_forest_0025:
 
     # "За спиной кто-то тихо сказал: «Правильно»."
     "Behind my back someone said quietly: «Right»."
 
-# game/scenes/day02.rpy:571
+# game/scenes/day02.rpy:581
 translate english d2_night_forest_0026:
 
     # "Я не стал проверять, кто."
     "I didn't check who."
 
-# game/scenes/day02.rpy:573
+# game/scenes/day02.rpy:583
 translate english d2_night_forest_0027:
 
     # "Что-то осталось скрытым в темноте. И, кажется, темнота была этому рада."
     "Something remained hidden in the dark. And, it seemed, the dark was glad about it."
 
-# game/scenes/day02.rpy:575
+# game/scenes/day02.rpy:585
 translate english d2_night_forest_0028:
 
     # mc "Нет. Ночью по лесу я не хожу. Это не трусость, это статистика."
     mc "No. I don't walk in the forest at night. It's not cowardice, it's statistics."
 
-# game/scenes/day02.rpy:578
+# game/scenes/day02.rpy:588
 translate english d2_night_forest_0029:
 
     # "Я стоял у кромки воды и смотрел на причал."
     "I stood at the water's edge and looked at the pier."
 
-# game/scenes/day02.rpy:580
+# game/scenes/day02.rpy:590
 translate english d2_night_forest_0030:
 
     # "Доски были мокрые, хотя дождя не было."
     "The boards were wet, although there had been no rain."
 
-# game/scenes/day02.rpy:582
+# game/scenes/day02.rpy:592
 translate english d2_night_forest_0031:
 
     # "Самая крайняя секция провисла, и под ней темнела вода — чёрная, без отражений."
     "The outermost section sagged, and under it the water stood dark — black, without reflections."
 
-# game/scenes/day02.rpy:584
+# game/scenes/day02.rpy:594
 translate english d2_night_forest_0032:
 
     # mc "Значит, вот ты какой."
     mc "So that's what you're like."
 
-# game/scenes/day02.rpy:586
+# game/scenes/day02.rpy:596
 translate english d2_night_forest_0033:
 
     # "Я не стал подходить ближе. Лента на тропинке висела не просто так."
     "I didn't go closer. The ribbon on the path wasn't hung for nothing."
 
-# game/scenes/day02.rpy:588
+# game/scenes/day02.rpy:598
 translate english d2_night_forest_0034:
 
     # "На обратной стороне фотографии, которую я поднял под корягой, был приклеен ещё один кусочек бумаги — маленький, в два ногтя."
     "On the back of the photograph I'd picked up under the snag, another scrap of paper was glued — tiny, two fingernails wide."
 
-# game/scenes/day02.rpy:590
+# game/scenes/day02.rpy:600
 translate english d2_night_forest_0035:
 
     # "Я поднёс его к свету."
     "I held it up to the light."
 
-# game/scenes/day02.rpy:592
+# game/scenes/day02.rpy:602
 translate english d2_night_forest_0036:
 
     # "Это был обрывок расписания: «19:00 — линейка». И ниже, карандашом: «не опаздывай»."
     "It was a scrap of the schedule: «19:00 — line-up». And below, in pencil: «don't be late»."
 
-# game/scenes/day02.rpy:594
+# game/scenes/day02.rpy:604
 translate english d2_night_forest_0037:
 
     # mc "Значит, ты знал, что не успеешь."
     mc "So you knew you wouldn't make it."
 
-# game/scenes/day02.rpy:597
+# game/scenes/day02.rpy:607
 translate english d2_night_forest_0038:
 
     # "Под ногами что-то хрустнуло. Я не стал смотреть что."
     "Something crunched under my feet. I didn't look to see what."
 
-# game/scenes/day02.rpy:599
+# game/scenes/day02.rpy:609
 translate english d2_night_forest_0039:
 
     # "Всю обратную дорогу я думал о том, что оставил под корягой — там, куда не дошёл."
     "All the way back I thought about what I'd left under the snag — there, where I hadn't reached."
 
-# game/scenes/day02.rpy:601
+# game/scenes/day02.rpy:611
 translate english d2_night_forest_0040:
 
     # "Думать об этом было удобнее, чем возвращаться."
     "Thinking about it was more comfortable than going back."
 
-# game/scenes/day02.rpy:603
+# game/scenes/day02.rpy:613
 translate english d2_night_forest_0041:
 
     # "Обратно я шёл быстрее, чем сюда."
     "I walked back faster than I'd walked here."
 
-# game/scenes/day02.rpy:605
+# game/scenes/day02.rpy:615
 translate english d2_night_forest_0042:
 
     # "И всю дорогу мне казалось, что кто-то идёт в такт, на два шага позади."
@@ -4090,1018 +4090,1018 @@ translate english d3_lena_branch_0048:
 # game/scenes/day03.rpy:205
 translate english d3_lena_branch_0049:
 
-    # "Она улыбнулась. И повторила фразу, которую сказала мне у ворот — слово в слово:"
-    "She smiled. And repeated the phrase she had said to me at the gates — word for word:"
+    # "Она улыбнулась. Устало — как улыбаются люди, которые решили больше не прятаться."
+    "She smiled. Wearily — the way people smile when they have decided to stop hiding."
 
 # game/scenes/day03.rpy:207
 translate english d3_lena_branch_0050:
 
-    # lena_e "Смотря что ты понимаешь под словом «живой»."
-    lena_e "Depends on what you mean by «alive»."
+    # lena "Я не загадка, Артём. Я человек, который остался. Спрашивай словами — я отвечу словами."
+    lena "I'm not a riddle, Artyom. I'm a person who stayed behind. Ask me in words — and I'll answer in words."
 
 # game/scenes/day03.rpy:209
 translate english d3_lena_branch_0051:
 
-    # "Голос прозвучал дважды. Второй раз — из дальнего угла вожатской, где никого не было."
-    "The voice sounded twice. The second time — from the far corner of the counselors' room, where there was nobody."
+    # "Впервые её голос прозвучал один раз. Просто один — как обычный человеческий голос."
+    "For the first time her voice sounded once. Only once — like any ordinary voice."
 
-# game/scenes/day03.rpy:236
+# game/scenes/day03.rpy:246
 translate english d3_vera_branch_0001:
 
     # "Вера включила радиоузел."
     "Vera switched on the radio room."
 
-# game/scenes/day03.rpy:238
+# game/scenes/day03.rpy:248
 translate english d3_vera_branch_0002:
 
     # "Вернее, включила его целиком: оба микрофона, все шесть кассет, лампу на пульте и даже тот самый шатающийся стул — он, кажется, тоже работал от сети."
     "Rather, she switched it on entirely: both microphones, all six cassettes, the lamp on the console, and even that very wobbly chair — it seemed to run on mains power too."
 
-# game/scenes/day03.rpy:243
+# game/scenes/day03.rpy:253
 translate english d3_vera_branch_0003:
 
     # vera "Сегодня мы закончим эфир."
     vera "Today we'll finish the broadcast."
 
-# game/scenes/day03.rpy:245
+# game/scenes/day03.rpy:255
 translate english d3_vera_branch_0004:
 
     # mc "Какой эфир? У тебя выпуск на завтра."
     mc "Which broadcast? You have tomorrow's episode."
 
-# game/scenes/day03.rpy:247
+# game/scenes/day03.rpy:257
 translate english d3_vera_branch_0005:
 
     # vera "Не тот. Другой. Тот, который оборвался."
     vera "Not that one. The other one. The one that cut off."
 
-# game/scenes/day03.rpy:249
+# game/scenes/day03.rpy:259
 translate english d3_vera_branch_0006:
 
     # "Она высыпала на стол кассеты. У трёх были подписи, у трёх — нет."
     "She poured the cassettes onto the table. Three had labels, three didn't."
 
-# game/scenes/day03.rpy:251
+# game/scenes/day03.rpy:261
 translate english d3_vera_branch_0007:
 
     # vera "Вот эта — моя. Вот эта — тоже моя. А вот эта… послушай."
     vera "This one is mine. This one is mine too. And this one… listen."
 
-# game/scenes/day03.rpy:254
+# game/scenes/day03.rpy:264
 translate english d3_vera_branch_0008:
 
     # radio "…всем отрядам построиться у…"
     radio "…all units line up at…"
 
-# game/scenes/day03.rpy:256
+# game/scenes/day03.rpy:266
 translate english d3_vera_branch_0009:
 
     # "Помехи."
     "Static."
 
-# game/scenes/day03.rpy:258
+# game/scenes/day03.rpy:268
 translate english d3_vera_branch_0010:
 
     # mc "Ты это уже включала вчера."
     mc "You already played this yesterday."
 
-# game/scenes/day03.rpy:263
+# game/scenes/day03.rpy:273
 translate english d3_vera_branch_0011:
 
     # vera "Вчера я включала плёнку. Сегодня — микрофон."
     vera "Yesterday I played a tape. Today — a microphone."
 
-# game/scenes/day03.rpy:265
+# game/scenes/day03.rpy:275
 translate english d3_vera_branch_0012:
 
     # "Она перемотала. Нажала «запись». Нажала «стоп»."
     "She rewound. Pressed «record». Pressed «stop»."
 
-# game/scenes/day03.rpy:267
+# game/scenes/day03.rpy:277
 translate english d3_vera_branch_0013:
 
     # vera "Слушай."
     vera "Listen."
 
-# game/scenes/day03.rpy:270
+# game/scenes/day03.rpy:280
 translate english d3_vera_branch_0014:
 
     # "Из динамика пошёл её собственный голос."
     "From the speaker came her own voice."
 
-# game/scenes/day03.rpy:272
+# game/scenes/day03.rpy:282
 translate english d3_vera_branch_0015:
 
     # vera "…и передаём привет четвёртому отряду, который опять украл микрофон…"
     vera "…and we say hello to the fourth unit, who stole the microphone again…"
 
-# game/scenes/day03.rpy:277
+# game/scenes/day03.rpy:287
 translate english d3_vera_branch_0016:
 
     # vera "Стоп. Я этого не говорила."
     vera "Stop. I didn't say that."
 
-# game/scenes/day03.rpy:279
+# game/scenes/day03.rpy:289
 translate english d3_vera_branch_0017:
 
     # mc "Когда?"
     mc "When?"
 
-# game/scenes/day03.rpy:281
+# game/scenes/day03.rpy:291
 translate english d3_vera_branch_0018:
 
     # vera "Никогда. Это я скажу через минуту. Я уже придумала эту фразу, но ещё не сказала."
     vera "Never. I'll say it in a minute. I've already thought up this phrase, but I haven't said it yet."
 
-# game/scenes/day03.rpy:283
+# game/scenes/day03.rpy:293
 translate english d3_vera_branch_0019:
 
     # "Пауза. Две секунды. Для Веры — почти катастрофа."
     "A pause. Two seconds. For Vera — almost a catastrophe."
 
-# game/scenes/day03.rpy:285
+# game/scenes/day03.rpy:295
 translate english d3_vera_branch_0020:
 
     # vera "Ладно. Ладно! Значит, я хотя бы не пропала из эфира."
     vera "Okay. Okay! Then at least I didn't vanish from the air."
 
-# game/scenes/day03.rpy:287
+# game/scenes/day03.rpy:297
 translate english d3_vera_branch_0021:
 
     # mc "Вера."
     mc "Vera."
 
-# game/scenes/day03.rpy:292
+# game/scenes/day03.rpy:302
 translate english d3_vera_branch_0022:
 
     # vera "Не надо меня жалеть, я этого не выношу, у меня от жалости сразу голос садится, а мне ещё двенадцать минут говорить."
     vera "Don't pity me, I can't stand it, from pity my voice gives out at once, and I still have twelve minutes to speak."
 
-# game/scenes/day03.rpy:294
+# game/scenes/day03.rpy:304
 translate english d3_vera_branch_0023:
 
     # mc "Я не собирался."
     mc "I wasn't going to."
 
-# game/scenes/day03.rpy:296
+# game/scenes/day03.rpy:306
 translate english d3_vera_branch_0024:
 
     # vera "Отлично. Тогда держи лист, будешь хронометражистом."
     vera "Great. Then hold the sheet, you'll be the timekeeper."
 
-# game/scenes/day03.rpy:301
+# game/scenes/day03.rpy:311
 translate english d3_vera_branch_0025:
 
     # "Следующие два часа мы монтировали выпуск из обрывков: её голос, чужой голос, помехи, песня про костёр и четыре секунды тишины, которые Вера вырезала лично."
     "For the next two hours we assembled the episode from fragments: her voice, someone else's voice, static, a song about a campfire, and four seconds of silence that Vera cut out personally."
 
-# game/scenes/day03.rpy:303
+# game/scenes/day03.rpy:313
 translate english d3_vera_branch_0026:
 
     # vera "Тишину не оставляем. Никогда."
     vera "We don't keep the silence. Ever."
 
-# game/scenes/day03.rpy:305
+# game/scenes/day03.rpy:315
 translate english d3_vera_branch_0027:
 
     # mc "Почему?"
     mc "Why?"
 
-# game/scenes/day03.rpy:310
+# game/scenes/day03.rpy:320
 translate english d3_vera_branch_0028:
 
     # vera "Потому что в тишине слышно, как лагерь повторяется."
     vera "Because in silence you can hear the camp repeating."
 
-# game/scenes/day03.rpy:312
+# game/scenes/day03.rpy:322
 translate english d3_vera_branch_0029:
 
     # mc "И как?"
     mc "And how does it sound?"
 
-# game/scenes/day03.rpy:314
+# game/scenes/day03.rpy:324
 translate english d3_vera_branch_0030:
 
     # vera "Как заезженная пластинка. Только заезженная — это мы."
     vera "Like a scratched record. Only the scratched part is us."
 
-# game/scenes/day03.rpy:316
+# game/scenes/day03.rpy:326
 translate english d3_vera_branch_0031:
 
     # mc "Вера, ты сейчас сама себя перебила."
     mc "Vera, you just interrupted yourself."
 
-# game/scenes/day03.rpy:318
+# game/scenes/day03.rpy:328
 translate english d3_vera_branch_0032:
 
     # vera "Я себя процитировала. В моём эфире даже цитаты под цензурой."
     vera "I quoted myself. On my air even quotes are censored."
 
-# game/scenes/day03.rpy:323
+# game/scenes/day03.rpy:333
 translate english d3_vera_branch_0033:
 
     # "Она засмеялась — и на этот раз смех был нужной длины."
     "She laughed — and this time the laugh was the right length."
 
-# game/scenes/day03.rpy:325
+# game/scenes/day03.rpy:335
 translate english d3_vera_branch_0034:
 
     # "В самом конце мы записали объявление:"
     "At the very end we recorded the announcement:"
 
-# game/scenes/day03.rpy:327
+# game/scenes/day03.rpy:337
 translate english d3_vera_branch_0035:
 
     # vera "Говорит радиоузел лагеря «Сосновый берег». Смена двадцатая. Закрытие — завтра в девятнадцать ноль-ноль."
     vera "This is the radio room of Pine Shore camp speaking. Twentieth shift. Closing — tomorrow at nineteen hundred hours."
 
-# game/scenes/day03.rpy:329
+# game/scenes/day03.rpy:339
 translate english d3_vera_branch_0036:
 
     # "Она нажала «стоп» и посмотрела на меня."
     "She pressed «stop» and looked at me."
 
-# game/scenes/day03.rpy:334
+# game/scenes/day03.rpy:344
 translate english d3_vera_branch_0037:
 
     # vera "Завтра это должно выйти в эфир. Настоящим голосом. Придёшь?"
     vera "Tomorrow this has to go on air. In a real voice. Will you come?"
 
-# game/scenes/day03.rpy:336
+# game/scenes/day03.rpy:346
 translate english d3_vera_branch_0038:
 
     # mc "Приду."
     mc "I'll come."
 
-# game/scenes/day03.rpy:338
+# game/scenes/day03.rpy:348
 translate english d3_vera_branch_0039:
 
     # vera "Хорошо. Потому что одному нельзя. Если в эфире один голос — это монолог. А нам нужен именно эфир."
     vera "Good. Because one person can't. If there's one voice on air — that's a monologue. And what we need is precisely a broadcast."
 
-# game/scenes/day03.rpy:363
+# game/scenes/day03.rpy:373
 translate english d3_zoya_branch_0001:
 
     # "Зоя разложила рисунки на столе."
     "Zoya laid the drawings out on the table."
 
-# game/scenes/day03.rpy:365
+# game/scenes/day03.rpy:375
 translate english d3_zoya_branch_0002:
 
     # "Три стопки. Ровные, как будто их мерили линейкой."
     "Three stacks. Even, as if measured with a ruler."
 
-# game/scenes/day03.rpy:370
+# game/scenes/day03.rpy:380
 translate english d3_zoya_branch_0003:
 
     # zoya "Слева — было. Посередине — есть. Справа — будет."
     zoya "On the left — was. In the middle — is. On the right — will be."
 
-# game/scenes/day03.rpy:372
+# game/scenes/day03.rpy:382
 translate english d3_zoya_branch_0004:
 
     # mc "Ты серьёзно?"
     mc "Are you serious?"
 
-# game/scenes/day03.rpy:374
+# game/scenes/day03.rpy:384
 translate english d3_zoya_branch_0005:
 
     # zoya "Я всегда серьёзно. Это утомительно."
     zoya "I'm always serious. It's exhausting."
 
-# game/scenes/day03.rpy:376
+# game/scenes/day03.rpy:386
 translate english d3_zoya_branch_0006:
 
     # "Я взял левую стопку."
     "I took the left stack."
 
-# game/scenes/day03.rpy:378
+# game/scenes/day03.rpy:388
 translate english d3_zoya_branch_0007:
 
     # "Первый лист: я у ворот, рядом фигура, закат. Подпись в углу: «день 0»."
     "First sheet: me at the gates, a figure nearby, sunset. Signature in the corner: «day 0»."
 
-# game/scenes/day03.rpy:380
+# game/scenes/day03.rpy:390
 translate english d3_zoya_branch_0008:
 
     # "Второй: столовая, плакат падает на голову девушке в футболке «20-я смена»."
     "Second: the canteen, a poster falling on the head of a girl in a «20th shift» T-shirt."
 
-# game/scenes/day03.rpy:382
+# game/scenes/day03.rpy:392
 translate english d3_zoya_branch_0009:
 
     # "Третий: площадь, я стою один, и от меня уходит тень в другую сторону."
     "Third: the square, me standing alone, and my shadow going off in a different direction."
 
-# game/scenes/day03.rpy:384
+# game/scenes/day03.rpy:394
 translate english d3_zoya_branch_0010:
 
     # mc "Это было вчера."
     mc "That was yesterday."
 
-# game/scenes/day03.rpy:386
+# game/scenes/day03.rpy:396
 translate english d3_zoya_branch_0011:
 
     # zoya "Да."
     zoya "Yes."
 
-# game/scenes/day03.rpy:388
+# game/scenes/day03.rpy:398
 translate english d3_zoya_branch_0012:
 
     # mc "Зоя. Я приехал три дня назад. Откуда у тебя рисунки трёхдневной давности, которые я вижу впервые?"
     mc "Zoya. I arrived three days ago. Where do you have drawings three days old that I'm seeing for the first time?"
 
-# game/scenes/day03.rpy:393
+# game/scenes/day03.rpy:403
 translate english d3_zoya_branch_0013:
 
     # zoya "Они не трёхдневной давности."
     zoya "They aren't three days old."
 
-# game/scenes/day03.rpy:395
+# game/scenes/day03.rpy:405
 translate english d3_zoya_branch_0014:
 
     # mc "А какой?"
     mc "How old, then?"
 
-# game/scenes/day03.rpy:397
+# game/scenes/day03.rpy:407
 translate english d3_zoya_branch_0015:
 
     # zoya "Не знаю. Я их рисую, а они уже случились."
     zoya "I don't know. I draw them, and they've already happened."
 
-# game/scenes/day03.rpy:399
+# game/scenes/day03.rpy:409
 translate english d3_zoya_branch_0016:
 
     # "Я взял среднюю стопку. На верхнем листе был радиоузел: пульт, микрофон, две фигуры, и одна из них держала лист бумаги."
     "I took the middle stack. On the top sheet was the radio room: console, microphone, two figures, and one of them holding a sheet of paper."
 
-# game/scenes/day03.rpy:401
+# game/scenes/day03.rpy:411
 translate english d3_zoya_branch_0017:
 
     # "В углу — сегодняшняя дата."
     "In the corner — today's date."
 
-# game/scenes/day03.rpy:403
+# game/scenes/day03.rpy:413
 translate english d3_zoya_branch_0018:
 
     # mc "Это сейчас?"
     mc "Is this now?"
 
-# game/scenes/day03.rpy:405
+# game/scenes/day03.rpy:415
 translate english d3_zoya_branch_0019:
 
     # zoya "Это сегодня."
     zoya "That's today."
 
-# game/scenes/day03.rpy:407
+# game/scenes/day03.rpy:417
 translate english d3_zoya_branch_0020:
 
     # "Правая стопка была самая тонкая. Два листа и один пустой."
     "The right stack was the thinnest. Two sheets and one blank."
 
-# game/scenes/day03.rpy:409
+# game/scenes/day03.rpy:419
 translate english d3_zoya_branch_0021:
 
     # "Первый: причал. Вода. Фигура с фонарём в поднятой руке. И ещё одна фигура — маленькая, внизу, почти неразличимая."
     "First: the pier. Water. A figure with a lantern in a raised hand. And one more figure — small, at the bottom, almost indistinguishable."
 
-# game/scenes/day03.rpy:411
+# game/scenes/day03.rpy:421
 translate english d3_zoya_branch_0022:
 
     # mc "Это дети?"
     mc "Are those children?"
 
-# game/scenes/day03.rpy:413
+# game/scenes/day03.rpy:423
 translate english d3_zoya_branch_0023:
 
     # zoya "Это те, кого надо было увести."
     zoya "Those are the ones who had to be led away."
 
-# game/scenes/day03.rpy:415
+# game/scenes/day03.rpy:425
 translate english d3_zoya_branch_0024:
 
     # "Второй: площадь на рассвете, сцена, четыре фигуры рядом. Лица не прорисованы."
     "Second: the square at dawn, the stage, four figures side by side. The faces aren't drawn in."
 
-# game/scenes/day03.rpy:417
+# game/scenes/day03.rpy:427
 translate english d3_zoya_branch_0025:
 
     # mc "А четвёртый кто?"
     mc "And who's the fourth?"
 
-# game/scenes/day03.rpy:422
+# game/scenes/day03.rpy:432
 translate english d3_zoya_branch_0026:
 
     # zoya "Ты."
     zoya "You."
 
-# game/scenes/day03.rpy:424
+# game/scenes/day03.rpy:434
 translate english d3_zoya_branch_0027:
 
     # mc "А ты где?"
     mc "And where are you?"
 
-# game/scenes/day03.rpy:426
+# game/scenes/day03.rpy:436
 translate english d3_zoya_branch_0028:
 
     # zoya "Я рисую."
     zoya "I'm drawing."
 
-# game/scenes/day03.rpy:428
+# game/scenes/day03.rpy:438
 translate english d3_zoya_branch_0029:
 
     # "Пустой лист лежал между ними. Она положила на него ладонь."
     "The blank sheet lay between them. She put her palm on it."
 
-# game/scenes/day03.rpy:430
+# game/scenes/day03.rpy:440
 translate english d3_zoya_branch_0030:
 
     # mc "Это тот, который ты боишься?"
     mc "Is that the one you're afraid of?"
 
-# game/scenes/day03.rpy:432
+# game/scenes/day03.rpy:442
 translate english d3_zoya_branch_0031:
 
     # zoya "Да."
     zoya "Yes."
 
-# game/scenes/day03.rpy:434
+# game/scenes/day03.rpy:444
 translate english d3_zoya_branch_0032:
 
     # mc "Почему?"
     mc "Why?"
 
-# game/scenes/day03.rpy:436
+# game/scenes/day03.rpy:446
 translate english d3_zoya_branch_0033:
 
     # zoya "Потому что на нём то, чем всё кончится. И если я его начну — оно кончится."
     zoya "Because on it is what everything ends with. And if I start it — it will end."
 
-# game/scenes/day03.rpy:438
+# game/scenes/day03.rpy:448
 translate english d3_zoya_branch_0034:
 
     # mc "А если не начнёшь?"
     mc "And if you don't start?"
 
-# game/scenes/day03.rpy:443
+# game/scenes/day03.rpy:453
 translate english d3_zoya_branch_0035:
 
     # zoya "Тогда мы будем рисовать его вечно."
     zoya "Then we'll be drawing it forever."
 
-# game/scenes/day03.rpy:445
+# game/scenes/day03.rpy:455
 translate english d3_zoya_branch_0036:
 
     # "Я смотрел на её руку и понимал, что она не шутит. Совсем."
     "I looked at her hand and understood that she wasn't joking. At all."
 
-# game/scenes/day03.rpy:447
+# game/scenes/day03.rpy:457
 translate english d3_zoya_branch_0037:
 
     # mc "Зоя. Дорисуй."
     mc "Zoya. Finish it."
 
-# game/scenes/day03.rpy:452
+# game/scenes/day03.rpy:462
 translate english d3_zoya_branch_0038:
 
     # zoya "Что?"
     zoya "What?"
 
-# game/scenes/day03.rpy:454
+# game/scenes/day03.rpy:464
 translate english d3_zoya_branch_0039:
 
     # mc "Не конец. То, что после."
     mc "Not the end. What comes after."
 
-# game/scenes/day03.rpy:456
+# game/scenes/day03.rpy:466
 translate english d3_zoya_branch_0040:
 
     # "Она молчала так долго, что я успел передумать дважды."
     "She was silent so long that I managed to change my mind twice."
 
-# game/scenes/day03.rpy:458
+# game/scenes/day03.rpy:468
 translate english d3_zoya_branch_0041:
 
     # "Потом взяла карандаш."
     "Then she took the pencil."
 
-# game/scenes/day03.rpy:460
+# game/scenes/day03.rpy:470
 translate english d3_zoya_branch_0042:
 
     # "Она рисовала быстро и без исправлений: рассвет, площадь, флагшток, ступени старой сцены. И фигуру с фонарём — но фонарь она нарисовала опущенным."
     "She drew quickly and without corrections: dawn, the square, the flagpole, the steps of the old stage. And the figure with the lantern — but she drew the lantern lowered."
 
-# game/scenes/day03.rpy:462
+# game/scenes/day03.rpy:472
 translate english d3_zoya_branch_0043:
 
     # mc "Почему фонарь погас?"
     mc "Why is the lantern out?"
 
-# game/scenes/day03.rpy:464
+# game/scenes/day03.rpy:474
 translate english d3_zoya_branch_0044:
 
     # zoya "Потому что он больше не нужен."
     zoya "Because it's no longer needed."
 
-# game/scenes/day03.rpy:466
+# game/scenes/day03.rpy:476
 translate english d3_zoya_branch_0045:
 
     # "Последним она провела по краю листа тонкую светлую полосу — не линию, а именно свет."
     "Last of all she drew a thin light band along the edge of the sheet — not a line, but precisely light."
 
-# game/scenes/day03.rpy:468
+# game/scenes/day03.rpy:478
 translate english d3_zoya_branch_0046:
 
     # zoya "Это утро."
     zoya "That's morning."
 
-# game/scenes/day03.rpy:470
+# game/scenes/day03.rpy:480
 translate english d3_zoya_branch_0047:
 
     # mc "Похоже."
     mc "It looks like it."
 
-# game/scenes/day03.rpy:472
+# game/scenes/day03.rpy:482
 translate english d3_zoya_branch_0048:
 
     # zoya "Похоже на то, что должно быть."
     zoya "It looks like what ought to be."
 
-# game/scenes/day03.rpy:477
+# game/scenes/day03.rpy:487
 translate english d3_zoya_branch_0049:
 
     # "Она впервые за весь разговор подняла на меня глаза и посмотрела дольше секунды."
     "For the first time in the whole conversation she raised her eyes to me and looked for longer than a second."
 
-# game/scenes/day03.rpy:482
+# game/scenes/day03.rpy:492
 translate english d3_zoya_branch_0050:
 
     # zoya "Спасибо, что попросил."
     zoya "Thank you for asking."
 
-# game/scenes/day03.rpy:484
+# game/scenes/day03.rpy:494
 translate english d3_zoya_branch_0051:
 
     # mc "Я ничего не сделал."
     mc "I didn't do anything."
 
-# game/scenes/day03.rpy:486
+# game/scenes/day03.rpy:496
 translate english d3_zoya_branch_0052:
 
     # zoya "Ты посмотрел. Обычно все отворачиваются."
     zoya "You looked. Usually everyone turns away."
 
-# game/scenes/day03.rpy:512
+# game/scenes/day03.rpy:522
 translate english d3_alone_0001:
 
     # "Я остался один."
     "I stayed alone."
 
-# game/scenes/day03.rpy:514
+# game/scenes/day03.rpy:524
 translate english d3_alone_0002:
 
     # "Не потому, что никого не было. А потому, что я так решил."
     "Not because there was nobody. But because I decided so."
 
-# game/scenes/day03.rpy:516
+# game/scenes/day03.rpy:526
 translate english d3_alone_0003:
 
     # mc "Хватит. Хватит загадок, хватит «смотри сам», хватит рисунков, которые сбываются."
     mc "Enough. Enough riddles, enough «see for yourself», enough drawings that come true."
 
-# game/scenes/day03.rpy:518
+# game/scenes/day03.rpy:528
 translate english d3_alone_0004:
 
     # mc "Я приехал за одним ответом. Получу — и уеду."
     mc "I came for one answer. I'll get it — and leave."
 
-# game/scenes/day03.rpy:520
+# game/scenes/day03.rpy:530
 translate english d3_alone_0005:
 
     # "Я пошёл к воротам."
     "I walked toward the gates."
 
-# game/scenes/day03.rpy:522
+# game/scenes/day03.rpy:532
 translate english d3_alone_0006:
 
     # "Лагерь расступался передо мной, и это было хуже, чем если бы он встал на пути."
     "The camp parted before me, and that was worse than if it had stood in my way."
 
-# game/scenes/day03.rpy:527
+# game/scenes/day03.rpy:537
 translate english d3_alone_0007:
 
     # "Столовая была закрыта. Не заперта — закрыта, как закрывают то, чем больше не пользуются."
     "The canteen was closed. Not locked — closed, the way you close something that is no longer used."
 
-# game/scenes/day03.rpy:529
+# game/scenes/day03.rpy:539
 translate english d3_alone_0008:
 
     # "Библиотека — пуста, и лампа на столе не горела."
     "The library — empty, and the lamp on the table wasn't burning."
 
-# game/scenes/day03.rpy:531
+# game/scenes/day03.rpy:541
 translate english d3_alone_0009:
 
     # "Из радиоузла не доносилось ни звука."
     "Not a single sound came from the radio room."
 
-# game/scenes/day03.rpy:533
+# game/scenes/day03.rpy:543
 translate english d3_alone_0010:
 
     # "И впервые за все дни не скрипнули качели."
     "And for the first time in all these days the swings didn't creak."
 
-# game/scenes/day03.rpy:535
+# game/scenes/day03.rpy:545
 translate english d3_alone_0011:
 
     # "Я сел на ступени сцены."
     "I sat on the steps of the stage."
 
-# game/scenes/day03.rpy:537
+# game/scenes/day03.rpy:547
 translate english d3_alone_0012:
 
     # "Где-то далеко щёлкнул динамик. Но никто не заговорил."
     "Somewhere far away a speaker clicked. But nobody spoke."
 
-# game/scenes/day03.rpy:539
+# game/scenes/day03.rpy:549
 translate english d3_alone_0013:
 
     # "Я подождал. Ещё. И ещё."
     "I waited. Again. And again."
 
-# game/scenes/day03.rpy:541
+# game/scenes/day03.rpy:551
 translate english d3_alone_0014:
 
     # mc "Ну?"
     mc "Well?"
 
-# game/scenes/day03.rpy:543
+# game/scenes/day03.rpy:553
 translate english d3_alone_0015:
 
     # "Тишина."
     "Silence."
 
-# game/scenes/day03.rpy:545
+# game/scenes/day03.rpy:555
 translate english d3_alone_0016:
 
     # "Я попытался вспомнить, как меня зовут."
     "I tried to remember my own name."
 
-# game/scenes/day03.rpy:547
+# game/scenes/day03.rpy:557
 translate english d3_alone_0017:
 
     # "Вспомнил. На секунду позже, чем нужно."
     "I remembered. One second later than I should have."
 
-# game/scenes/day03.rpy:549
+# game/scenes/day03.rpy:559
 translate english d3_alone_0018:
 
     # mc "Артём. Меня зовут Артём. Мне девятнадцать. Я приехал за отцом."
     mc "Artyom. My name is Artyom. I'm nineteen. I came for my father."
 
-# game/scenes/day03.rpy:551
+# game/scenes/day03.rpy:561
 translate english d3_alone_0019:
 
     # "Слова прозвучали как чужие — так произносят текст, который читаешь с листа впервые."
     "The words sounded foreign — the way you pronounce a text you're reading from a sheet for the first time."
 
-# game/scenes/day03.rpy:553
+# game/scenes/day03.rpy:563
 translate english d3_alone_0020:
 
     # "Я понял, что больше не хочу слышать этот голос. Ни один из них."
     "I understood that I no longer wanted to hear that voice. Any of them."
 
-# game/scenes/day03.rpy:555
+# game/scenes/day03.rpy:565
 translate english d3_alone_0021:
 
     # "И лагерь, кажется, понял это раньше меня."
     "And the camp, it seemed, understood it before I did."
 
-# game/scenes/day03.rpy:557
+# game/scenes/day03.rpy:567
 translate english d3_alone_0022:
 
     # "Я достал телефон. Ноль процентов. Восемнадцатое августа."
     "I took out the phone. Zero percent. The eighteenth of August."
 
-# game/scenes/day03.rpy:559
+# game/scenes/day03.rpy:569
 translate english d3_alone_0023:
 
     # "Я достал билет."
     "I took out the ticket."
 
-# game/scenes/day03.rpy:561
+# game/scenes/day03.rpy:571
 translate english d3_alone_0024:
 
     # "Он был холодный."
     "It was cold."
 
-# game/scenes/day03.rpy:563
+# game/scenes/day03.rpy:573
 translate english d3_alone_0025:
 
     # "Впервые за все дни — просто кусок старой бумаги. Я повертел его в пальцах и почувствовал, как из него уходит тепло, будто из чашки, которую забыли на подоконнике."
     "For the first time in all these days — just a piece of old paper. I turned it in my fingers and felt the warmth leaving it, like from a cup forgotten on a windowsill."
 
-# game/scenes/day03.rpy:565
+# game/scenes/day03.rpy:575
 translate english d3_alone_0026:
 
     # mc "Ну и ладно."
     mc "Fine, then."
 
-# game/scenes/day03.rpy:567
+# game/scenes/day03.rpy:577
 translate english d3_alone_0027:
 
     # "Я сунул билет обратно и встал."
     "I put the ticket back and stood up."
 
-# game/scenes/day03.rpy:569
+# game/scenes/day03.rpy:579
 translate english d3_alone_0028:
 
     # "Площадь была пуста от края до края, и в этой пустоте не было ни угрозы, ни грусти."
     "The square was empty from edge to edge, and in that emptiness there was neither threat nor sadness."
 
-# game/scenes/day03.rpy:571
+# game/scenes/day03.rpy:581
 translate english d3_alone_0029:
 
     # "Просто место, где когда-то что-то было, а теперь не было ничего."
     "Just a place where something once was, and now there was nothing."
 
-# game/scenes/day03.rpy:573
+# game/scenes/day03.rpy:583
 translate english d3_alone_0030:
 
     # "Я понял, что мне здесь больше нечего слушать."
     "I understood that there was nothing left here for me to listen to."
 
-# game/scenes/day03.rpy:596
+# game/scenes/day03.rpy:606
 translate english d3_glitch_0001:
 
     # "Что-то изменилось."
     "Something changed."
 
-# game/scenes/day03.rpy:598
+# game/scenes/day03.rpy:608
 translate english d3_glitch_0002:
 
     # "Свет стал резче, звуки — глуше."
     "The light grew harsher, the sounds — duller."
 
-# game/scenes/day03.rpy:600
+# game/scenes/day03.rpy:610
 translate english d3_glitch_0003:
 
     # "На секунду мне показалось, что я слышу собственный голос со стороны."
     "For a second it seemed to me that I heard my own voice from outside."
 
-# game/scenes/day03.rpy:602
+# game/scenes/day03.rpy:612
 translate english d3_glitch_0004:
 
     # mc "…я приехал за одним ответом…"
     mc "…I came for one answer…"
 
-# game/scenes/day03.rpy:604
+# game/scenes/day03.rpy:614
 translate english d3_glitch_0005:
 
     # "Это был мой голос. Но сказал я это минуту назад. Или вчера."
     "It was my voice. But I had said it a minute ago. Or yesterday."
 
-# game/scenes/day03.rpy:606
+# game/scenes/day03.rpy:616
 translate english d3_glitch_0006:
 
     # "Площадь начала заполняться детьми. Они шли строем, ровно, как идут на линейку."
     "The square began to fill with children. They walked in formation, evenly, the way people walk to a line-up."
 
-# game/scenes/day03.rpy:608
+# game/scenes/day03.rpy:618
 translate english d3_glitch_0007:
 
     # child "Линейка в семь! Не опаздывай!"
     child "Line-up at seven! Don't be late!"
 
-# game/scenes/day03.rpy:612
+# game/scenes/day03.rpy:622
 translate english d3_glitch_0008:
 
     # child "Линейка в семь! Не опаздывай!"
     child "Line-up at seven! Don't be late!"
 
-# game/scenes/day03.rpy:616
+# game/scenes/day03.rpy:626
 translate english d3_glitch_0009:
 
     # child "Линейка… в семь… Не опа-аздывай."
     child "Line-up… at seven… Don't be la-ate."
 
-# game/scenes/day03.rpy:620
+# game/scenes/day03.rpy:630
 translate english d3_glitch_0010:
 
     # "Я посмотрел на идущих."
     "I looked at those walking."
 
-# game/scenes/day03.rpy:622
+# game/scenes/day03.rpy:632
 translate english d3_glitch_0011:
 
     # "У них были лица. Просто на одном-двух я не успевал остановиться взглядом: черты съезжали, как мокрая краска."
     "They had faces. It's just that on one or two my gaze didn't manage to stop: the features slid, like wet paint."
 
-# game/scenes/day03.rpy:624
+# game/scenes/day03.rpy:634
 translate english d3_glitch_0012:
 
     # mc "Стойте. Стойте, пожалуйста."
     mc "Stop. Stop, please."
 
-# game/scenes/day03.rpy:626
+# game/scenes/day03.rpy:636
 translate english d3_glitch_0013:
 
     # "Никто не остановился."
     "Nobody stopped."
 
-# game/scenes/day03.rpy:628
+# game/scenes/day03.rpy:638
 translate english d3_glitch_0014:
 
     # "Строй прошёл сквозь меня. Не через — сквозь: я почувствовал холод, как от открытого окна в ноябре."
     "The formation passed through me. Not past — through: I felt a cold, like from an open window in November."
 
-# game/scenes/day03.rpy:630
+# game/scenes/day03.rpy:640
 translate english d3_glitch_0015:
 
     # "Флагшток скрипнул три раза. Поднять флаг. Спустить флаг. Поднять флаг."
     "The flagpole creaked three times. Raise the flag. Lower the flag. Raise the flag."
 
-# game/scenes/day03.rpy:633
+# game/scenes/day03.rpy:643
 translate english d3_glitch_0016:
 
     # radio "…всем отрядам построиться у…"
     radio "…all units line up at…"
 
-# game/scenes/day03.rpy:635
+# game/scenes/day03.rpy:645
 translate english d3_glitch_0017:
 
     # radio "…всем отрядам построиться у…"
     radio "…all units line up at…"
 
-# game/scenes/day03.rpy:637
+# game/scenes/day03.rpy:647
 translate english d3_glitch_0018:
 
     # radio "…всем отрядам построиться у…"
     radio "…all units line up at…"
 
-# game/scenes/day03.rpy:639
+# game/scenes/day03.rpy:649
 translate english d3_glitch_0019:
 
     # "Я закрыл уши. Звук шёл не снаружи."
     "I covered my ears. The sound wasn't coming from outside."
 
-# game/scenes/day03.rpy:644
+# game/scenes/day03.rpy:654
 translate english d3_glitch_0020:
 
     # "В конце площади стояла Лена. Она не двигалась."
     "At the far end of the square stood Lena. She didn't move."
 
-# game/scenes/day03.rpy:646
+# game/scenes/day03.rpy:656
 translate english d3_glitch_0021:
 
     # mc "Лена! Что происходит?"
     mc "Lena! What's happening?"
 
-# game/scenes/day03.rpy:648
+# game/scenes/day03.rpy:658
 translate english d3_glitch_0022:
 
     # lena "Лагерь вспоминает."
     lena "The camp is remembering."
 
-# game/scenes/day03.rpy:650
+# game/scenes/day03.rpy:660
 translate english d3_glitch_0023:
 
     # mc "Что вспоминает?"
     mc "Remembering what?"
 
-# game/scenes/day03.rpy:652
+# game/scenes/day03.rpy:662
 translate english d3_glitch_0024:
 
     # lena "Тебя."
     lena "You."
 
-# game/scenes/day03.rpy:654
+# game/scenes/day03.rpy:664
 translate english d3_glitch_0025:
 
     # mc "Меня здесь никогда не было!"
     mc "I was never here!"
 
-# game/scenes/day03.rpy:659
+# game/scenes/day03.rpy:669
 translate english d3_glitch_0026:
 
     # lena "Ты уверен?"
     lena "Are you sure?"
 
-# game/scenes/day03.rpy:661
+# game/scenes/day03.rpy:671
 translate english d3_glitch_0027:
 
     # "Свет мигнул."
     "The light flickered."
 
-# game/scenes/day03.rpy:663
+# game/scenes/day03.rpy:673
 translate english d3_glitch_0028:
 
     # "На секунду я снова стоял у ворот, и голос совсем рядом произнёс:"
     "For a second I was standing at the gates again, and a voice very close by said:"
 
-# game/scenes/day03.rpy:665
+# game/scenes/day03.rpy:675
 translate english d3_glitch_0029:
 
     # lena_e "Смотря что ты понимаешь под словом «живой»."
     lena_e "Depends on what you mean by «alive»."
 
-# game/scenes/day03.rpy:667
+# game/scenes/day03.rpy:677
 translate english d3_glitch_0030:
 
     # "Потом я снова был на площади. Лены не было."
     "Then I was on the square again. Lena was gone."
 
-# game/scenes/day03.rpy:669
+# game/scenes/day03.rpy:679
 translate english d3_glitch_0031:
 
     # "Только на ступенях сцены лежал детский рисунок: причал, вода, фонарь."
     "Only on the steps of the stage lay a child's drawing: pier, water, lantern."
 
-# game/scenes/day03.rpy:671
+# game/scenes/day03.rpy:681
 translate english d3_glitch_0032:
 
     # "И подпись в углу, которую я узнал бы из тысячи: «З.»"
     "And a signature in the corner that I would recognize out of a thousand: «Z.»"
 
-# game/scenes/day03.rpy:675
+# game/scenes/day03.rpy:685
 translate english d3_glitch_0033:
 
     # "Я поднял рисунок."
     "I picked up the drawing."
 
-# game/scenes/day03.rpy:677
+# game/scenes/day03.rpy:687
 translate english d3_glitch_0034:
 
     # "Бумага была тёплая."
     "The paper was warm."
 
-# game/scenes/day03.rpy:680
+# game/scenes/day03.rpy:690
 translate english d3_glitch_0035:
 
     # "Я поднял голову."
     "I raised my head."
 
-# game/scenes/day03.rpy:682
+# game/scenes/day03.rpy:692
 translate english d3_glitch_0036:
 
     # "Над площадью стоял свет, которого не должно быть в три часа ночи: ровный, тёплый, как в комнате, где включили все лампы сразу."
     "Over the square stood a light that shouldn't exist at three in the morning: even, warm, like in a room where all the lamps were switched on at once."
 
-# game/scenes/day03.rpy:684
+# game/scenes/day03.rpy:694
 translate english d3_glitch_0037:
 
     # "Корпуса были на месте. И не на месте."
     "The barracks were in place. And not in place."
 
-# game/scenes/day03.rpy:686
+# game/scenes/day03.rpy:696
 translate english d3_glitch_0038:
 
     # "Они стояли так, будто их нарисовали поверх старых, — чуть не совпадая с контуром, как обведённая дважды фотография."
     "They stood as if drawn over the old ones — slightly not matching the contour, like a photograph traced twice."
 
-# game/scenes/day03.rpy:688
+# game/scenes/day03.rpy:698
 translate english d3_glitch_0039:
 
     # mc "Хватит."
     mc "Enough."
 
-# game/scenes/day03.rpy:690
+# game/scenes/day03.rpy:700
 translate english d3_glitch_0040:
 
     # "Я сказал это вслух, и мой голос прозвучал дважды."
     "I said it out loud, and my voice sounded twice."
 
-# game/scenes/day03.rpy:692
+# game/scenes/day03.rpy:702
 translate english d3_glitch_0041:
 
     # "Второй раз — из динамика над столовой."
     "The second time — from the speaker over the canteen."
 
-# game/scenes/day03.rpy:694
+# game/scenes/day03.rpy:704
 translate english d3_glitch_0042:
 
     # radio "…хватит…"
     radio "…enough…"
 
-# game/scenes/day03.rpy:696
+# game/scenes/day03.rpy:706
 translate english d3_glitch_0043:
 
     # "Я закрыл глаза."
     "I closed my eyes."
 
-# game/scenes/day03.rpy:698
+# game/scenes/day03.rpy:708
 translate english d3_glitch_0044:
 
     # "Когда открыл — свет был обычный, лунный. Корпуса стояли ровно. Площадка была пуста."
     "When I opened them — the light was ordinary, moonlight. The barracks stood even. The square was empty."
 
-# game/scenes/day03.rpy:700
+# game/scenes/day03.rpy:710
 translate english d3_glitch_0045:
 
     # "И мир перестал повторяться — потому что повторять стало нечего."
     "And the world stopped repeating — because there was nothing left to repeat."
 
-# game/scenes/day03.rpy:702
+# game/scenes/day03.rpy:712
 translate english d3_glitch_0046:
 
     # "Осталось только понять, что именно он всё это время повторял."
@@ -5413,553 +5413,553 @@ translate english d4_truth_0051:
     # lena "Нас держит то, чего никто не закончил."
     lena "What holds us is the thing nobody finished."
 
-# game/scenes/day04.rpy:155
+# game/scenes/day04.rpy:183
 translate english d4_truth_0052:
 
     # mc "Эфир. Линейка. Колокол."
     mc "The broadcast. The line-up. The bell."
 
-# game/scenes/day04.rpy:160
+# game/scenes/day04.rpy:188
 translate english d4_truth_0053:
 
     # lena "Ты быстро понимаешь."
     lena "You understand quickly."
 
-# game/scenes/day04.rpy:162
+# game/scenes/day04.rpy:190
 translate english d4_truth_0054:
 
     # mc "Мне помог один человек. Он всю жизнь понимал очень медленно и очень дорого за это заплатил."
     mc "One person helped me. He understood very slowly all his life and paid very dearly for it."
 
-# game/scenes/day04.rpy:164
+# game/scenes/day04.rpy:192
 translate english d4_truth_0055:
 
     # "Лена посмотрела на воду."
     "Lena looked at the water."
 
-# game/scenes/day04.rpy:166
+# game/scenes/day04.rpy:194
 translate english d4_truth_0056:
 
     # lena "Он не виноват в том, что испугался."
     lena "He is not guilty of having been frightened."
 
-# game/scenes/day04.rpy:168
+# game/scenes/day04.rpy:196
 translate english d4_truth_0057:
 
     # lena "Он виноват в том, что молчал."
     lena "He is guilty of having stayed silent."
 
-# game/scenes/day04.rpy:170
+# game/scenes/day04.rpy:198
 translate english d4_truth_0058:
 
     # mc "Я знаю."
     mc "I know."
 
-# game/scenes/day04.rpy:172
+# game/scenes/day04.rpy:200
 translate english d4_truth_0059:
 
     # lena "Знаешь?"
     lena "You know?"
 
-# game/scenes/day04.rpy:174
+# game/scenes/day04.rpy:202
 translate english d4_truth_0060:
 
     # mc "Я только что прочитал это его почерком."
     mc "I just read it in his handwriting."
 
-# game/scenes/day04.rpy:176
+# game/scenes/day04.rpy:204
 translate english d4_truth_0061:
 
     # "Она кивнула. И впервые за четыре дня улыбнулась так, что у меня сжалось горло."
     "She nodded. And for the first time in four days she smiled in a way that made my throat tighten."
 
-# game/scenes/day04.rpy:181
+# game/scenes/day04.rpy:209
 translate english d4_truth_0062:
 
     # lena "Тогда завтра всё получится."
     lena "Then tomorrow everything will work out."
 
-# game/scenes/day04.rpy:183
+# game/scenes/day04.rpy:211
 translate english d4_truth_0063:
 
     # mc "Что именно?"
     mc "What, exactly?"
 
-# game/scenes/day04.rpy:185
+# game/scenes/day04.rpy:213
 translate english d4_truth_0064:
 
     # lena "Прощание."
     lena "The farewell."
 
-# game/scenes/day04.rpy:210
+# game/scenes/day04.rpy:238
 translate english d4_conflict_0001:
 
     # "На поляне горел костёр. Настоящий — я видел, как он дымит."
     "A campfire burned in the clearing. A real one — I could see it smoking."
 
-# game/scenes/day04.rpy:212
+# game/scenes/day04.rpy:240
 translate english d4_conflict_0002:
 
     # "Вокруг сидели все, кого я знал в этом лагере: Вера, Зоя, Лена и человек двадцать детей, которые не смотрели на меня."
     "Around it sat everyone I knew in this camp: Vera, Zoya, Lena, and some twenty children who weren't looking at me."
 
-# game/scenes/day04.rpy:214
+# game/scenes/day04.rpy:242
 translate english d4_conflict_0003:
 
     # "Они ждали, что я скажу."
     "They were waiting for me to speak."
 
-# game/scenes/day04.rpy:219
+# game/scenes/day04.rpy:247
 translate english d4_conflict_0004:
 
     # "Лена стояла, а не сидела. Так и не села."
     "Lena stood rather than sat. She never sat down."
 
-# game/scenes/day04.rpy:221
+# game/scenes/day04.rpy:249
 translate english d4_conflict_0005:
 
     # lena "Я не хочу, чтобы меня жалели."
     lena "I don't want to be pitied."
 
-# game/scenes/day04.rpy:223
+# game/scenes/day04.rpy:251
 translate english d4_conflict_0006:
 
     # lena "И не хочу, чтобы его судили. Он был мальчишкой с мёртвой рацией и приказом «не поднимать панику»."
     lena "And I don't want him to be judged. He was a kid with a dead radio and an order «don't raise panic»."
 
-# game/scenes/day04.rpy:228
+# game/scenes/day04.rpy:256
 translate english d4_conflict_0007:
 
     # lena "Я хочу одного: чтобы кто-нибудь сказал это вслух. При всех. Чтобы лагерь услышал."
     lena "I want one thing: for someone to say it out loud. In front of everyone. So the camp hears it."
 
-# game/scenes/day04.rpy:230
+# game/scenes/day04.rpy:258
 translate english d4_conflict_0008:
 
     # lena "Двадцать лет. Из-за того, что кто-то побоялся произнести одну фразу."
     lena "Twenty years. Because someone was afraid to utter one sentence."
 
-# game/scenes/day04.rpy:232
+# game/scenes/day04.rpy:260
 translate english d4_conflict_0009:
 
     # "Вера опустила голову. Зоя перестала рисовать."
     "Vera lowered her head. Zoya stopped drawing."
 
-# game/scenes/day04.rpy:234
+# game/scenes/day04.rpy:262
 translate english d4_conflict_0010:
 
     # "Все смотрели на меня."
     "Everyone was looking at me."
 
-# game/scenes/day04.rpy:240
+# game/scenes/day04.rpy:268
 translate english d4_conflict_0011:
 
     # mc "Восемнадцатого августа, в двадцать три сорок, радиотехник Игорь Воронов не передал сигнал тревоги."
     mc "On the eighteenth of August, at twenty-three forty, radio technician Igor Voronov did not transmit the alarm signal."
 
-# game/scenes/day04.rpy:242
+# game/scenes/day04.rpy:270
 translate english d4_conflict_0012:
 
     # mc "Он испугался. Он уехал с последней группой. Он думал, что ты уже спаслась."
     mc "He got scared. He left with the last group. He thought you had already made it."
 
-# game/scenes/day04.rpy:244
+# game/scenes/day04.rpy:272
 translate english d4_conflict_0013:
 
     # mc "Он узнал на следующий день и молчал двадцать лет. И это его сын — я — говорит это сейчас вслух, при всех."
     mc "He learned the next day and stayed silent for twenty years. And this is his son — me — saying it out loud now, in front of everyone."
 
-# game/scenes/day04.rpy:246
+# game/scenes/day04.rpy:274
 translate english d4_conflict_0014:
 
     # mc "Лена Гарина, старшая вожатая двадцатой смены, увела младших к лодкам. Все дети вышли. Она — нет."
     mc "Lena Garina, senior counselor of the twentieth shift, led the little ones to the boats. All the children got out. She did not."
 
-# game/scenes/day04.rpy:248
+# game/scenes/day04.rpy:276
 translate english d4_conflict_0015:
 
     # mc "Она не виновата ни в чём."
     mc "She is not guilty of anything."
 
-# game/scenes/day04.rpy:250
+# game/scenes/day04.rpy:278
 translate english d4_conflict_0016:
 
     # "Костёр стрельнул щепкой. Дети подняли головы — все сразу, как по команде."
     "The fire spit a splinter. The children raised their heads — all at once, as if on command."
 
-# game/scenes/day04.rpy:255
+# game/scenes/day04.rpy:283
 translate english d4_conflict_0017:
 
     # lena "Спасибо."
     lena "Thank you."
 
-# game/scenes/day04.rpy:257
+# game/scenes/day04.rpy:285
 translate english d4_conflict_0018:
 
     # lena "Мне нужно было это услышать."
     lena "I needed to hear it."
 
-# game/scenes/day04.rpy:259
+# game/scenes/day04.rpy:287
 translate english d4_conflict_0019:
 
     # mc "Тебе?"
     mc "You?"
 
-# game/scenes/day04.rpy:261
+# game/scenes/day04.rpy:289
 translate english d4_conflict_0020:
 
     # lena "Нам."
     lena "Us."
 
-# game/scenes/day04.rpy:264
+# game/scenes/day04.rpy:292
 translate english d4_conflict_0021:
 
     # mc "Я… не могу. Не здесь. Не при детях."
     mc "I… can't. Not here. Not in front of the children."
 
-# game/scenes/day04.rpy:269
+# game/scenes/day04.rpy:297
 translate english d4_conflict_0022:
 
     # lena "Хорошо."
     lena "All right."
 
-# game/scenes/day04.rpy:271
+# game/scenes/day04.rpy:299
 translate english d4_conflict_0023:
 
     # "Она сказала это ровно. Слишком ровно — так говорят дату, которую повторяли много раз."
     "She said it evenly. Too evenly — that's how people say a date they have repeated many times."
 
-# game/scenes/day04.rpy:273
+# game/scenes/day04.rpy:301
 translate english d4_conflict_0024:
 
     # lena "Значит, не сегодня."
     lena "Then not today."
 
-# game/scenes/day04.rpy:275
+# game/scenes/day04.rpy:303
 translate english d4_conflict_0025:
 
     # "Костёр горел. Никто не поднял головы."
     "The fire burned. Nobody raised their head."
 
-# game/scenes/day04.rpy:277
+# game/scenes/day04.rpy:305
 translate english d4_conflict_0026:
 
     # "Я понял, что только что сделал то же, что мой отец."
     "I understood that I had just done the same thing as my father."
 
-# game/scenes/day04.rpy:287
+# game/scenes/day04.rpy:315
 translate english d4_conflict_0027:
 
     # "Вера вскочила первой. Она вообще не умела сидеть, когда слышала помехи."
     "Vera jumped up first. She never could sit when she heard static."
 
-# game/scenes/day04.rpy:289
+# game/scenes/day04.rpy:317
 translate english d4_conflict_0028:
 
     # vera "Значит, так. Значит, вот почему у меня эфир оборвался на полуслове."
     vera "So that's it. So that's why my broadcast cut off mid-sentence."
 
-# game/scenes/day04.rpy:291
+# game/scenes/day04.rpy:319
 translate english d4_conflict_0029:
 
     # vera "Я двадцать лет висю в этой паузе, Артём. В паузе! Знаешь, что это такое для человека, который боится тишины?"
     vera "I've been hanging in that pause for twenty years, Artyom. In a pause! Do you know what that is for a person who is afraid of silence?"
 
-# game/scenes/day04.rpy:293
+# game/scenes/day04.rpy:321
 translate english d4_conflict_0030:
 
     # mc "Вера…"
     mc "Vera…"
 
-# game/scenes/day04.rpy:295
+# game/scenes/day04.rpy:323
 translate english d4_conflict_0031:
 
     # vera "Нет, ты послушай! Я же записывала объявление: «Закрытие смены завтра в девятнадцать». Я его даже не сказала до конца!"
     vera "No, you listen! I recorded the announcement: «Shift closing tomorrow at nineteen». I didn't even get to say it to the end!"
 
-# game/scenes/day04.rpy:300
+# game/scenes/day04.rpy:328
 translate english d4_conflict_0032:
 
     # vera "Значит, завтра я его скажу. По-настоящему. В эфир. Чтобы весь лагерь слышал, чтобы все отряды, чтобы по именам!"
     vera "So tomorrow I'll say it. For real. On air. So the whole camp hears, so all the units hear, so everyone by name!"
 
-# game/scenes/day04.rpy:302
+# game/scenes/day04.rpy:330
 translate english d4_conflict_0033:
 
     # vera "Иначе всё это было зря — и гроза, и причал, и то, что Лена…"
     vera "Otherwise all of this was for nothing — the storm, the pier, and the fact that Lena…"
 
-# game/scenes/day04.rpy:304
+# game/scenes/day04.rpy:332
 translate english d4_conflict_0034:
 
     # "Она оборвала себя. Впервые в жизни."
     "She cut herself off. For the first time in her life."
 
-# game/scenes/day04.rpy:309
+# game/scenes/day04.rpy:337
 translate english d4_conflict_0035:
 
     # vera "Прости. Я не хотела это произносить первой."
     vera "Sorry. I didn't want to be the first to say it."
 
-# game/scenes/day04.rpy:315
+# game/scenes/day04.rpy:343
 translate english d4_conflict_0036:
 
     # mc "Не извиняйся. Ты права: если правду не сказать в эфир — её вообще никто не услышит."
     mc "Don't apologize. You're right: if the truth isn't said on air — nobody will hear it at all."
 
-# game/scenes/day04.rpy:317
+# game/scenes/day04.rpy:345
 translate english d4_conflict_0037:
 
     # mc "Завтра я буду у тебя вторым голосом. Хронометражистом. Кем угодно."
     mc "Tomorrow I'll be your second voice. Timekeeper. Anything."
 
-# game/scenes/day04.rpy:319
+# game/scenes/day04.rpy:347
 translate english d4_conflict_0038:
 
     # mc "И мы назовём всех по именам. Каждого."
     mc "And we'll call everyone by name. Every single one."
 
-# game/scenes/day04.rpy:324
+# game/scenes/day04.rpy:352
 translate english d4_conflict_0039:
 
     # vera "Двенадцать минут. Мне нужно двенадцать минут и чтобы никто не выключил."
     vera "Twelve minutes. I need twelve minutes and for nobody to switch it off."
 
-# game/scenes/day04.rpy:326
+# game/scenes/day04.rpy:354
 translate english d4_conflict_0040:
 
     # mc "Никто не выключит."
     mc "Nobody will switch it off."
 
-# game/scenes/day04.rpy:328
+# game/scenes/day04.rpy:356
 translate english d4_conflict_0041:
 
     # vera "Тогда пошли монтировать. Сейчас. Ночь же длинная."
     vera "Then let's go edit. Now. The night is long."
 
-# game/scenes/day04.rpy:330
+# game/scenes/day04.rpy:358
 translate english d4_conflict_0042:
 
     # "Она схватила меня за рукав и потащила к радиоузлу — и я заметил, что рука у неё холодная, как у всех здесь."
     "She grabbed me by the sleeve and dragged me toward the radio room — and I noticed that her hand was cold, like everyone's here."
 
-# game/scenes/day04.rpy:333
+# game/scenes/day04.rpy:361
 translate english d4_conflict_0043:
 
     # mc "Я не знаю, Вера. Может, не надо в эфир. Может, пусть всё останется как есть."
     mc "I don't know, Vera. Maybe we shouldn't put it on air. Maybe let everything stay as it is."
 
-# game/scenes/day04.rpy:338
+# game/scenes/day04.rpy:366
 translate english d4_conflict_0044:
 
     # vera "«Как есть» — это я двадцать лет на полуслове."
     vera "«As it is» is me, twenty years, mid-sentence."
 
-# game/scenes/day04.rpy:340
+# game/scenes/day04.rpy:368
 translate english d4_conflict_0045:
 
     # vera "Ладно. Ладно. Ты гость. Гостям можно не понимать."
     vera "Fine. Fine. You're a guest. Guests are allowed not to understand."
 
-# game/scenes/day04.rpy:342
+# game/scenes/day04.rpy:370
 translate english d4_conflict_0046:
 
     # "Она села обратно к костру и больше не шутила до самого утра."
     "She sat back down by the fire and didn't joke again until morning."
 
-# game/scenes/day04.rpy:352
+# game/scenes/day04.rpy:380
 translate english d4_conflict_0047:
 
     # "Зоя сидела ближе всех к огню и держала на коленях тот самый лист — с рассветом, площадью и четырьмя фигурами."
     "Zoya sat closest to the fire and held on her knees that very sheet — with the dawn, the square, and four figures."
 
-# game/scenes/day04.rpy:354
+# game/scenes/day04.rpy:382
 translate english d4_conflict_0048:
 
     # zoya "Я же рисовала."
     zoya "I drew it, after all."
 
-# game/scenes/day04.rpy:356
+# game/scenes/day04.rpy:384
 translate english d4_conflict_0049:
 
     # mc "Рисовала."
     mc "Drew it."
 
-# game/scenes/day04.rpy:358
+# game/scenes/day04.rpy:386
 translate english d4_conflict_0050:
 
     # zoya "Все смотрели и говорили: «какая ты странная». Никто не сказал: «это было»."
     zoya "Everyone looked and said: «how strange you are». Nobody said: «it happened»."
 
-# game/scenes/day04.rpy:360
+# game/scenes/day04.rpy:388
 translate english d4_conflict_0051:
 
     # "Она подняла на меня глаза."
     "She raised her eyes to me."
 
-# game/scenes/day04.rpy:365
+# game/scenes/day04.rpy:393
 translate english d4_conflict_0052:
 
     # zoya "Знаешь, что самое плохое? Я нарисовала причал и фонарь за три дня до того, как это случилось."
     zoya "You know what the worst part is? I drew the pier and the lantern three days before it happened."
 
-# game/scenes/day04.rpy:367
+# game/scenes/day04.rpy:395
 translate english d4_conflict_0053:
 
     # zoya "Я показала его Лене. Она сказала: «красиво»."
     zoya "I showed it to Lena. She said: «pretty»."
 
-# game/scenes/day04.rpy:369
+# game/scenes/day04.rpy:397
 translate english d4_conflict_0054:
 
     # mc "Ты не могла знать."
     mc "You couldn't have known."
 
-# game/scenes/day04.rpy:371
+# game/scenes/day04.rpy:399
 translate english d4_conflict_0055:
 
     # zoya "Могла. Я знала. Я просто тоже промолчала."
     zoya "I could. I knew. I just stayed silent too."
 
-# game/scenes/day04.rpy:373
+# game/scenes/day04.rpy:401
 translate english d4_conflict_0056:
 
     # "Костёр стрельнул. Вера перестала перебирать кассеты."
     "The fire spit sparks. Vera stopped sorting cassettes."
 
-# game/scenes/day04.rpy:379
+# game/scenes/day04.rpy:407
 translate english d4_conflict_0057:
 
     # mc "Зоя. Посмотри на меня."
     mc "Zoya. Look at me."
 
-# game/scenes/day04.rpy:381
+# game/scenes/day04.rpy:409
 translate english d4_conflict_0058:
 
     # mc "Это был рисунок. Не приказ, не донос, не вина. Рисунок девочки, которая видела слишком много."
     mc "It was a drawing. Not an order, not a denunciation, not guilt. A drawing of a girl who saw too much."
 
-# game/scenes/day04.rpy:383
+# game/scenes/day04.rpy:411
 translate english d4_conflict_0059:
 
     # mc "Виноват старый причал. Виноваты взрослые, которые сказали «осенью починим». Виноват человек, который не передал сигнал."
     mc "The old pier is to blame. The adults who said «we'll fix it in autumn» are to blame. The man who didn't transmit the signal is to blame."
 
-# game/scenes/day04.rpy:385
+# game/scenes/day04.rpy:413
 translate english d4_conflict_0060:
 
     # mc "Ты — единственная, кто пытался сказать правду, когда её ещё можно было услышать."
     mc "You are the only one who tried to tell the truth while it could still be heard."
 
-# game/scenes/day04.rpy:390
+# game/scenes/day04.rpy:418
 translate english d4_conflict_0061:
 
     # zoya "Никто так не говорил."
     zoya "Nobody ever said it like that."
 
-# game/scenes/day04.rpy:392
+# game/scenes/day04.rpy:420
 translate english d4_conflict_0062:
 
     # mc "Я говорю."
     mc "I'm saying it."
 
-# game/scenes/day04.rpy:397
+# game/scenes/day04.rpy:425
 translate english d4_conflict_0063:
 
     # zoya "Тогда я дорисую."
     zoya "Then I'll finish it."
 
-# game/scenes/day04.rpy:399
+# game/scenes/day04.rpy:427
 translate english d4_conflict_0064:
 
     # mc "Что?"
     mc "What?"
 
-# game/scenes/day04.rpy:401
+# game/scenes/day04.rpy:429
 translate english d4_conflict_0065:
 
     # zoya "Утро. Настоящее. Чтобы было куда уйти."
     zoya "The morning. A real one. So there's somewhere to go."
 
-# game/scenes/day04.rpy:404
+# game/scenes/day04.rpy:432
 translate english d4_conflict_0066:
 
     # mc "Зоя, я… не знаю, что сказать."
     mc "Zoya, I… don't know what to say."
 
-# game/scenes/day04.rpy:409
+# game/scenes/day04.rpy:437
 translate english d4_conflict_0067:
 
     # zoya "Все не знают."
     zoya "Nobody knows."
 
-# game/scenes/day04.rpy:411
+# game/scenes/day04.rpy:439
 translate english d4_conflict_0068:
 
     # zoya "Поэтому я и рисую."
     zoya "That's why I draw."
 
-# game/scenes/day04.rpy:413
+# game/scenes/day04.rpy:441
 translate english d4_conflict_0069:
 
     # "Она перевернула лист лицом вниз. Аккуратно. Как будто боялась разбудить."
     "She turned the sheet face down. Carefully. As if afraid to wake it."
 
-# game/scenes/day04.rpy:420
+# game/scenes/day04.rpy:448
 translate english d4_conflict_0070:
 
     # "Костёр горел."
     "The fire burned."
 
-# game/scenes/day04.rpy:422
+# game/scenes/day04.rpy:450
 translate english d4_conflict_0071:
 
     # "Лена смотрела на меня с той стороны огня. Вера открыла рот, чтобы что-то сказать. Зоя подняла лист."
     "Lena looked at me from the other side of the fire. Vera opened her mouth to say something. Zoya raised a sheet."
 
-# game/scenes/day04.rpy:424
+# game/scenes/day04.rpy:452
 translate english d4_conflict_0072:
 
     # "И я встал."
     "And I stood up."
 
-# game/scenes/day04.rpy:426
+# game/scenes/day04.rpy:454
 translate english d4_conflict_0073:
 
     # mc "Извините."
     mc "Excuse me."
 
-# game/scenes/day04.rpy:428
+# game/scenes/day04.rpy:456
 translate english d4_conflict_0074:
 
     # "Я ушёл с поляны первым. Даже не обернулся."
     "I left the clearing first. I didn't even look back."
 
-# game/scenes/day04.rpy:430
+# game/scenes/day04.rpy:458
 translate english d4_conflict_0075:
 
     # "Сзади кто-то тихо сказал: «Он тоже»."
     "Behind me someone said quietly: «Him too»."
 
-# game/scenes/day04.rpy:432
+# game/scenes/day04.rpy:460
 translate english d4_conflict_0076:
 
     # "Я не понял, кто и про кого."
     "I didn't understand who, or about whom."
 
-# game/scenes/day04.rpy:434
+# game/scenes/day04.rpy:462
 translate english d4_conflict_0077:
 
     # "И не захотел понимать."
     "And I didn't want to understand."
 
-# game/scenes/day04.rpy:436
+# game/scenes/day04.rpy:464
 translate english d4_conflict_0078:
 
     # "Ночь над лагерем стояла неподвижная, без ветра."
     "The night over the camp stood motionless, without wind."
 
-# game/scenes/day04.rpy:438
+# game/scenes/day04.rpy:466
 translate english d4_conflict_0079:
 
     # "Где-то далеко щёлкнул динамик и ничего не сказал."
@@ -6973,1469 +6973,1697 @@ translate english ending_true_0018:
     # vera "Смена закрыта. Всем пока."
     vera "The shift is closed. Bye, everyone."
 
-# game/scenes/endings.rpy:114
+# game/scenes/endings.rpy:118
 translate english ending_true_0019:
 
     # "Она выключила микрофон на целой фразе — впервые в жизни не оборвав её."
     "She switched the microphone off on a whole sentence — for the first time in her life without cutting it short."
 
-# game/scenes/endings.rpy:131
+# game/scenes/endings.rpy:135
 translate english ending_true_0020:
 
     # "Зоя поставила картину на ступени сцены — лицом к лагерю."
     "Zoya set the painting on the steps of the stage — facing the camp."
 
-# game/scenes/endings.rpy:133
+# game/scenes/endings.rpy:137
 translate english ending_true_0021:
 
     # "Последний мазок был светлым. Полоса по краю листа, которая оказалась не линией, а рассветом."
     "The last stroke was light. A band along the edge of the sheet, which turned out to be not a line but a dawn."
 
-# game/scenes/endings.rpy:135
+# game/scenes/endings.rpy:139
 translate english ending_true_0022:
 
     # zoya "Готово."
     zoya "Done."
 
-# game/scenes/endings.rpy:137
+# game/scenes/endings.rpy:141
 translate english ending_true_0023:
 
     # mc "Что теперь?"
     mc "What now?"
 
-# game/scenes/endings.rpy:139
+# game/scenes/endings.rpy:143
 translate english ending_true_0024:
 
     # zoya "Теперь её можно смотреть."
     zoya "Now it can be looked at."
 
-# game/scenes/endings.rpy:147
+# game/scenes/endings.rpy:151
 translate english ending_true_0025:
 
     # "Лена подошла ко мне."
     "Lena came up to me."
 
-# game/scenes/endings.rpy:149
+# game/scenes/endings.rpy:153
 translate english ending_true_0026:
 
     # lena "Артём."
     lena "Artyom."
 
-# game/scenes/endings.rpy:151
+# game/scenes/endings.rpy:155
 translate english ending_true_0027:
 
     # mc "Да?"
     mc "Yes?"
 
-# game/scenes/endings.rpy:153
+# game/scenes/endings.rpy:157
 translate english ending_true_0028:
 
     # lena "Скажи ему."
     lena "Tell him."
 
-# game/scenes/endings.rpy:155
+# game/scenes/endings.rpy:159
 translate english ending_true_0029:
 
     # mc "Кому?"
     mc "Whom?"
 
-# game/scenes/endings.rpy:157
+# game/scenes/endings.rpy:161
 translate english ending_true_0030:
 
     # lena "Тому, кто приедет сюда через двадцать лет. Или не приедет."
     lena "The one who comes here in twenty years. Or doesn't come."
 
-# game/scenes/endings.rpy:159
+# game/scenes/endings.rpy:163
 translate english ending_true_0031:
 
     # mc "Я скажу."
     mc "I'll tell him."
 
-# game/scenes/endings.rpy:161
+# game/scenes/endings.rpy:165
 translate english ending_true_0032:
 
     # lena "И себе скажи. Тебе нужнее."
     lena "And tell yourself. You need it more."
 
-# game/scenes/endings.rpy:163
+# game/scenes/endings.rpy:167
 translate english ending_true_0033:
 
     # "Она кивнула — коротко, по-вожатски, как кивают перед тем, как отпустить отряд."
     "She nodded — briefly, the counselor's way, the way people nod before letting a unit go."
 
-# game/scenes/endings.rpy:165
+# game/scenes/endings.rpy:169
 translate english ending_true_0034:
 
     # lena "Спасибо, что пришёл."
     lena "Thank you for coming."
 
-# game/scenes/endings.rpy:167
+# game/scenes/endings.rpy:171
 translate english ending_true_0035:
 
     # mc "Спасибо, что дождалась."
     mc "Thank you for waiting."
 
-# game/scenes/endings.rpy:172
+# game/scenes/endings.rpy:180
 translate english ending_true_0036:
 
     # "Она пошла к причалу. Не оборачиваясь."
     "She walked toward the pier. Without turning around."
 
-# game/scenes/endings.rpy:174
+# game/scenes/endings.rpy:182
 translate english ending_true_0037:
 
     # "У кромки воды её встретили — не дети. Дети стояли здесь, на площади, и махали руками."
     "At the water's edge she was met — not by the children. The children stood here, on the square, waving."
 
-# game/scenes/endings.rpy:176
+# game/scenes/endings.rpy:184
 translate english ending_true_0038:
 
     # "Её встретил рассвет."
     "She was met by the dawn."
 
-# game/scenes/endings.rpy:178
+# game/scenes/endings.rpy:186
 translate english ending_true_0039:
 
     # "Лагерь растворился на рассвете."
     "The camp dissolved at dawn."
 
-# game/scenes/endings.rpy:180
+# game/scenes/endings.rpy:188
 translate english ending_true_0040:
 
     # "Не как смерть. Как освобождение."
     "Not like death. Like release."
 
-# game/scenes/endings.rpy:182
+# game/scenes/endings.rpy:190
 translate english ending_true_0041:
 
     # "Сначала погас свет в корпусах. Потом исчез флагшток. Потом — сцена, костёр, качели."
     "First the light in the barracks went out. Then the flagpole vanished. Then — the stage, the campfire, the swings."
 
-# game/scenes/endings.rpy:187
+# game/scenes/endings.rpy:195
 translate english ending_true_0042:
 
     # "Я стоял посреди заросшего поля, по колено в траве."
     "I stood in the middle of an overgrown field, knee-deep in grass."
 
-# game/scenes/endings.rpy:189
+# game/scenes/endings.rpy:197
 translate english ending_true_0043:
 
     # "Никаких корпусов. Только фундаменты, два бетонных столба от ворот и старая липа."
     "No barracks at all. Only foundations, two concrete gate pillars, and an old linden tree."
 
-# game/scenes/endings.rpy:191
+# game/scenes/endings.rpy:199
 translate english ending_true_0044:
 
     # "В руке — билет. Выцветший, двадцатилетней давности, холодный."
     "In my hand — a ticket. Faded, twenty years old, cold."
 
-# game/scenes/endings.rpy:193
+# game/scenes/endings.rpy:201
 translate english ending_true_0045:
 
     # "Наконец-то холодный."
     "Cold at last."
 
-# game/scenes/endings.rpy:195
+# game/scenes/endings.rpy:203
 translate english ending_true_0046:
 
     # mc "Ну вот и всё, пап. Я сказал."
     mc "Well, that's it, Dad. I said it."
 
-# game/scenes/endings.rpy:197
+# game/scenes/endings.rpy:205
 translate english ending_true_0047:
 
     # mc "Тебя никто не осудил. И я — тоже."
     mc "Nobody condemned you. And I — didn't either."
 
-# game/scenes/endings.rpy:199
+# game/scenes/endings.rpy:207
 translate english ending_true_0048:
 
     # mc "Но и оправдывать не буду. Хватит."
     mc "But I won't justify you either. Enough."
 
-# game/scenes/endings.rpy:201
+# game/scenes/endings.rpy:209
 translate english ending_true_0049:
 
     # "На ступенях, которых больше не существовало, ветер не тронул только одно."
     "On the steps that no longer existed, the wind left only one thing untouched."
 
-# game/scenes/endings.rpy:203
+# game/scenes/endings.rpy:211
 translate english ending_true_0050:
 
     # "Детский рисунок: причал, вода и фонарь, опущенный вниз."
     "A child's drawing: pier, water, and a lantern lowered down."
 
-# game/scenes/endings.rpy:205
+# game/scenes/endings.rpy:213
 translate english ending_true_0051:
 
     # "Я поднял его, сложил вчетверо и положил к билету."
     "I picked it up, folded it in four, and put it next to the ticket."
 
-# game/scenes/endings.rpy:207
+# game/scenes/endings.rpy:215
 translate english ending_true_0052:
 
     # "Автобус до Заречья уходил в шесть сорок. Впервые за пять дней я точно знал, какое сегодня число."
     "The bus to Zarechye left at six forty. For the first time in five days I knew exactly what today's date was."
 
-# game/scenes/endings.rpy:227
+# game/scenes/endings.rpy:235
 translate english ending_lena_stay_0001:
 
     # "Я не пошёл к воротам."
     "I didn't go to the gates."
 
-# game/scenes/endings.rpy:229
+# game/scenes/endings.rpy:237
 translate english ending_lena_stay_0002:
 
     # "Я сел на траву у самой воды, там, где тропинка уходит к причалу, и лента на ней больше никого не пугала."
     "I sat on the grass at the very water's edge, where the path runs to the pier, and the ribbon on it no longer frightened anyone."
 
-# game/scenes/endings.rpy:234
+# game/scenes/endings.rpy:242
 translate english ending_lena_stay_0003:
 
     # lena "Артём. Рассвет через минуту."
     lena "Artyom. Dawn in a minute."
 
-# game/scenes/endings.rpy:236
+# game/scenes/endings.rpy:244
 translate english ending_lena_stay_0004:
 
     # mc "Я знаю."
     mc "I know."
 
-# game/scenes/endings.rpy:238
+# game/scenes/endings.rpy:246
 translate english ending_lena_stay_0005:
 
     # lena "Если ты останешься — он не наступит."
     lena "If you stay — it won't come."
 
-# game/scenes/endings.rpy:240
+# game/scenes/endings.rpy:248
 translate english ending_lena_stay_0006:
 
     # mc "Я знаю."
     mc "I know."
 
-# game/scenes/endings.rpy:242
+# game/scenes/endings.rpy:250
 translate english ending_lena_stay_0007:
 
     # lena "Ты знаешь, чем это кончается?"
     lena "Do you know how this ends?"
 
-# game/scenes/endings.rpy:244
+# game/scenes/endings.rpy:252
 translate english ending_lena_stay_0008:
 
     # mc "Знаю. Ничем."
     mc "I know. With nothing."
 
-# game/scenes/endings.rpy:249
+# game/scenes/endings.rpy:257
 translate english ending_lena_stay_0009:
 
     # lena "Тогда почему?"
     lena "Then why?"
 
-# game/scenes/endings.rpy:251
+# game/scenes/endings.rpy:259
 translate english ending_lena_stay_0010:
 
     # mc "Потому что там, за воротами, у меня нет ни одного человека, который бы меня ждал."
     mc "Because there, beyond the gates, I have not a single person who would be waiting for me."
 
-# game/scenes/endings.rpy:253
+# game/scenes/endings.rpy:261
 translate english ending_lena_stay_0011:
 
     # mc "А здесь есть одна, которая ждала двадцать лет."
     mc "And here there is one who has been waiting for twenty years."
 
-# game/scenes/endings.rpy:255
+# game/scenes/endings.rpy:263
 translate english ending_lena_stay_0012:
 
     # "Она села рядом. Так близко, что я почувствовал холод — не от воды."
     "She sat down beside me. So close that I felt the cold — not from the water."
 
-# game/scenes/endings.rpy:257
+# game/scenes/endings.rpy:265
 translate english ending_lena_stay_0013:
 
     # lena "Ты не обязан."
     lena "You don't have to."
 
-# game/scenes/endings.rpy:259
+# game/scenes/endings.rpy:267
 translate english ending_lena_stay_0014:
 
     # mc "Я не обязываюсь. Я выбираю."
     mc "I'm not obliging myself. I'm choosing."
 
-# game/scenes/endings.rpy:261
+# game/scenes/endings.rpy:269
 translate english ending_lena_stay_0015:
 
     # lena "Выборы кончаются."
     lena "Choices end."
 
-# game/scenes/endings.rpy:263
+# game/scenes/endings.rpy:271
 translate english ending_lena_stay_0016:
 
     # mc "Этот — нет."
     mc "This one doesn't."
 
-# game/scenes/endings.rpy:268
+# game/scenes/endings.rpy:276
 translate english ending_lena_stay_0017:
 
     # "Лагерь не растворился. Он просто замолчал — мягко, как замолкает комната, в которой выключили радио."
     "The camp didn't dissolve. It simply fell silent — softly, the way a room falls silent when the radio is switched off."
 
-# game/scenes/endings.rpy:270
+# game/scenes/endings.rpy:278
 translate english ending_lena_stay_0018:
 
     # "Площадь за спиной осталась на месте. Корпуса остались. Дети где-то смеялись, и смех был один и тот же, но мне было всё равно."
     "The square behind my back stayed in place. The barracks stayed. Somewhere the children were laughing, and the laughter was the same one, but I didn't care."
 
-# game/scenes/endings.rpy:272
+# game/scenes/endings.rpy:280
 translate english ending_lena_stay_0019:
 
     # lena "Значит, ты правда остался."
     lena "So you really stayed."
 
-# game/scenes/endings.rpy:274
+# game/scenes/endings.rpy:282
 translate english ending_lena_stay_0020:
 
     # mc "Остался."
     mc "I stayed."
 
-# game/scenes/endings.rpy:276
+# game/scenes/endings.rpy:284
 translate english ending_lena_stay_0021:
 
     # "Река текла. Закат не догорал."
     "The river flowed. The sunset didn't burn out."
 
-# game/scenes/endings.rpy:278
+# game/scenes/endings.rpy:286
 translate english ending_lena_stay_0022:
 
     # "Где-то далеко щёлкнул динамик и начал песню про костёр."
     "Somewhere far away a speaker clicked and started the song about the campfire."
 
-# game/scenes/endings.rpy:280
+# game/scenes/endings.rpy:288
 translate english ending_lena_stay_0023:
 
     # "Я знал её наизусть. Я знал её всю жизнь."
     "I knew it by heart. I had known it all my life."
 
-# game/scenes/endings.rpy:282
+# game/scenes/endings.rpy:290
 translate english ending_lena_stay_0024:
 
     # "И лето не закончилось."
     "And the summer didn't end."
 
-# game/scenes/endings.rpy:284
+# game/scenes/endings.rpy:292
 translate english ending_lena_stay_0025:
 
     # "По крайней мере, для нас."
     "At least for us."
 
-# game/scenes/endings.rpy:286
+# game/scenes/endings.rpy:294
 translate english ending_lena_stay_0026:
 
     # "Где-то за спиной, на площади, кто-то включил радио. Песня про костёр пошла с середины — с того самого места, где её всегда обрывали."
     "Somewhere behind us, on the square, someone switched on the radio. The song about the campfire started from the middle — from the very place where it had always been cut off."
 
-# game/scenes/endings.rpy:288
+# game/scenes/endings.rpy:296
 translate english ending_lena_stay_0027:
 
     # "На этот раз она доиграла до конца."
     "This time it played to the end."
 
-# game/scenes/endings.rpy:290
+# game/scenes/endings.rpy:298
 translate english ending_lena_stay_0028:
 
     # "Потом заиграла снова."
     "Then it started again."
 
-# game/scenes/endings.rpy:292
+# game/scenes/endings.rpy:300
 translate english ending_lena_stay_0029:
 
     # mc "Вера, наверное, счастлива."
     mc "Vera is probably happy."
 
-# game/scenes/endings.rpy:294
+# game/scenes/endings.rpy:302
 translate english ending_lena_stay_0030:
 
     # lena "Вера счастлива всегда. Это её работа."
     lena "Vera is always happy. It's her job."
 
-# game/scenes/endings.rpy:296
+# game/scenes/endings.rpy:304
 translate english ending_lena_stay_0031:
 
     # "Я засмеялся. Смех получился странным — тихим и немного чужим, как будто смеялся не я, а кто-то, кто очень давно здесь живёт."
     "I laughed. The laugh came out strange — quiet and slightly someone else's, as if not I were laughing but someone who has lived here for a very long time."
 
-# game/scenes/endings.rpy:298
+# game/scenes/endings.rpy:306
 translate english ending_lena_stay_0032:
 
     # "Лена положила голову мне на плечо, и я подумал, что это, наверное, счастье."
     "Lena put her head on my shoulder, and I thought that this, probably, was happiness."
 
-# game/scenes/endings.rpy:300
+# game/scenes/endings.rpy:308
 translate english ending_lena_stay_0033:
 
     # "Мысль получилась тихой и какой-то не своей — так думают люди, которые уже очень долго никуда не едут."
     "The thought came out quiet and somehow not my own — that's how people think who haven't been anywhere for a very long time."
 
-# game/scenes/endings.rpy:323
+# game/scenes/endings.rpy:331
 translate english ending_vera_voice_0001:
 
     # "Красная лампочка на пульте горела ровно."
     "The red lamp on the console burned evenly."
 
-# game/scenes/endings.rpy:325
+# game/scenes/endings.rpy:333
 translate english ending_vera_voice_0002:
 
     # "Вера села на тот самый шатающийся стул, поставила перед собой лист, отложила лист и придвинула микрофон."
     "Vera sat on that very wobbly chair, put a sheet in front of herself, set the sheet aside, and drew the microphone closer."
 
-# game/scenes/endings.rpy:330
+# game/scenes/endings.rpy:338
 translate english ending_vera_voice_0003:
 
     # vera "Говорит радиоузел лагеря «Сосновый берег». Смена двадцатая."
     vera "This is the radio room of Pine Shore camp speaking. Twentieth shift."
 
-# game/scenes/endings.rpy:332
+# game/scenes/endings.rpy:340
 translate english ending_vera_voice_0004:
 
     # vera "Это последний эфир. Не потому, что нам надоело. Потому, что пора."
     vera "This is the last broadcast. Not because we're tired of it. Because it's time."
 
-# game/scenes/endings.rpy:334
+# game/scenes/endings.rpy:342
 translate english ending_vera_voice_0005:
 
     # vera "Мы задержались здесь на двадцать лет из-за одной незаконченной фразы."
     vera "We stayed here for twenty years because of one unfinished sentence."
 
-# game/scenes/endings.rpy:336
+# game/scenes/endings.rpy:344
 translate english ending_vera_voice_0006:
 
     # vera "Так вот: до свидания, лето. Ты было хорошее. Ты было лучшее."
     vera "So: goodbye, summer. You were good. You were the best."
 
-# game/scenes/endings.rpy:338
+# game/scenes/endings.rpy:346
 translate english ending_vera_voice_0007:
 
     # "Она засмеялась. Смех вышел нужной длины — секунда в секунду."
     "She laughed. The laugh came out the right length — second for second."
 
-# game/scenes/endings.rpy:340
+# game/scenes/endings.rpy:348
 translate english ending_vera_voice_0008:
 
     # vera "Отдельно передаём: Гарина Елена, старшая вожатая. Все вышли. Все целы. Ты слышишь? Все."
     vera "Separately, we transmit: Garina Elena, senior counselor. Everyone got out. Everyone is safe. Do you hear? Everyone."
 
-# game/scenes/endings.rpy:342
+# game/scenes/endings.rpy:350
 translate english ending_vera_voice_0009:
 
     # vera "И Воронову передаём: сигнал принят. Прощаем. Повторяю — прощаем. Это официальный эфир, тут не шутят."
     vera "And we transmit to Voronov: signal received. We forgive you. I repeat — we forgive you. This is an official broadcast, we don't joke here."
 
-# game/scenes/endings.rpy:344
+# game/scenes/endings.rpy:352
 translate english ending_vera_voice_0010:
 
     # "Голос Веры разнёсся над лагерем."
     "Vera's voice carried over the camp."
 
-# game/scenes/endings.rpy:346
+# game/scenes/endings.rpy:354
 translate english ending_vera_voice_0011:
 
     # "И где-то далеко ему ответил рассвет."
     "And somewhere far away the dawn answered it."
 
-# game/scenes/endings.rpy:354
+# game/scenes/endings.rpy:362
 translate english ending_vera_voice_0012:
 
     # "Динамики погасли один за другим, как гаснет костёр, который никто не ворошит."
     "The speakers went out one after another, the way a campfire goes out that nobody stirs."
 
-# game/scenes/endings.rpy:363
+# game/scenes/endings.rpy:371
 translate english ending_vera_voice_0013:
 
     # "Я стоял у ворот и смотрел, как площадь уходит в свет — не в темноту, а именно в свет."
     "I stood by the gates and watched the square leave into the light — not into darkness, but precisely into light."
 
-# game/scenes/endings.rpy:365
+# game/scenes/endings.rpy:373
 translate english ending_vera_voice_0014:
 
     # "Лена кивнула мне с причала. Зоя помахала листом. Вера показала большой палец и отвернулась к микрофону, потому что не умела уходить глядя."
     "Lena nodded to me from the pier. Zoya waved a sheet. Vera showed a thumbs-up and turned back to the microphone, because she didn't know how to leave while looking."
 
-# game/scenes/endings.rpy:372
+# game/scenes/endings.rpy:380
 translate english ending_vera_voice_0015:
 
     # "Я проснулся в своей комнате, на полу, с телефоном в руке."
     "I woke up in my room, on the floor, with the phone in my hand."
 
-# game/scenes/endings.rpy:374
+# game/scenes/endings.rpy:382
 translate english ending_vera_voice_0016:
 
     # "На экране было четыре пропущенных от мамы и дата — сегодняшняя."
     "On the screen were four missed calls from Mom and a date — today's."
 
-# game/scenes/endings.rpy:376
+# game/scenes/endings.rpy:384
 translate english ending_vera_voice_0017:
 
     # "В нагрудном кармане куртки лежал билет. Настоящий, выцветший, холодный."
     "In the breast pocket of the jacket lay the ticket. A real one, faded, cold."
 
-# game/scenes/endings.rpy:378
+# game/scenes/endings.rpy:386
 translate english ending_vera_voice_0018:
 
     # "И сложенный вчетверо лист с расписанием: «Подъём — восемь. Завтрак — девять. Линейка — девятнадцать»."
     "And a sheet folded in four with the schedule: «Reveille — eight. Breakfast — nine. Line-up — nineteen hundred»."
 
-# game/scenes/endings.rpy:380
+# game/scenes/endings.rpy:388
 translate english ending_vera_voice_0019:
 
     # "Я показал маме билет. Она долго смотрела, потом спросила, откуда он."
     "I showed Mom the ticket. She looked for a long time, then asked where it was from."
 
-# game/scenes/endings.rpy:382
+# game/scenes/endings.rpy:390
 translate english ending_vera_voice_0020:
 
     # "Я сказал: из лагеря, где отец работал."
     "I said: from the camp where my father worked."
 
-# game/scenes/endings.rpy:384
+# game/scenes/endings.rpy:392
 translate english ending_vera_voice_0021:
 
     # "Она кивнула и убрала билет в ящик — к тем самым трём склеенным монетам и инструкции к радиостанции."
     "She nodded and put the ticket away in a drawer — next to those very three glued coins and the radio station manual."
 
-# game/scenes/endings.rpy:386
+# game/scenes/endings.rpy:394
 translate english ending_vera_voice_0022:
 
     # "Я не стал говорить, что знаю, почему он её хранил."
     "I didn't say that I knew why he had kept it."
 
-# game/scenes/endings.rpy:388
+# game/scenes/endings.rpy:396
 translate english ending_vera_voice_0023:
 
     # "Некоторые вещи лучше знать одному. По крайней мере, пока не научишься говорить о них спокойно."
     "Some things are better known by one person. At least until you learn to speak of them calmly."
 
-# game/scenes/endings.rpy:390
+# game/scenes/endings.rpy:398
 translate english ending_vera_voice_0024:
 
     # "Через неделю я ехал в маршрутке и машинально включил радио."
     "A week later I was riding in a marshrutka and mechanically switched on the radio."
 
-# game/scenes/endings.rpy:392
+# game/scenes/endings.rpy:400
 translate english ending_vera_voice_0025:
 
     # "Шли помехи. Сквозь помехи кто-то громко, весело и совершенно незнакомым голосом сказал:"
     "Static was playing. Through the static someone said loudly, merrily, and in a completely unfamiliar voice:"
 
-# game/scenes/endings.rpy:394
+# game/scenes/endings.rpy:402
 translate english ending_vera_voice_0026:
 
     # vera "…и никому не советую молчать больше двадцати лет!"
     vera "…and I advise nobody to stay silent for more than twenty years!"
 
-# game/scenes/endings.rpy:396
+# game/scenes/endings.rpy:404
 translate english ending_vera_voice_0027:
 
     # "Я улыбнулся как идиот. Весь оставшийся путь."
     "I smiled like an idiot. For the whole rest of the way."
 
-# game/scenes/endings.rpy:398
+# game/scenes/endings.rpy:406
 translate english ending_vera_voice_0028:
 
     # mc "Принято, Вера. Сигнал принят."
     mc "Received, Vera. Signal received."
 
-# game/scenes/endings.rpy:417
+# game/scenes/endings.rpy:425
 translate english ending_zoya_painting_0001:
 
     # "Зоя сделала последний мазок."
     "Zoya made the last stroke."
 
-# game/scenes/endings.rpy:422
+# game/scenes/endings.rpy:430
 translate english ending_zoya_painting_0002:
 
     # "Не тёмный. Светлый — полоса по нижнему краю, которую я принял бы за рамку, если бы не знал."
     "Not a dark one. A light one — a band along the bottom edge, which I would have taken for a frame if I didn't know."
 
-# game/scenes/endings.rpy:424
+# game/scenes/endings.rpy:432
 translate english ending_zoya_painting_0003:
 
     # zoya "Всё."
     zoya "That's all."
 
-# game/scenes/endings.rpy:426
+# game/scenes/endings.rpy:434
 translate english ending_zoya_painting_0004:
 
     # mc "Покажи."
     mc "Show me."
 
-# game/scenes/endings.rpy:428
+# game/scenes/endings.rpy:436
 translate english ending_zoya_painting_0005:
 
     # "Она развернула картину к площади."
     "She turned the painting toward the square."
 
-# game/scenes/endings.rpy:430
+# game/scenes/endings.rpy:438
 translate english ending_zoya_painting_0006:
 
     # "Лагерь ожил на картине — и тихо исчез."
     "The camp came alive in the painting — and quietly vanished."
 
-# game/scenes/endings.rpy:435
+# game/scenes/endings.rpy:443
 translate english ending_zoya_painting_0007:
 
     # "Сначала ушёл звук: перестал скрипеть флагшток, замолчали качели, оборвался динамик на полуслове."
     "First the sound left: the flagpole stopped creaking, the swings fell silent, the speaker cut off mid-sentence."
 
-# game/scenes/endings.rpy:437
+# game/scenes/endings.rpy:445
 translate english ending_zoya_painting_0008:
 
     # "Потом ушёл цвет: корпуса выцвели, как старая фотография на подоконнике."
     "Then the color left: the barracks faded, like an old photograph on a windowsill."
 
-# game/scenes/endings.rpy:439
+# game/scenes/endings.rpy:447
 translate english ending_zoya_painting_0009:
 
     # "Потом ушли они."
     "Then they left."
 
-# game/scenes/endings.rpy:441
+# game/scenes/endings.rpy:449
 translate english ending_zoya_painting_0010:
 
     # "Лена вошла в картину — не шагнула, а именно вошла, как входят в тёплую воду. Она осталась в ней светом у самой кромки."
     "Lena entered the painting — not stepped, but precisely entered, the way people enter warm water. She remained in it as light at the very edge."
 
-# game/scenes/endings.rpy:443
+# game/scenes/endings.rpy:451
 translate english ending_zoya_painting_0011:
 
     # "Вера подмигнула и сказала: «Для радио это тоже считается эфиром»."
     "Vera winked and said: «For radio, this also counts as a broadcast»."
 
-# game/scenes/endings.rpy:445
+# game/scenes/endings.rpy:453
 translate english ending_zoya_painting_0012:
 
     # "Зоя посмотрела на меня дольше, чем когда-либо."
     "Zoya looked at me longer than ever before."
 
-# game/scenes/endings.rpy:450
+# game/scenes/endings.rpy:458
 translate english ending_zoya_painting_0013:
 
     # zoya "Тебе не страшно?"
     zoya "Aren't you scared?"
 
-# game/scenes/endings.rpy:452
+# game/scenes/endings.rpy:460
 translate english ending_zoya_painting_0014:
 
     # mc "Страшно."
     mc "Scared."
 
-# game/scenes/endings.rpy:454
+# game/scenes/endings.rpy:462
 translate english ending_zoya_painting_0015:
 
     # zoya "Мне тоже."
     zoya "Me too."
 
-# game/scenes/endings.rpy:456
+# game/scenes/endings.rpy:464
 translate english ending_zoya_painting_0016:
 
     # mc "Что будет с рисунком?"
     mc "What will happen to the drawing?"
 
-# game/scenes/endings.rpy:458
+# game/scenes/endings.rpy:466
 translate english ending_zoya_painting_0017:
 
     # zoya "Он будет у тебя."
     zoya "It will be with you."
 
-# game/scenes/endings.rpy:460
+# game/scenes/endings.rpy:468
 translate english ending_zoya_painting_0018:
 
     # mc "У меня?"
     mc "With me?"
 
-# game/scenes/endings.rpy:462
+# game/scenes/endings.rpy:470
 translate english ending_zoya_painting_0019:
 
     # zoya "Я не умею носить. Я умею рисовать."
     zoya "I don't know how to carry. I know how to draw."
 
-# game/scenes/endings.rpy:464
+# game/scenes/endings.rpy:472
 translate english ending_zoya_painting_0020:
 
     # "Она протянула мне лист — тяжёлый, как доска, тёплый, как чужая ладонь."
     "She handed me the sheet — heavy as a board, warm as someone else's palm."
 
-# game/scenes/endings.rpy:466
+# game/scenes/endings.rpy:474
 translate english ending_zoya_painting_0021:
 
     # zoya "Смотри на него иногда. Не каждый день. Каждому дню хватает своих рисунков."
     zoya "Look at it sometimes. Not every day. Each day has enough of its own drawings."
 
-# game/scenes/endings.rpy:468
+# game/scenes/endings.rpy:476
 translate english ending_zoya_painting_0022:
 
     # mc "Я буду."
     mc "I will."
 
-# game/scenes/endings.rpy:470
+# game/scenes/endings.rpy:478
 translate english ending_zoya_painting_0023:
 
     # zoya "И не прячь в коробку."
     zoya "And don't hide it in a box."
 
-# game/scenes/endings.rpy:472
+# game/scenes/endings.rpy:480
 translate english ending_zoya_painting_0024:
 
     # mc "Не спрячу."
     mc "I won't hide it."
 
-# game/scenes/endings.rpy:480
+# game/scenes/endings.rpy:488
 translate english ending_zoya_painting_0025:
 
     # "Я стоял один посреди заросшего поля."
     "I stood alone in the middle of the overgrown field."
 
-# game/scenes/endings.rpy:482
+# game/scenes/endings.rpy:490
 translate english ending_zoya_painting_0026:
 
     # "Под мышкой — картина, которой не должно было существовать: четыре фигуры, площадь, причал и полоса света по краю."
     "Under my arm — a painting that shouldn't have existed: four figures, a square, a pier, and a band of light along the edge."
 
-# game/scenes/endings.rpy:484
+# game/scenes/endings.rpy:492
 translate english ending_zoya_painting_0027:
 
     # "Краска не высохла. Она не высохла и через год."
     "The paint didn't dry. It hadn't dried a year later either."
 
-# game/scenes/endings.rpy:491
+# game/scenes/endings.rpy:499
 translate english ending_zoya_painting_0028:
 
     # "Картина висит над столом. Мама спросила, где я её взял."
     "The painting hangs above the desk. Mom asked where I got it."
 
-# game/scenes/endings.rpy:493
+# game/scenes/endings.rpy:501
 translate english ending_zoya_painting_0029:
 
     # "Я сказал: в лагере, у одной девочки."
     "I said: at a camp, from a girl."
 
-# game/scenes/endings.rpy:495
+# game/scenes/endings.rpy:503
 translate english ending_zoya_painting_0030:
 
     # "Она долго смотрела и сказала, что свет нарисован неправильно — так не бывает."
     "She looked for a long time and said the light was painted wrongly — it doesn't happen like that."
 
-# game/scenes/endings.rpy:497
+# game/scenes/endings.rpy:505
 translate english ending_zoya_painting_0031:
 
     # "Я не стал спорить. Бывает."
     "I didn't argue. It does."
 
-# game/scenes/endings.rpy:499
+# game/scenes/endings.rpy:507
 translate english ending_zoya_painting_0032:
 
     # "Зоя не оставила ни адреса, ни письма. Только картину и одну фразу, которую я повторяю иногда вслух:"
     "Zoya left neither an address nor a letter. Only the painting and one phrase that I sometimes repeat out loud:"
 
-# game/scenes/endings.rpy:501
+# game/scenes/endings.rpy:509
 translate english ending_zoya_painting_0033:
 
     # zoya "Каждому дню хватает своих рисунков."
     zoya "Each day has enough of its own drawings."
 
-# game/scenes/endings.rpy:503
+# game/scenes/endings.rpy:511
 translate english ending_zoya_painting_0034:
 
     # "Я повесил её так, чтобы было видно от двери. Мама сначала ворчала, что «эта мазня портит стену», а потом сама стала поправлять её, когда та висела криво."
     "I hung it so it's visible from the door. At first Mom grumbled that «this daub spoils the wall», and then she herself began straightening it when it hung crooked."
 
-# game/scenes/endings.rpy:505
+# game/scenes/endings.rpy:513
 translate english ending_zoya_painting_0035:
 
     # "Однажды я рассказал ей про лагерь. Весь, до конца: про грозу, про причал, про отца, про Лену."
     "One day I told her about the camp. All of it, to the end: about the storm, about the pier, about my father, about Lena."
 
-# game/scenes/endings.rpy:507
+# game/scenes/endings.rpy:515
 translate english ending_zoya_painting_0036:
 
     # "Мама выслушала молча. Потом сказала: «Значит, он не бросил нас. Он просто не вынес»."
     "Mom listened in silence. Then she said: «So he didn't abandon us. He simply couldn't bear it»."
 
-# game/scenes/endings.rpy:509
+# game/scenes/endings.rpy:517
 translate english ending_zoya_painting_0037:
 
     # "Я не согласился. Но спорить не стал — она имела право понимать это по-своему."
     "I didn't agree. But I didn't argue — she had the right to understand it in her own way."
 
-# game/scenes/endings.rpy:511
+# game/scenes/endings.rpy:519
 translate english ending_zoya_painting_0038:
 
     # "Иногда, когда я работаю допоздна и в комнате остаётся только лампа, фигуры на картине стоят чуть ближе к краю."
     "Sometimes, when I work late and only the lamp remains in the room, the figures in the painting stand a little closer to the edge."
 
-# game/scenes/endings.rpy:513
+# game/scenes/endings.rpy:521
 translate english ending_zoya_painting_0039:
 
     # "Я не боюсь. Я просто говорю им «спокойной ночи»."
     "I'm not afraid. I just say «good night» to them."
 
-# game/scenes/endings.rpy:515
+# game/scenes/endings.rpy:523
 translate english ending_zoya_painting_0040:
 
     # "И они, кажется, отвечают."
     "And they, it seems, answer."
 
-# game/scenes/endings.rpy:535
+# game/scenes/endings.rpy:543
 translate english ending_farewell_0001:
 
     # "Рассвет застал меня у ворот."
     "Dawn found me at the gates."
 
-# game/scenes/endings.rpy:537
+# game/scenes/endings.rpy:545
 translate english ending_farewell_0002:
 
     # "Я простоял там всю ночь, перебирая то, что нашёл: билет, страница журнала, обрывок плёнки, фотография, чужая записка."
     "I stood there all night, going over what I had found: the ticket, a page of the logbook, a scrap of tape, the photograph, someone else's note."
 
-# game/scenes/endings.rpy:539
+# game/scenes/endings.rpy:547
 translate english ending_farewell_0003:
 
     # "Правда была у меня в руках. Целиком."
     "The truth was in my hands. Whole."
 
-# game/scenes/endings.rpy:541
+# game/scenes/endings.rpy:549
 translate english ending_farewell_0004:
 
     # "А сделать с ней я ничего не успел."
     "And I hadn't managed to do anything with it."
 
-# game/scenes/endings.rpy:543
+# game/scenes/endings.rpy:551
 translate english ending_farewell_0005:
 
     # "Линейка не проведена. Эфир не закрыт. Последний мазок не поставлен. Имя не названо вслух при всех."
     "The line-up wasn't held. The broadcast wasn't closed. The last stroke wasn't placed. The name wasn't said out loud in front of everyone."
 
-# game/scenes/endings.rpy:545
+# game/scenes/endings.rpy:553
 translate english ending_farewell_0006:
 
     # mc "Я знал. Знал — и не закончил."
     mc "I knew. I knew — and didn't finish."
 
-# game/scenes/endings.rpy:547
+# game/scenes/endings.rpy:555
 translate english ending_farewell_0007:
 
     # "Лагерь за спиной был тихий."
     "The camp behind me was quiet."
 
-# game/scenes/endings.rpy:549
+# game/scenes/endings.rpy:557
 translate english ending_farewell_0008:
 
     # "Не пугающий. Не давящий. Просто тихий — так бывает тихо в доме, где все легли спать, не договорив."
     "Not frightening. Not pressing. Simply quiet — the way it's quiet in a house where everyone went to bed without finishing what they were saying."
 
-# game/scenes/endings.rpy:554
+# game/scenes/endings.rpy:562
 translate english ending_farewell_0009:
 
     # "Лена стояла у ворот. Она не звала и не останавливала."
     "Lena stood by the gates. She didn't call and didn't stop me."
 
-# game/scenes/endings.rpy:556
+# game/scenes/endings.rpy:564
 translate english ending_farewell_0010:
 
     # lena "Ты уходишь."
     lena "You're leaving."
 
-# game/scenes/endings.rpy:558
+# game/scenes/endings.rpy:566
 translate english ending_farewell_0011:
 
     # mc "Ухожу."
     mc "I'm leaving."
 
-# game/scenes/endings.rpy:560
+# game/scenes/endings.rpy:568
 translate english ending_farewell_0012:
 
     # lena "Хорошо."
     lena "Good."
 
-# game/scenes/endings.rpy:562
+# game/scenes/endings.rpy:570
 translate english ending_farewell_0013:
 
     # mc "Хорошо?"
     mc "Good?"
 
-# game/scenes/endings.rpy:567
+# game/scenes/endings.rpy:575
 translate english ending_farewell_0014:
 
     # lena "Ты не остался. Это уже больше, чем сделал твой отец."
     lena "You didn't stay. That's already more than your father did."
 
-# game/scenes/endings.rpy:569
+# game/scenes/endings.rpy:577
 translate english ending_farewell_0015:
 
     # mc "Я мог закончить."
     mc "I could have finished it."
 
-# game/scenes/endings.rpy:571
+# game/scenes/endings.rpy:579
 translate english ending_farewell_0016:
 
     # lena "Мог."
     lena "Could have."
 
-# game/scenes/endings.rpy:573
+# game/scenes/endings.rpy:581
 translate english ending_farewell_0017:
 
     # mc "Почему не сказала?"
     mc "Why didn't you say so?"
 
-# game/scenes/endings.rpy:575
+# game/scenes/endings.rpy:583
 translate english ending_farewell_0018:
 
     # lena "Потому что это должен решить ты. Иначе не считается."
     lena "Because you must decide it yourself. Otherwise it doesn't count."
 
-# game/scenes/endings.rpy:577
+# game/scenes/endings.rpy:585
 translate english ending_farewell_0019:
 
     # "Вера помахала мне от радиоузла — слишком весело, так машут, когда не хотят, чтобы их заметили."
     "Vera waved to me from the radio room — too merrily, the way people wave when they don't want to be noticed."
 
-# game/scenes/endings.rpy:579
+# game/scenes/endings.rpy:587
 translate english ending_farewell_0020:
 
     # "Зоя стояла у окна библиотеки. Она перевернула рисунок лицом вниз."
     "Zoya stood by the library window. She turned the drawing face down."
 
-# game/scenes/endings.rpy:584
+# game/scenes/endings.rpy:592
 translate english ending_farewell_0021:
 
     # "Я вышел за ворота."
     "I went out beyond the gates."
 
-# game/scenes/endings.rpy:586
+# game/scenes/endings.rpy:594
 translate english ending_farewell_0022:
 
     # "Дорога была на месте. Остановка — на месте. Четыре километра я прошёл за час."
     "The road was in place. The stop — in place. I walked the four kilometers in an hour."
 
-# game/scenes/endings.rpy:588
+# game/scenes/endings.rpy:596
 translate english ending_farewell_0023:
 
     # "Автобус пришёл вовремя."
     "The bus came on time."
 
-# game/scenes/endings.rpy:590
+# game/scenes/endings.rpy:598
 translate english ending_farewell_0024:
 
     # "Водитель спросил, откуда я иду. Я сказал: из лагеря."
     "The driver asked where I was coming from. I said: from the camp."
 
-# game/scenes/endings.rpy:592
+# game/scenes/endings.rpy:600
 translate english ending_farewell_0025:
 
     # "Он посмотрел в зеркало, потом на меня, потом снова в зеркало."
     "He looked in the mirror, then at me, then in the mirror again."
 
-# game/scenes/endings.rpy:594
+# game/scenes/endings.rpy:602
 translate english ending_farewell_0026:
 
     # "«Какого лагеря?» — спросил он."
     "«Which camp?» he asked."
 
-# game/scenes/endings.rpy:596
+# game/scenes/endings.rpy:604
 translate english ending_farewell_0027:
 
     # "«Сосновый берег», — сказал я."
     "«Pine Shore», I said."
 
-# game/scenes/endings.rpy:598
+# game/scenes/endings.rpy:606
 translate english ending_farewell_0028:
 
     # "Он помолчал и ответил, уже отворачиваясь: «Там ничего нет. Сгорело всё в девяносто восьмом»."
     "He was silent for a moment and answered, already turning away: «There's nothing there. It all burned down in ninety-eight»."
 
-# game/scenes/endings.rpy:600
+# game/scenes/endings.rpy:608
 translate english ending_farewell_0029:
 
     # "Я не стал спорить. Я знал, что там есть."
     "I didn't argue. I knew there was."
 
-# game/scenes/endings.rpy:602
+# game/scenes/endings.rpy:610
 translate english ending_farewell_0030:
 
     # "И знал, что вернусь не сегодня."
     "And I knew I wouldn't come back today."
 
-# game/scenes/endings.rpy:607
+# game/scenes/endings.rpy:615
 translate english ending_farewell_0031:
 
     # "В окне я искал детский рисунок солнца. Его не было."
     "In the window I looked for a child's drawing of the sun. It wasn't there."
 
-# game/scenes/endings.rpy:609
+# game/scenes/endings.rpy:617
 translate english ending_farewell_0032:
 
     # "В нагрудном кармане лежал билет. Он был тёплый — и оставался тёплым ещё очень долго."
     "In my breast pocket lay the ticket. It was warm — and stayed warm for a very long time."
 
-# game/scenes/endings.rpy:611
+# game/scenes/endings.rpy:619
 translate english ending_farewell_0033:
 
     # mc "Я вернусь."
     mc "I'll come back."
 
-# game/scenes/endings.rpy:613
+# game/scenes/endings.rpy:621
 translate english ending_farewell_0034:
 
     # "Я сказал это вслух, в пустом автобусе, и сам себе не поверил."
     "I said it out loud, in an empty bus, and didn't believe myself."
 
-# game/scenes/endings.rpy:615
+# game/scenes/endings.rpy:623
 translate english ending_farewell_0035:
 
     # "Но лагерь за спиной, кажется, услышал."
     "But the camp behind me, it seemed, heard."
 
-# game/scenes/endings.rpy:617
+# game/scenes/endings.rpy:625
 translate english ending_farewell_0036:
 
     # "Он тихий. Он не пугает."
     "It is quiet. It doesn't frighten."
 
-# game/scenes/endings.rpy:619
+# game/scenes/endings.rpy:627
 translate english ending_farewell_0037:
 
     # "Он всё ещё ждёт."
     "It is still waiting."
 
-# game/scenes/endings.rpy:639
+# game/scenes/endings.rpy:647
 translate english ending_forgotten_0001:
 
     # "Я шёл к воротам и чувствовал, как становится легче."
     "I walked to the gates and felt it getting lighter."
 
-# game/scenes/endings.rpy:641
+# game/scenes/endings.rpy:649
 translate english ending_forgotten_0002:
 
     # "Не веселее. Легче."
     "Not merrier. Lighter."
 
-# game/scenes/endings.rpy:643
+# game/scenes/endings.rpy:651
 translate english ending_forgotten_0003:
 
     # "Сначала ушли имена: Вера, Зоя, Лена. Я помнил, что они были, но не помнил, кто из них кто."
     "First the names left: Vera, Zoya, Lena. I remembered that they had been, but not which was which."
 
-# game/scenes/endings.rpy:645
+# game/scenes/endings.rpy:653
 translate english ending_forgotten_0004:
 
     # "Потом ушло лицо матери."
     "Then my mother's face left."
 
-# game/scenes/endings.rpy:647
+# game/scenes/endings.rpy:655
 translate english ending_forgotten_0005:
 
     # "Потом — причина, по которой я вообще приехал."
     "Then — the reason I had come at all."
 
-# game/scenes/endings.rpy:649
+# game/scenes/endings.rpy:657
 translate english ending_forgotten_0006:
 
     # mc "Я забыл, как меня зовут."
     mc "I forgot my own name."
 
-# game/scenes/endings.rpy:651
+# game/scenes/endings.rpy:659
 translate english ending_forgotten_0007:
 
     # "Но лагерь запомнил."
     "But the camp remembered."
 
-# game/scenes/endings.rpy:653
+# game/scenes/endings.rpy:661
 translate english ending_forgotten_0008:
 
     # "Он запомнил всё: подъём в восемь, завтрак в девять, линейку в девятнадцать ноль-ноль."
     "It remembered everything: reveille at eight, breakfast at nine, line-up at nineteen hundred hours."
 
-# game/scenes/endings.rpy:655
+# game/scenes/endings.rpy:663
 translate english ending_forgotten_0009:
 
     # "Он дал мне расписание вместо имени. Это оказалось даже удобнее."
     "It gave me a schedule instead of a name. That turned out to be even more convenient."
 
-# game/scenes/endings.rpy:660
+# game/scenes/endings.rpy:668
 translate english ending_forgotten_0010:
 
     # "Утром к воротам подошёл кто-то новый."
     "In the morning someone new came up to the gates."
 
-# game/scenes/endings.rpy:662
+# game/scenes/endings.rpy:670
 translate english ending_forgotten_0011:
 
     # "Подросток с рюкзаком, в старой куртке не по размеру. Он держался за нагрудный карман каждые десять шагов."
     "A teenager with a backpack, in an old jacket the wrong size. He clutched his breast pocket every ten steps."
 
-# game/scenes/endings.rpy:664
+# game/scenes/endings.rpy:672
 translate english ending_forgotten_0012:
 
     # "Я улыбнулся ему, как старому знакомому."
     "I smiled at him like an old acquaintance."
 
-# game/scenes/endings.rpy:666
+# game/scenes/endings.rpy:674
 translate english ending_forgotten_0013:
 
     # mc "Ну и где тут хотя бы кто-нибудь живой?"
     mc "So where is anybody alive around here?"
 
-# game/scenes/endings.rpy:668
+# game/scenes/endings.rpy:676
 translate english ending_forgotten_0014:
 
-    # "Я хотел ответить ему честно. Что-то очень простое, вроде: «Смотря что ты понимаешь под словом „живой“»."
-    "I wanted to answer him honestly. Something very simple, like: «Depends on what you mean by ‘alive’»."
+    # "Я хотел ответить ему честно. Что-то очень простое. Вроде: я помню тебя. Ты был здесь. Этого достаточно."
+    "I wanted to answer him honestly. Something very simple. Like: I remember you. You were here. That is enough."
 
-# game/scenes/endings.rpy:670
+# game/scenes/endings.rpy:678
 translate english ending_forgotten_0015:
 
     # "Но вместо этого услышал собственный голос — весёлый, ровный, чужой:"
     "But instead I heard my own voice — merry, even, someone else's:"
 
-# game/scenes/endings.rpy:672
+# game/scenes/endings.rpy:680
 translate english ending_forgotten_0016:
 
     # mc "Лето только начинается."
     mc "Summer is only beginning."
 
-# game/scenes/endings.rpy:674
+# game/scenes/endings.rpy:682
 translate english ending_forgotten_0017:
 
     # "Он вздрогнул. Потом спросил, как пройти к площади."
     "He flinched. Then he asked how to get to the square."
 
-# game/scenes/endings.rpy:676
+# game/scenes/endings.rpy:684
 translate english ending_forgotten_0018:
 
     # "Я показал."
     "I showed him."
 
-# game/scenes/endings.rpy:678
+# game/scenes/endings.rpy:686
 translate english ending_forgotten_0019:
 
     # "Я всегда показываю."
     "I always show."
 
-# game/scenes/endings.rpy:680
+# game/scenes/endings.rpy:688
 translate english ending_forgotten_0020:
 
     # child "Линейка в семь! Не опаздывай!"
     child "Line-up at seven! Don't be late!"
 
-# game/scenes/endings.rpy:682
+# game/scenes/endings.rpy:690
 translate english ending_forgotten_0021:
 
     # "Где-то далеко щёлкнул динамик и ничего не сказал."
     "Somewhere far away a speaker clicked and said nothing."
 
-# game/scenes/endings.rpy:684
+# game/scenes/endings.rpy:692
 translate english ending_forgotten_0022:
 
     # "Я стоял у ворот и ждал следующего."
     "I stood by the gates and waited for the next one."
 
-# game/scenes/endings.rpy:686
+# game/scenes/endings.rpy:694
 translate english ending_forgotten_0023:
 
     # "Мне было спокойно. Совсем."
     "I felt calm. Completely."
 
-# game/scenes/endings.rpy:688
+# game/scenes/endings.rpy:696
 translate english ending_forgotten_0024:
 
     # "Только иногда, когда ветер шёл со стороны реки, я почему-то трогал нагрудный карман."
     "Only sometimes, when the wind came from the river side, I would touch my breast pocket for some reason."
 
-# game/scenes/endings.rpy:690
+# game/scenes/endings.rpy:698
 translate english ending_forgotten_0025:
 
     # "Там ничего не было."
     "There was nothing in it."
 
-# game/scenes/endings.rpy:692
+# game/scenes/endings.rpy:700
 translate english ending_forgotten_0026:
 
     # "И никогда не было."
     "And never had been."
 
-# game/scenes/endings.rpy:694
+# game/scenes/endings.rpy:702
 translate english ending_forgotten_0027:
 
     # "Просто рука привыкла."
     "It's just that the hand got used to it."
 
-# game/scenes/endings.rpy:696
+# game/scenes/endings.rpy:704
 translate english ending_forgotten_0028:
 
     # "Иногда к воротам приходят не одни, а вдвоём. Иногда приезжают на машине и оставляют у столба букет — я не знаю зачем, мне не объясняют."
     "Sometimes people come to the gates not alone but in pairs. Sometimes they arrive by car and leave a bouquet by the pillar — I don't know why, nobody explains it to me."
 
-# game/scenes/endings.rpy:698
+# game/scenes/endings.rpy:706
 translate english ending_forgotten_0029:
 
     # "Однажды пришла женщина лет сорока. Она постояла, посмотрела на меня и спросила:"
     "Once a woman of about forty came. She stood for a while, looked at me, and asked:"
 
-# game/scenes/endings.rpy:700
+# game/scenes/endings.rpy:708
 translate english ending_forgotten_0030:
 
     # "«Вы тут давно работаете?»"
     "«Have you been working here long?»"
 
-# game/scenes/endings.rpy:702
+# game/scenes/endings.rpy:710
 translate english ending_forgotten_0031:
 
     # "Я ответил честно:"
     "I answered honestly:"
 
-# game/scenes/endings.rpy:704
+# game/scenes/endings.rpy:712
 translate english ending_forgotten_0032:
 
     # mc "С начала смены."
     mc "Since the start of the shift."
 
-# game/scenes/endings.rpy:706
+# game/scenes/endings.rpy:714
 translate english ending_forgotten_0033:
 
     # "Она кивнула и ушла. А я остался."
     "She nodded and left. And I stayed."
 
-# game/scenes/endings.rpy:708
+# game/scenes/endings.rpy:716
 translate english ending_forgotten_0034:
 
     # "У меня же линейка в семь."
     "I have a line-up at seven, after all."
 
-# game/scenes/endings.rpy:710
+# game/scenes/endings.rpy:718
 translate english ending_forgotten_0035:
 
     # "Я никогда не опаздываю."
     "I'm never late."
 
-# game/scenes/endings.rpy:730
+# game/scenes/endings.rpy:738
 translate english ending_secret_0001:
 
     # "Лагерь растворился на рассвете — так же, как в тот раз."
     "The camp dissolved at dawn — just like that other time."
 
-# game/scenes/endings.rpy:732
+# game/scenes/endings.rpy:740
 translate english ending_secret_0002:
 
     # "Только на этот раз я унёс его с собой."
     "Only this time I carried it away with me."
 
-# game/scenes/endings.rpy:739
+# game/scenes/endings.rpy:749
 translate english ending_secret_0003:
 
     # "Коробка из-под обуви стояла на столе. Я разобрал её до конца — впервые за год."
     "The shoe box stood on the table. I sorted it to the end — for the first time in a year."
 
-# game/scenes/endings.rpy:741
+# game/scenes/endings.rpy:751
 translate english ending_secret_0004:
 
     # "Под свитером, на самом дне, был конверт. Незаклеенный."
     "Under the sweater, at the very bottom, was an envelope. Unsealed."
 
-# game/scenes/endings.rpy:743
+# game/scenes/endings.rpy:753
 translate english ending_secret_0005:
 
     # "Внутри — ещё один билет."
     "Inside — another ticket."
 
-# game/scenes/endings.rpy:745
+# game/scenes/endings.rpy:755
 translate english ending_secret_0006:
 
     # "«Сосновый берег». Смена 21-я. Заезд — пятое августа."
     "«Pine Shore». Shift 21. Check-in — the fifth of August."
 
-# game/scenes/endings.rpy:747
+# game/scenes/endings.rpy:757
 translate english ending_secret_0007:
 
     # "И фамилия."
     "And a surname."
 
-# game/scenes/endings.rpy:749
+# game/scenes/endings.rpy:759
 translate english ending_secret_0008:
 
     # "«Воронов А.»"
     "«Voronov A.»"
 
-# game/scenes/endings.rpy:751
+# game/scenes/endings.rpy:761
 translate english ending_secret_0009:
 
     # mc "А."
     mc "A."
 
-# game/scenes/endings.rpy:753
+# game/scenes/endings.rpy:763
 translate english ending_secret_0010:
 
     # "Я сел на пол. Прямо на пол, со спиной к кровати, как садятся люди, которым надо переварить слишком много."
     "I sat down on the floor. Right on the floor, with my back to the bed, the way people sit who need to process too much."
 
-# game/scenes/endings.rpy:755
+# game/scenes/endings.rpy:765
 translate english ending_secret_0011:
 
     # "Двадцать первая смена. Год после двадцатой."
     "The twenty-first shift. A year after the twentieth."
 
-# game/scenes/endings.rpy:757
+# game/scenes/endings.rpy:767
 translate english ending_secret_0012:
 
     # "Он выписал билет на моё имя."
     "He had issued a ticket in my name."
 
-# game/scenes/endings.rpy:759
+# game/scenes/endings.rpy:769
 translate english ending_secret_0013:
 
     # "Он собирался поехать сюда со мной."
     "He had been going to come here with me."
 
-# game/scenes/endings.rpy:761
+# game/scenes/endings.rpy:771
 translate english ending_secret_0014:
 
     # "В конверте лежала ещё одна бумага — почтовый бланк, заполненный наполовину. Адрес, которого я не знал: другой город, улица, дом, квартира."
     "In the envelope lay one more paper — a postal form, filled in halfway. An address I didn't know: another city, street, building, apartment."
 
-# game/scenes/endings.rpy:763
+# game/scenes/endings.rpy:773
 translate english ending_secret_0015:
 
     # "И дата. Год назад."
     "And a date. A year ago."
 
-# game/scenes/endings.rpy:765
+# game/scenes/endings.rpy:775
 translate english ending_secret_0016:
 
     # mc "Ты не пропал. Ты уехал."
     mc "You didn't vanish. You left."
 
-# game/scenes/endings.rpy:767
+# game/scenes/endings.rpy:777
 translate english ending_secret_0017:
 
     # mc "Уехал туда, где тебя никто не спросит про восемнадцатое августа."
     mc "Left for a place where nobody would ask you about the eighteenth of August."
 
-# game/scenes/endings.rpy:769
+# game/scenes/endings.rpy:779
 translate english ending_secret_0018:
 
     # "Я достал фотографию двадцатой смены — ту самую, из-под коряги."
     "I took out the photograph of the twentieth shift — the very one from under the snag."
 
-# game/scenes/endings.rpy:771
+# game/scenes/endings.rpy:781
 translate english ending_secret_0019:
 
     # "Лена и молодой парень в рубашке с чужого плеча. Часы без ремешка."
     "Lena and a young guy in a shirt off someone else's shoulder. A watch with no strap."
 
-# game/scenes/endings.rpy:773
+# game/scenes/endings.rpy:783
 translate english ending_secret_0020:
 
     # "На обороте: «Лена и И. Пусть это лето не кончается»."
     "On the back: «Lena and I. May this summer never end»."
 
-# game/scenes/endings.rpy:775
+# game/scenes/endings.rpy:785
 translate english ending_secret_0021:
 
     # "Я купил рамку. Простую, деревянную, без стекла — чтобы не отражаться."
     "I bought a frame. A simple wooden one, without glass — so as not to reflect."
 
-# game/scenes/endings.rpy:777
+# game/scenes/endings.rpy:787
 translate english ending_secret_0022:
 
     # "Поставил её на стол. Рядом положил два билета: один выцветший, второй почти новый."
     "I set it on the table. Beside it I laid two tickets: one faded, the second almost new."
 
-# game/scenes/endings.rpy:779
+# game/scenes/endings.rpy:789
 translate english ending_secret_0023:
 
     # "Билет на двоих. Он пролежал так двадцать лет."
     "A ticket for two. It had lain like that for twenty years."
 
-# game/scenes/endings.rpy:781
+# game/scenes/endings.rpy:791
 translate english ending_secret_0024:
 
     # "Прошлое осталось памятью, а не клеткой."
     "The past remained a memory, not a cage."
 
-# game/scenes/endings.rpy:783
+# game/scenes/endings.rpy:793
 translate english ending_secret_0025:
 
     # "А впереди было что-то новое."
     "And ahead there was something new."
 
-# game/scenes/endings.rpy:785
+# game/scenes/endings.rpy:795
 translate english ending_secret_0026:
 
     # "Я написал на бланке одно слово — «еду» — и положил его в карман."
     "I wrote one word on the form — «coming» — and put it in my pocket."
 
-# game/scenes/endings.rpy:787
+# game/scenes/endings.rpy:797
 translate english ending_secret_0027:
 
     # "Поезд уходил через три дня."
     "The train left in three days."
 
-# game/scenes/endings.rpy:789
+# game/scenes/endings.rpy:799
 translate english ending_secret_0028:
 
     # "Я позвонил маме и сказал, что уезжаю на неделю и что это связано с отцом."
     "I called Mom and said I was leaving for a week and that it had to do with my father."
 
-# game/scenes/endings.rpy:791
+# game/scenes/endings.rpy:801
 translate english ending_secret_0029:
 
     # "Она молчала так долго, что я успел испугаться."
     "She was silent so long that I had time to get scared."
 
-# game/scenes/endings.rpy:793
+# game/scenes/endings.rpy:803
 translate english ending_secret_0030:
 
     # "Потом спросила: «Ты его нашёл?»"
     "Then she asked: «Did you find him?»"
 
-# game/scenes/endings.rpy:795
+# game/scenes/endings.rpy:805
 translate english ending_secret_0031:
 
     # "«Нет, — сказал я. — Я нашёл билет»."
     "«No,» I said. «I found a ticket.»"
 
-# game/scenes/endings.rpy:797
+# game/scenes/endings.rpy:807
 translate english ending_secret_0032:
 
     # "Она помолчала ещё немного и сказала: «Ну, значит, билет»."
     "She was silent a little longer and said: «Well, then, a ticket.»"
 
-# game/scenes/endings.rpy:799
+# game/scenes/endings.rpy:809
 translate english ending_secret_0033:
 
     # "И не стала больше спрашивать ни о чём."
     "And she didn't ask about anything else."
 
-# game/scenes/endings.rpy:801
+# game/scenes/endings.rpy:811
 translate english ending_secret_0034:
 
     # "Я не знал, что скажу отцу. Не знал, откроет ли он вообще."
     "I didn't know what I would say to my father. Didn't know whether he would open the door at all."
 
-# game/scenes/endings.rpy:803
+# game/scenes/endings.rpy:813
 translate english ending_secret_0035:
 
     # "Но я точно знал, что не буду молчать двадцать лет."
     "But I knew for certain that I wouldn't stay silent for twenty years."
 
-# game/scenes/endings.rpy:805
+# game/scenes/endings.rpy:815
 translate english ending_secret_0036:
 
     # mc "Лена, спасибо. Я понял."
     mc "Lena, thank you. I understood."
 
-# game/scenes/endings.rpy:807
+# game/scenes/endings.rpy:817
 translate english ending_secret_0037:
 
     # mc "Отпускать — не значит выбрасывать."
     mc "Letting go doesn't mean throwing away."
+
+# game/scenes/day02.rpy:617
+translate english d2_night_forest_0100:
+
+    # "На границе лагеря я остановился: за спиной было темно так, что темноту можно было потрогать."
+    "At the camp boundary I stopped: behind me it was so dark the darkness felt touchable."
+
+# game/scenes/day02.rpy:619
+translate english d2_night_forest_0101:
+
+    # lena_e "Ты всё ещё думаешь, что это место наказывает."
+    lena_e "You still think this place punishes."
+
+# game/scenes/day02.rpy:621
+translate english d2_night_forest_0102:
+
+    # "Голос Лены пришёл из темноты между сосен. Спокойный, без эха — так говорят рядом, а не далеко."
+    "Lena's voice came from the darkness between the pines. Calm, without echo — the way people speak nearby, not far away."
+
+# game/scenes/day02.rpy:623
+translate english d2_night_forest_0103:
+
+    # lena_e "Это не наказание, Артём. Это петля. И у неё три правила."
+    lena_e "It isn't a punishment, Artyom. It's a loop. And it has three rules."
+
+# game/scenes/day02.rpy:625
+translate english d2_night_forest_0104:
+
+    # lena_e "Первое: сигнал не принят — смена повторяется. Пока просьба о помощи не дослушана до конца, день начинается заново."
+    lena_e "First: the signal is not accepted — the shift repeats. Until the call for help is heard to the end, the day starts over."
+
+# game/scenes/day02.rpy:627
+translate english d2_night_forest_0105:
+
+    # lena_e "Второе: разорвать петлю может только внешний. Тот, кого здесь не было двадцать лет. Тот, кто приехал с билетом, а не с памятью."
+    lena_e "Second: only an outsider can break the loop. Someone who wasn't here for twenty years. Someone who arrived with a ticket, not with a memory."
+
+# game/scenes/day02.rpy:629
+translate english d2_night_forest_0106:
+
+    # lena_e "Третье: конец наступает, когда прощание завершено. Не когда забыто — когда сказано вслух и дослушано."
+    lena_e "Third: the end comes when the farewell is complete. Not when it is forgotten — when it is said out loud and heard to the end."
+
+# game/scenes/day02.rpy:631
+translate english d2_night_forest_0107:
+
+    # "Я обернулся. На тропинке не было никого. Только колокол где-то далеко ударил четвёртый раз — и растворился."
+    "I turned around. There was no one on the path. Only the bell somewhere far away struck a fourth time — and dissolved."
+
+# game/scenes/day02.rpy:633
+translate english d2_night_forest_0108:
+
+    # mc "Три правила. Я запомнил. Потому что ты не будешь повторять."
+    mc "Three rules. I memorized them. Because you won't be repeating them."
+
+# game/scenes/day02.rpy:412
+translate english d2_lena_warning_0100:
+
+    # lena "И ещё. Я хочу, чтобы меня отпустили. Не забыли — отпустили. Это разные слова, и я двадцать лет учила разницу между ними."
+    lena "And one more thing. I want to be let go. Not forgotten — let go. Those are different words, and I spent twenty years learning the difference."
+
+# game/scenes/day03.rpy:211
+translate english d3_lena_branch_0100:
+
+    # "Она села на край стола — не вожатая, а просто уставшая женщина, которой двадцать лет нельзя было садиться."
+    "She sat on the edge of the table — no longer a counselor, just a tired woman who hadn't been allowed to sit down for twenty years."
+
+# game/scenes/day03.rpy:213
+translate english d3_lena_branch_0101:
+
+    # lena "Я ведь была строгой. Представь: двадцать два года, отряд сорок человек, и я гоняю их по линейке, как по струнке."
+    lena "I was strict, imagine that: twenty-two years old, a unit of forty kids, and I drilled them through line-ups like soldiers on a string."
+
+# game/scenes/day03.rpy:215
+translate english d3_lena_branch_0102:
+
+    # lena "А сама мечтала уехать в город. Учиться, носить в общежитии чужие свитера, не спать по ночам — от жизни, а не от отбоя."
+    lena "And all the while I dreamed of leaving for the city. Studying, wearing other people's sweaters in the dorm, staying up at night — from life, not from lights-out."
+
+# game/scenes/day03.rpy:217
+translate english d3_lena_branch_0103:
+
+    # lena "Я не святая, Артём. Я просто осталась. И иногда мне кажется, что осталась не вместо кого-то, а вместо чего-то."
+    lena "I'm no saint, Artyom. I simply stayed. And sometimes it seems I stayed not instead of someone, but instead of something."
+
+# game/scenes/day03.rpy:219
+translate english d3_lena_branch_0104:
+
+    # lena "Больше всего я боюсь, что жертва была напрасной. Что если всё зря — то и они зря. А они не зря. Слышишь? Они не зря."
+    lena "What I fear most is that the sacrifice was for nothing. That if it was all in vain — then they were in vain too. And they weren't. Do you hear me? They weren't."
+
+# game/scenes/day04.rpy:155
+translate english d4_truth_0100:
+
+    # "И тогда лагерь показал мне. Без спроса — как показывают то, что прятали двадцать лет."
+    "And then the camp showed me. Without asking — the way it shows what had been hidden for twenty years."
+
+# game/scenes/day04.rpy:157
+translate english d4_truth_0101:
+
+    # "Гроза пришла со стороны реки. Небо треснуло — и причал ожил в свете молний."
+    "The storm came from the river side. The sky cracked — and the pier came alive in the lightning."
+
+# game/scenes/day04.rpy:159
+translate english d4_truth_0102:
+
+    # "Двадцать детей стояли на досках в пижамах и куртках на голое плечо. Трое ближе всех к воде: Миша, девять лет, держал за руку Костю, восемь. Аня, семь, прижимала к груди банку с красками."
+    "Twenty children stood on the boards in pajamas and jackets thrown over bare shoulders. Three closest to the water: Misha, nine, holding the hand of Kostya, eight. Anya, seven, clutching a paint jar to her chest."
+
+# game/scenes/day04.rpy:161
+translate english d4_truth_0103:
+
+    # child "Лена, а лодка выдержит всех?"
+    child "Lena, will the boat hold everyone?"
+
+# game/scenes/day04.rpy:163
+translate english d4_truth_0104:
+
+    # lena "Лодка выдержит. Я посчитала."
+    lena "The boat will hold. I counted."
+
+# game/scenes/day04.rpy:165
+translate english d4_truth_0105:
+
+    # "Радиоузел на берегу мигал красной лампочкой. Молодой парень — Игорь, девятнадцать лет, часы без ремешка — кричал в микрофон позывные, которых никто не принял."
+    "The radio hut on the bank blinked with a red lamp. A young man — Igor, nineteen, a wristwatch without a strap — shouted callsigns into the microphone that no one accepted."
+
+# game/scenes/day04.rpy:167
+translate english d4_truth_0106:
+
+    # young_voice "Сосновый берег вызывает Заречье. Приём. Сосновый берег вызывает Заречье…"
+    young_voice "Pine Shore calling Zarechye. Over. Pine Shore calling Zarechye…"
+
+# game/scenes/day04.rpy:169
+translate english d4_truth_0107:
+
+    # "Сигнал не приняли. Диспетчер спал. Молния ударила в трансформатор — и свет на причале погас целиком, как выдох."
+    "The signal was not accepted. The dispatcher was asleep. Lightning struck the transformer — and the light on the pier went out entirely, like a breath."
+
+# game/scenes/day04.rpy:171
+translate english d4_truth_0108:
+
+    # "Лена не кричала. Она считала. Она оттолкнула лодку от причала — руками, по пояс в ледяной воде — и крикнула детям грести к тому берегу."
+    "Lena didn't scream. She counted. She pushed the boat off the pier — with her hands, waist-deep in freezing water — and shouted at the children to row for the far bank."
+
+# game/scenes/day04.rpy:173
+translate english d4_truth_0109:
+
+    # "Доски причала пошли вниз. Тихо. Страшно тихо: ни крика, ни всплеска — только дождь, который вдруг стал единственным звуком на свете."
+    "The boards of the pier went down. Quietly. Fearfully quietly: no scream, no splash — only the rain, which suddenly became the only sound in the world."
+
+# game/scenes/day04.rpy:175
+translate english d4_truth_0110:
+
+    # "Лодка дошла до берега. Утром детей пересчитали. Всех. Кроме неё."
+    "The boat reached the bank. In the morning the children were counted. All of them. Except her."
+
+# game/scenes/day04.rpy:177
+translate english d4_truth_0111:
+
+    # "Видение отпустило меня так же внезапно, как взяло. Причал снова был пуст. Только доски под ногами были мокрые — хотя дождя не было четыре дня."
+    "The vision let me go as suddenly as it had taken me. The pier was empty again. Only the boards under my feet were wet — although it hadn't rained for four days."
+
+# game/scenes/day04.rpy:179
+translate english d4_truth_0112:
+
+    # mc "Ты их вывела. Всех, до кого смогла дотянуться."
+    mc "You led them out. Everyone you could reach."
+
+# game/scenes/day04.rpy:181
+translate english d4_truth_0113:
+
+    # lena "Всех, до кого смогла дотянуться."
+    lena "Everyone I could reach."
+
+# game/scenes/day02.rpy:181
+translate english d2_journal_0100:
+
+    # "На полях карандашом, детским почерком: «Миша (9) — дежурный по лодке. Костя (8) — крутит приёмник. Аня (7) — рисует рассвет, чтобы он пришёл»."
+    "In the margins, in pencil, in a child's hand: “Misha (9) — boat duty. Kostya (8) — winds the receiver. Anya (7) — paints the dawn so that it comes.”"
+
+# game/scenes/day02.rpy:276
+translate english d2_radio_repair_0100:
+
+    # "Плёнка шуршала. И сквозь шуршание, почти на границе слышимости, добавилось то, чего раньше не было: шёпот."
+    "The tape hissed. And through the hiss, almost at the edge of hearing, something was added that hadn't been there before: a whisper."
+
+# game/scenes/day02.rpy:278
+translate english d2_radio_repair_0101:
+
+    # young_voice "Лена, прости. Я скажу завтра."
+    young_voice "Lena, forgive me. I'll say it tomorrow."
+
+# game/scenes/day02.rpy:280
+translate english d2_radio_repair_0102:
+
+    # "Завтра не наступило никогда. Я стоял с кассетой в руках и впервые не знал, чьё сердце бьётся громче — моё или плёнки."
+    "Tomorrow never came. I stood with the cassette in my hands and for the first time didn't know whose heart was beating louder — mine or the tape's."
+
+# game/scenes/endings.rpy:173
+translate english ending_true_0100:
+
+    # "А за её спиной, там, где площадь уже становилась светом, стоял человек в старой куртке. Он не подошёл. Он кивнул — ей, не мне. И этого хватило обоим."
+    "And behind her back, where the square was already turning into light, stood a man in an old jacket. He didn't come closer. He nodded — to her, not to me. And that was enough for both of them."
+
+# game/scenes/endings.rpy:175
+translate english ending_true_0101:
+
+    # mc "Пап. Я не буду молчать двадцать лет. Слышишь? Я вообще молчать не буду."
+    mc "Dad. I won't stay silent for twenty years. Do you hear me? I won't stay silent at all."
+
+# game/scenes/endings.rpy:114
+translate english ending_true_0102:
+
+    # mc "Сигнал принят. Эфир доставлен. Прощание завершено."
+    mc "Signal accepted. Broadcast delivered. Farewell completed."
+
+# game/scenes/endings.rpy:116
+translate english ending_true_0103:
+
+    # "Три правила петли закрылись одно за другим, как три удара колокола. Я сказал это вслух — чтобы услышал тот, кто двадцать лет не дослушивал."
+    "The three rules of the loop closed one after another, like three strikes of the bell. I said it out loud — so that the one who for twenty years never listened to the end would hear."
+
+# game/scenes/endings.rpy:742
+translate english ending_secret_0100:
+
+    # "Три удара колокола всё ещё жили во мне. Как и её «спасибо, что пришёл». Некоторые вещи не растворяются на рассвете — они просто становятся тише."
+    "The three strikes of the bell still lived inside me. As did her “thank you for coming.” Some things don't dissolve at dawn — they just become quieter."
 
 
 ## ============================================================

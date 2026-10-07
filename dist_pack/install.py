@@ -106,11 +106,11 @@ def main():
         s2, n1 = re.subn(r'define config\.name\s*=\s*_\(".*?"\)',
                          'define config.name = _("Лето, которого не было / The Summer That Never Was")', s)
         s2, n2 = re.subn(r'define config\.version\s*=\s*"[^"]*"',
-                         'define config.version = "1.2.2"', s2)
+                         'define config.version = "1.3.0"', s2)
         if not n1:
             s2 += '\ndefine config.name = _("Лето, которого не было / The Summer That Never Was")\n'
         if not n2:
-            s2 += '\ndefine config.version = "1.2.2"\n'
+            s2 += '\ndefine config.version = "1.3.0"\n'
         open(opt, "w", encoding="utf-8").write(s2)
         print("[4] options.rpy: название и версия обновлены")
     else:
