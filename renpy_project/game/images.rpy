@@ -147,3 +147,25 @@ transform tr_pop:
         easein 0.3 zoom 1.18 alpha 1.0
     on replace:
         easein 0.25 alpha 1.0
+
+## Полноростовые версии (атрибут full): сцена входа, линейка, широкие планы.
+## По умолчанию show lena sad и т.п. рисует ПОЯСНОЙ спрайт (стандарт VN).
+image lena normal full = "images/lena_normal_full.png"
+image lena smile full = "images/lena_smile_full.png"
+image lena sad full = "images/lena_sad_full.png"
+image lena anxious full = "images/lena_anxious_full.png"
+image lena surprised full = "images/lena_surprised_full.png"
+image lena mystery full = "images/lena_mystery_full.png"
+image vera happy full = "images/vera_happy_full.png"
+image vera excited full = "images/vera_excited_full.png"
+image vera stubborn full = "images/vera_stubborn_full.png"
+image vera offended full = "images/vera_offended_full.png"
+image vera thoughtful full = "images/vera_thoughtful_full.png"
+image vera determined full = "images/vera_determined_full.png"
+image vera sad full = "images/vera_sad_full.png"
+image zoya calm full = "images/zoya_calm_full.png"
+image zoya sleepy full = "images/zoya_sleepy_full.png"
+image zoya focused full = "images/zoya_focused_full.png"
+image zoya scared full = "images/zoya_scared_full.png"
+image zoya sad full = "images/zoya_sad_full.png"
+image zoya smile full = "images/zoya_smile_full.png"

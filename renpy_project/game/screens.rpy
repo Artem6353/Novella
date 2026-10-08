@@ -662,4 +662,35 @@ screen help():
             text _("Сохранить / Загрузить / Настройки / История / Меню — одним нажатием.") size 22 color gui.paper
 
 
+## ------------------------------------------------------------
+## NVL-РЕЖИМ (по образцу tutorial_nvlmode.rpy): страница эфира поверх сцены
+## ------------------------------------------------------------
+screen nvl(dialogue, items=None):
+
+    window:
+        background Solid("#0d0f12e8")
+        xfill True
+        yfill True
+        xpadding 120
+        ypadding 90
+
+        vbox:
+            xalign 0.5
+            yalign 0.5
+            xmaximum 1400
+            spacing 22
+
+            for d in dialogue:
+
+                hbox:
+                    spacing 18
+                    yalign 0.0
+
+                    if d.who:
+                        text d.who size 24 color "#9d4c4c" yalign 0.05
+
+                    text d.what size 26 color gui.paper line_spacing 8
+
+
+
 init offset = 0

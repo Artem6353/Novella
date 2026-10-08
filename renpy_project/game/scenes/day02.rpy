@@ -252,9 +252,13 @@ label d2_radio_repair:
             "Кассета щёлкнула, и из динамика вырвался голос." id d2_radio_repair_0014
 
             play sound radio_noise
-            radio "…говорит радиоузел „Соснового берега“…" id d2_radio_repair_0015
+    nvl show dissolve
+            radio_nvl "…говорит радиоузел „Соснового берега“…" id d2_radio_repair_0015
+    nvl clear
 
-            radio "…всем отрядам построиться у…" id d2_radio_repair_0016
+    nvl show dissolve
+            radio_nvl "…всем отрядам построиться у…" id d2_radio_repair_0016
+    nvl clear
 
             "И помехи." id d2_radio_repair_0017
 

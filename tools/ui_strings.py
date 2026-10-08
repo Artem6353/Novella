@@ -161,6 +161,12 @@ def _from_ex():
 UI_STRINGS = _from_ex()
 
 UI_STRINGS.update(collections.OrderedDict([
+    ("Прохождение", "Playthrough"),
+    ("Справка", "Help"),
+    ("Сохранить / Загрузить / Настройки / История / Меню — одним нажатием.",
+     "Save / Load / Preferences / History / Menu — one click away."),
+    ("Пропускать нечитанный текст", "Skip unread text"),
+    ("Пропуск…", "Skipping…"),
     # --- options.rpy: название игры (заголовок окна, метаданные сейвов) ---
     ("Лето, которого не было / The Summer That Never Was", "The Summer That Never Was"),
 
