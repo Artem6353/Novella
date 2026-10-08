@@ -302,6 +302,27 @@ if os.path.exists(GUI):
 
 
 # ---------------------------------------------------------------------------
+# 4.65x ATL-ключевики не могут быть детьми screen-стейтмента text/add без трансформа
+ATL_CHILD = re.compile(r'^\s*(linear|ease|easein|easeout|pause|repeat|parallel|choice|on|contains|animation)\s')
+for path in FILES:
+    lines = all_lines[path]
+    for i, line in enumerate(lines):
+        m = re.match(r'^(\s*)(text|add)\b.*:\s*$', line)
+        if not m:
+            continue
+        base = len(m.group(1))
+        for j in range(i + 1, min(i + 12, len(lines))):
+            nxt = lines[j]
+            if not nxt.strip() or nxt.strip().startswith("#"):
+                continue
+            ind = len(nxt) - len(nxt.lstrip())
+            if ind <= base:
+                break
+            if ATL_CHILD.match(nxt):
+                errors.append(f"{rel(path)}:{j+1} ATL-ключевик ребёнком у {m.group(2)}: "
+                              f"вынесите в transform и подключите через at")
+            break
+
 # 4.66 Preference() только с именами, существующими в Ren'Py 8.5
 PREF_WHITELIST = {
     "text speed", "auto-forward time", "after choices", "music volume",

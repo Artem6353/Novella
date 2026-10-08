@@ -621,6 +621,14 @@ screen notify(message):
 ## ИНДИКАТОР ПРОПУСКА (скип) — штатное имя экрана, движок показывает
 ## его сам во время пропуска (практика tutorial_screens.rpy).
 ## ------------------------------------------------------------
+## Мигание индикатора — отдельный трансформ: у `text` ATL-блок ребёнком
+## недопустим ('linear' is not a valid child of the text statement).
+transform skip_blink:
+    linear 0.6 alpha 0.35
+    linear 0.6 alpha 1.0
+    repeat
+
+
 screen skip_indicator():
 
     zorder 100
@@ -630,10 +638,7 @@ screen skip_indicator():
         yalign 0.03
         spacing 8
 
-        text _("Пропуск…") size 24 color gui.accent_color:
-            linear 0.6 alpha 0.35
-            linear 0.6 alpha 1.0
-            repeat
+        text _("Пропуск…") size 24 color gui.accent_color at skip_blink
 
 
 ## ------------------------------------------------------------
