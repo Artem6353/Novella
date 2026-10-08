@@ -66,7 +66,9 @@ label d1_morning:
 
     "Из динамика над столовой щёлкнуло, и бодрый женский голос объявил:" id d1_morning_0020
 
-    radio "Доброе утро, «Сосновый берег»! До линейки осталось одиннадцать часов." id d1_morning_0021
+    nvl show dissolve
+    radio_nvl "Доброе утро, «Сосновый берег»! До линейки осталось одиннадцать часов." id d1_morning_0021
+    nvl clear
 
     mc "Одиннадцать часов. Понял. Значит, линейка в семь." id d1_morning_0022
 
@@ -384,7 +386,7 @@ label d1_vera_radio:
 
     "Радиоузел оказался комнатой размером с нашу кухню." id d1_vera_radio_0001
 
-    "Пульт, два микрофона на штативах, шкаф с кассетами и плакат: «Говори ясно, думай громко»." id d1_vera_radio_0002
+    "Пульт, два микрофона на штативах, шкаф с кассетами и плакат: «Говори ясно, думай громко».{w}" id d1_vera_radio_0002
 
     show vera excited at tr_right
     with dissolve
@@ -403,7 +405,9 @@ label d1_vera_radio:
     "Кассета щёлкнула, и из динамика вырвался короткий шум эфира." id d1_vera_radio_0008
 
     play sound radio_noise
-    radio "…всем отрядам построиться у…" id d1_vera_radio_0009
+    nvl show dissolve
+    radio_nvl "…всем отрядам построиться у…" id d1_vera_radio_0009
+    nvl clear
 
     "И помехи." id d1_vera_radio_0010
 
@@ -695,9 +699,9 @@ label d1_lena_river:
 
     mc "Это разные слова." id d1_lena_river_0013
 
-    lena "Да." id d1_lena_river_0014
+    lena "Да.{w}" id d1_lena_river_0014
 
-    "Пауза." id d1_lena_river_0015
+    "Пауза.{p}" id d1_lena_river_0015
 
     lena "Двадцать… то есть… двадцать минут назад там ещё…" id d1_lena_river_0016
 

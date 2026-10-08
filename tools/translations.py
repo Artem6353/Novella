@@ -305,7 +305,7 @@ TRANS = {
 
 # ================= ДЕНЬ 1. РАДИОУЗЕЛ =================
 "d1_vera_radio_0001": "The radio room turned out to be a space the size of our kitchen.",
-"d1_vera_radio_0002": "A console, two microphones on stands, a cabinet of cassettes, and a poster: \u00abSpeak clearly, think loudly\u00bb.",
+"d1_vera_radio_0002": "A console, two microphones on stands, a cabinet of cassettes, and a poster: \u00abSpeak clearly, think loudly\u00bb.{w}",
 "d1_vera_radio_0003": "Welcome to the center of the world. Twelve minutes of airtime, six cassettes, and one chair that wobbles. Sit on the floor, the floor is more honest.",
 "d1_vera_radio_0004": "It's\u2026 cozy in here.",
 "d1_vera_radio_0005": "It's loud in here. Different things, but the second one is more useful.",
@@ -414,8 +414,8 @@ TRANS = {
 "d1_lena_river_0011": "Dangerous?",
 "d1_lena_river_0012": "Unsafe.",
 "d1_lena_river_0013": "Those are different words.",
-"d1_lena_river_0014": "Yes.",
-"d1_lena_river_0015": "A pause.",
+"d1_lena_river_0014": "Yes.{w}",
+"d1_lena_river_0015": "A pause.{p}",
 "d1_lena_river_0016": "Twenty\u2026 I mean\u2026 twenty minutes ago there was still\u2026",
 "d1_lena_river_0017": "What?",
 "d1_lena_river_0018": "Nothing. I forgot what I wanted to say.",

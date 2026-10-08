@@ -161,6 +161,19 @@ def _from_ex():
 UI_STRINGS = _from_ex()
 
 UI_STRINGS.update(collections.OrderedDict([
+    ("Прохождение", "Playthrough"),
+    ("Справка", "Help"),
+    ("Сохранить / Загрузить / Настройки / История / Меню — одним нажатием.",
+     "Save / Load / Preferences / History / Menu — one click away."),
+    ("Пропускать нечитанный текст", "Skip unread text"),
+    ("Пропуск…", "Skipping…"),
+    ("Клавиатура", "Keyboard"),
+    ("Enter — подтвердить / продолжить;  Пробел — продолжить;  Esc — меню;  Колесо — история диалогов;  Ctrl — пропуск;  Tab — скрыть текст (self-voicing режим: Shift+Alt+S).",
+     "Enter — confirm / advance;  Space — advance;  Esc — menu;  Wheel — dialogue history;  Ctrl — skip;  Tab — hide text (self-voicing: Shift+Alt+S)."),
+    ("Мышь", "Mouse"),
+    ("ЛКМ — подтвердить;  ПКМ — игровое меню;  Колесо — история;  Средняя кнопка — скрыть интерфейс.",
+     "LMB — confirm;  RMB — game menu;  Wheel — history;  Middle button — hide interface."),
+    ("Быстрое меню (под текстом)", "Quick menu (under the text)"),
     # --- options.rpy: название игры (заголовок окна, метаданные сейвов) ---
     ("Лето, которого не было / The Summer That Never Was", "The Summer That Never Was"),
 

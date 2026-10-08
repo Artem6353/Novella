@@ -26,3 +26,7 @@ define lena_e = Character("Лена (?)",  color="#c8a2ff")
 ## Системные подписи (дни, концовки)
 define card = Character(None, what_color="#ffb703", what_italic=False, what_size=34,
                        what_xalign=0.5)
+
+## NVL-вариант голоса радио: эфирные вставки идут страницей поверх сцены
+## (практика tutorial_nvlmode.rpy) — игрок видит «эфир» как печатный поток.
+define radio_nvl = Character("Радио", color="#9d4c4c", kind=nvl)

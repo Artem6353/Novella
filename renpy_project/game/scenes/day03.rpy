@@ -261,7 +261,9 @@ label d3_vera_branch:
     vera "Вот эта — моя. Вот эта — тоже моя. А вот эта… послушай." id d3_vera_branch_0007
 
     play sound radio_noise
-    radio "…всем отрядам построиться у…" id d3_vera_branch_0008
+    nvl show dissolve
+    radio_nvl "…всем отрядам построиться у…" id d3_vera_branch_0008
+    nvl clear
 
     "Помехи." id d3_vera_branch_0009
 
@@ -640,11 +642,17 @@ label d3_glitch:
     "Флагшток скрипнул три раза. Поднять флаг. Спустить флаг. Поднять флаг." id d3_glitch_0015
 
     play sound radio_noise
-    radio "…всем отрядам построиться у…" id d3_glitch_0016
+    nvl show dissolve
+    radio_nvl "…всем отрядам построиться у…" id d3_glitch_0016
+    nvl clear
 
-    radio "…всем отрядам построиться у…" id d3_glitch_0017
+    nvl show dissolve
+    radio_nvl "…всем отрядам построиться у…" id d3_glitch_0017
+    nvl clear
 
-    radio "…всем отрядам построиться у…" id d3_glitch_0018
+    nvl show dissolve
+    radio_nvl "…всем отрядам построиться у…" id d3_glitch_0018
+    nvl clear
 
     "Я закрыл уши. Звук шёл не снаружи." id d3_glitch_0019
 
@@ -701,7 +709,9 @@ label d3_glitch:
 
     "Второй раз — из динамика над столовой." id d3_glitch_0041
 
-    radio "…хватит…" id d3_glitch_0042
+    nvl show dissolve
+    radio_nvl "…хватит…" id d3_glitch_0042
+    nvl clear
 
     "Я закрыл глаза." id d3_glitch_0043
 
