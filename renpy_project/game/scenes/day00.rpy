@@ -29,7 +29,7 @@ label d00_gate:
     ## docs/02_сценарий.md (сцена D00_GATE) и в шапке этой сцены:
     ##     [ФОН: bg gate] → [FADE] → scene cg_lena_gate / with fade
     ## `scene bg gate` выше оставлен намеренно: docs/02 задаёт обе смены фона.
-    scene cg_lena_gate
+    scene cg_lena_gate at cg_kens
     with fade
 
     "Остановка оказалась пустынной." id d00_gate_0001

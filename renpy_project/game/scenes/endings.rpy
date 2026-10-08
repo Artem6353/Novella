@@ -64,7 +64,7 @@ label determine_ending:
 label ending_true:
 
     play music finale fadein 2.0 if_changed
-    scene cg_true_last_lineup
+    scene cg_true_last_lineup at cg_kens
     with fade
 
     play sound bell
@@ -228,7 +228,7 @@ label ending_true:
 label ending_lena_stay:
 
     play music lena_theme fadein 2.0 if_changed
-    scene cg_lena_stay
+    scene cg_lena_stay at cg_kens
     with fade
 
     play sound river loop
@@ -324,7 +324,7 @@ label ending_lena_stay:
 label ending_vera_voice:
 
     play music vera_theme fadein 2.0 if_changed
-    scene cg_vera_voice
+    scene cg_vera_voice at cg_kens
     with fade
 
     play sound broadcast loop
@@ -419,7 +419,7 @@ label ending_vera_voice:
 label ending_zoya_painting:
 
     play music zoya_theme fadein 2.0 if_changed
-    scene cg_zoya_painting
+    scene cg_zoya_painting at cg_kens
     with fade
 
     "Зоя сделала последний мазок." id ending_zoya_painting_0001
@@ -536,7 +536,7 @@ label ending_zoya_painting:
 label ending_farewell:
 
     play music farewell_theme fadein 2.0 if_changed
-    scene cg_farewell_dawn
+    scene cg_farewell_dawn at cg_kens
     with fade
 
     play sound wind loop
@@ -640,7 +640,7 @@ label ending_farewell:
 label ending_forgotten:
 
     play music forgotten_theme fadein 2.0 if_changed
-    scene cg_forgotten_gate
+    scene cg_forgotten_gate at cg_kens
     with fade
 
     play sound wind loop
@@ -732,7 +732,7 @@ label ending_forgotten:
 label ending_secret:
 
     play music main_theme fadein 2.0 if_changed
-    scene cg_secret_ticket_two
+    scene cg_secret_ticket_two at cg_kens
     with fade
 
     "Лагерь растворился на рассвете — так же, как в тот раз." id ending_secret_0001

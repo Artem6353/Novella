@@ -599,7 +599,7 @@ label d3_glitch:
 
     play music mystery fadein 1.0 if_changed
     ## CG (P2): первый крупный сбой лагеря
-    scene cg_d3_glitch
+    scene cg_d3_glitch at cg_kens
     with fade
 
     play sound glitch

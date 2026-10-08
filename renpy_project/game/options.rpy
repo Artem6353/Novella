@@ -23,3 +23,17 @@ define config.rollback_enabled = True
 
 ## Разрешаем сохранение в любой момент
 define config.allow_skipping = True
+
+## ------------------------------------------------------------
+## Штатные флаги из практики tutorial (options.rpy):
+## медиа-каналы и переходы между контекстами меню/игры.
+## ------------------------------------------------------------
+define config.has_sound = True
+define config.has_music = True
+define config.has_voice = False
+
+## Переходы при входе/выходе из меню и между сценами игры (tutorial-практика:
+## единый мягкий dissolve по умолчанию).
+define config.enter_transition = dissolve
+define config.exit_transition = dissolve
+define config.intra_transition = dissolve

@@ -335,6 +335,14 @@ screen game_menu(title):
                 text_hover_color gui.accent_color
                 text_size 22
 
+            textbutton _("Справка") action ShowMenu("help"):
+                xpadding 20
+                ypadding 6
+                background Solid("#f6f1e722")
+                text_color gui.paper
+                text_hover_color gui.accent_color
+                text_size 22
+
     side "c r":
         xalign 0.5
         yalign 0.56
@@ -453,6 +461,17 @@ screen preferences():
                     text_selected_color gui.accent_color
 
                 textbutton _("продолжать") action Preference("after choices", "keep"):
+                    text_size 22
+                    text_color gui.paper
+                    text_hover_color gui.accent_color
+                    text_selected_color gui.accent_color
+
+            text _("Прохождение") size 28 color "#ffd166"
+
+            hbox:
+                spacing 16
+
+                textbutton _("Пропускать нечитанный текст") action Preference("skip unseen", "toggle"):
                     text_size 22
                     text_color gui.paper
                     text_hover_color gui.accent_color
@@ -596,6 +615,51 @@ screen notify(message):
                 color gui.ink
 
     timer 2.0 action Hide("notify")
+
+
+## ------------------------------------------------------------
+## ИНДИКАТОР ПРОПУСКА (скип) — штатное имя экрана, движок показывает
+## его сам во время пропуска (практика tutorial_screens.rpy).
+## ------------------------------------------------------------
+screen skip_indicator():
+
+    zorder 100
+
+    hbox:
+        xalign 0.5
+        yalign 0.03
+        spacing 8
+
+        text _("Пропуск…") size 24 color gui.accent_color:
+            linear 0.6 alpha 0.35
+            linear 0.6 alpha 1.0
+            repeat
+
+
+## ------------------------------------------------------------
+## СПРАВКА (по образцу help/keyboard_help/mouse_help из tutorial)
+## ------------------------------------------------------------
+screen help():
+
+    tag menu
+
+    use game_menu(_("Справка")):
+
+        vbox:
+            xalign 0.5
+            spacing 14
+
+            text _("Клавиатура") size 28 color "#ffd166"
+
+            text _("Enter — подтвердить / продолжить;  Пробел — продолжить;  Esc — меню;  Колесо — история диалогов;  Ctrl — пропуск;  Tab — скрыть текст (self-voicing режим: Shift+Alt+S).") size 22 color gui.paper
+
+            text _("Мышь") size 28 color "#ffd166"
+
+            text _("ЛКМ — подтвердить;  ПКМ — игровое меню;  Колесо — история;  Средняя кнопка — скрыть интерфейс.") size 22 color gui.paper
+
+            text _("Быстрое меню (под текстом)") size 28 color "#ffd166"
+
+            text _("Сохранить / Загрузить / Настройки / История / Меню — одним нажатием.") size 22 color gui.paper
 
 
 init offset = 0

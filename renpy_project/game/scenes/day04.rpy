@@ -114,7 +114,7 @@ label d4_truth:
     ## docs/02_сценарий.md (сцена D4_TRUTH):
     ##     [ФОН: bg pier] → [FADE] → scene cg_d4_truth_pier / with fade
     ## После неё по сценарию же появляется спрайт `lena sad at tr_right`.
-    scene cg_d4_truth_pier
+    scene cg_d4_truth_pier at cg_kens
     with fade
 
     play sound river loop

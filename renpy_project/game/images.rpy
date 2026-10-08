@@ -108,11 +108,42 @@ image cg_lena_river       = "images/cg_lena_river.jpg"   # Лена у реки 
 ## из-за чего высокие спрайты обрезаются сверху. Здесь спрайт
 ## стоит ногами на нижней кромке экрана и отмасштабирован под 1080p.
 ## ------------------------------------------------------------
+## ATL-версии трансформ (по образцу tutorial_atl.rpy): плавное появление
+## спрайта (fade + подъём снизу), мягкая смена эмоции через on replace.
 transform tr_left:
     xalign 0.22 yalign 1.0 zoom 1.18
+    on show:
+        alpha 0.0 yoffset 16
+        easein 0.35 alpha 1.0 yoffset 0
+    on replace:
+        easein 0.25 alpha 1.0 yoffset 0
 
 transform tr_center:
     xalign 0.50 yalign 1.0 zoom 1.18
+    on show:
+        alpha 0.0 yoffset 16
+        easein 0.35 alpha 1.0 yoffset 0
+    on replace:
+        easein 0.25 alpha 1.0 yoffset 0
 
 transform tr_right:
     xalign 0.78 yalign 1.0 zoom 1.18
+    on show:
+        alpha 0.0 yoffset 16
+        easein 0.35 alpha 1.0 yoffset 0
+    on replace:
+        easein 0.25 alpha 1.0 yoffset 0
+
+## Медленный наезд камеры на CG-иллюстрациях (ken-burns, tutorial_atl).
+transform cg_kens:
+    xalign 0.5 yalign 0.5 zoom 1.0
+    linear 22.0 zoom 1.06
+
+## Акцентный «шаг вперёд» для важных реплик: show ... at tr_pop
+transform tr_pop:
+    xalign 0.5 yalign 1.0 zoom 1.18
+    on show:
+        zoom 1.06 alpha 0.0
+        easein 0.3 zoom 1.18 alpha 1.0
+    on replace:
+        easein 0.25 alpha 1.0

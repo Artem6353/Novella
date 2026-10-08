@@ -93,7 +93,7 @@ label d1_canteen:
     with fade
 
     ## CG (P1): знакомство с Верой
-    scene cg_vera_meet
+    scene cg_vera_meet at cg_kens
     with fade
 
     "В столовой пахло старой посудой и чем-то сладким." id d1_canteen_0001
@@ -191,7 +191,7 @@ label d1_library:
     with fade
 
     ## CG (P1): знакомство с Зоей
-    scene cg_zoya_meet
+    scene cg_zoya_meet at cg_kens
     with fade
 
     "Библиотека встретила меня тишиной." id d1_library_0001
@@ -656,7 +656,7 @@ label d1_lena_river:
     with fade
 
     ## CG (P1): Лена у реки
-    scene cg_lena_river
+    scene cg_lena_river at cg_kens
     with fade
 
     play sound river loop
