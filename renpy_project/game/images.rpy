@@ -66,6 +66,7 @@ image vera sad        = "images/vera_sad.png"
 image zoya calm       = "images/zoya_calm.png"
 image zoya sleepy     = "images/zoya_sleepy.png"
 image zoya focused    = "images/zoya_focused.png"
+image zoya scared     = "images/zoya_scared.png"
 ## Эмоция `zoya scared` удалена в v1.3.0 (ТЗ v2.0, задача 14):
 ## файл images/zoya_scared.png не существовал, объявление было Solid-
 ## заглушкой и не использовалось ни в одной сцене — «мёртвый» образ
