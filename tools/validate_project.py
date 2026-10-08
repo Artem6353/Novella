@@ -326,7 +326,7 @@ for path in FILES:
 # 4.66 Preference() только с именами, существующими в Ren'Py 8.5
 PREF_WHITELIST = {
     "text speed", "auto-forward time", "after choices", "music volume",
-    "sound volume", "voice volume", "display", "skip unseen",
+    "sound volume", "voice volume", "display",
     "emphasize audio", "wait for voice", "voice sustain", "transitions",
     "skip transitions", "skip", "all",
 }

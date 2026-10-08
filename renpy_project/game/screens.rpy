@@ -471,7 +471,7 @@ screen preferences():
             hbox:
                 spacing 16
 
-                textbutton _("Пропускать нечитанный текст") action Preference("skip unseen", "toggle"):
+                textbutton _("Пропускать нечитанный текст") action ToggleField(config, "skip_unseen"):
                     text_size 22
                     text_color gui.paper
                     text_hover_color gui.accent_color
