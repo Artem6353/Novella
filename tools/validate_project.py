@@ -304,8 +304,8 @@ if os.path.exists(GUI):
 # ---------------------------------------------------------------------------
 # 4.65x ATL-ключевики не могут быть детьми screen-стейтмента text/add без трансформа
 ATL_CHILD = re.compile(r'^\s*(linear|ease|easein|easeout|pause|repeat|parallel|choice|on|contains|animation)\s')
-for path in game_rpy:
-    lines = open(path, encoding="utf-8").read().split("\n")
+for path in FILES:
+    lines = all_lines[path]
     for i, line in enumerate(lines):
         m = re.match(r'^(\s*)(text|add)\b.*:\s*$', line)
         if not m:
